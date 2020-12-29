@@ -1,0 +1,3 @@
+/Users/daniel/BachelorarbeitDZ/PySketchFix/BugFile/minimum/tests_for_ochiai/test_minimum1.py
+/Users/daniel/BachelorarbeitDZ/PySketchFix/BugFile/minimum/tests_for_ochiai/test_minimum2.py
+/Users/daniel/BachelorarbeitDZ/PySketchFix/BugFile/minimum/tests_for_ochiai/test_minimum3.py

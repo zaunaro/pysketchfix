@@ -1,0 +1,3 @@
+/Users/daniel/BachelorarbeitDZ/PySketchFix/BugFile/positive_indicator/tests_for_ochiai/test_positive_indicator1.py
+/Users/daniel/BachelorarbeitDZ/PySketchFix/BugFile/positive_indicator/tests_for_ochiai/test_positive_indicator2.py
+/Users/daniel/BachelorarbeitDZ/PySketchFix/BugFile/positive_indicator/tests_for_ochiai/test_positive_indicator3.py
