@@ -37,7 +37,7 @@ Here '../PySketchFix/..' is the folder where the git repository is located on yo
 Here '../python' is the folder where your interpreter of Python 3.7 (with installed asttokens library) lies.
 There are five given bug files which you can test (Here mid.py is taken). You also can test maximum, minimum, positive_indicator and is_prime.
 
-## Usage Fault Localization with the example of mid.py
+## Usage - Fault Localization with the example of mid.py
 First of all you have to edit your input_tests.txt file in the folder: ../PySketchFix/BugFile/mid/tests_for_fault_localization/
 Here the path of all unit tests for the fault localizations are written. You have to edit the path to the location of your folder of the Git Repo.
 
@@ -50,7 +50,7 @@ Now you can execute the fault localization with:
 The first argument is the fault localizer script then the bug file, next is the input.txt file which you modified earlier. Then you can choose between ochiai and tarantula.
 At the end the array of buggy lines is printed in the output like: "1,5,2"
 
-## Usage Create sketches with the example of mid.py
+## Usage - Create sketches with the example of mid.py
 Then you can create sketches. Therefore you need the buggy lines of the bug file (which you can define by yourself) or you can take the generated lines from your Fault Localization, done before.
 ```bash
 ../python ../PySketchFix/SketchMaker.py ../PySketchFix/BugFile/mid/mid.py 1,5,2
@@ -58,7 +58,7 @@ Then you can create sketches. Therefore you need the buggy lines of the bug file
 Here the first argument is the sketch maker which is the script used to start creating sketches. Next the bug file is taken as argument and then the buggy lines seperated with commas.
 You get now an output that sketches are created. These sketches you can find in the ../PySketchFix/BugFileSketches/ folder.
 
-## Usage Tests generated sketches
+## Usage - Test generated sketches with the example of mid.py
 Now sketches are created. Then you can check and fill your sketches by running the unit test suite. Therefore use:
 ```bash
 ../python ../PySketchFix/PatchFinder.py ../PySketchFix/BugFile/mid/mid.py ../PySketchFix/BugFile/mid/testsuite/test_mid.py
