@@ -536,7 +536,7 @@ class Statement(object):
                 break
         # Check if the current statement is an attribute of an object then call it on the right side with a
         # transformation.
-        elif self.is_attribute():
+        elif self.is_attribute() and self.code.__contains__("."):
             index_of_point = str(self.code).index(".")
             number_of_points = str(self.code).count(".")
             if index_of_point > 0 and number_of_points == 1:
