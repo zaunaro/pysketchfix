@@ -21,7 +21,7 @@ TARANTULA = "tarantula"
 maximum_buggy_lines = "4,5"
 maximum_bug_file = "/Users/daniel/BachelorarbeitDZ/PySketchFix/BugFile/maximum/maximum.py"
 maximum_bug_file_test = "/Users/daniel/BachelorarbeitDZ/PySketchFix/BugFile/maximum/testsuite/test_maximum.py"
-maximum_test_input = "/Users/daniel/BachelorarbeitDZ/PySketchFix/BugFile/maximum/tests_for_ochiai/input_tests.txt"
+maximum_test_input = "/Users/daniel/BachelorarbeitDZ/PySketchFix/BugFile/maximum/tests_for_fault_localization/input_tests.txt"
 # buggy_lines = maximum_buggy_lines
 # bug_file = maximum_bug_file
 # bug_file_test = maximum_bug_file_test
@@ -31,7 +31,7 @@ maximum_test_input = "/Users/daniel/BachelorarbeitDZ/PySketchFix/BugFile/maximum
 minimum_buggy_lines = "4,5"
 minimum_bug_file = "/Users/daniel/BachelorarbeitDZ/PySketchFix/BugFile/minimum/minimum.py"
 minimum_bug_file_test = "/Users/daniel/BachelorarbeitDZ/PySketchFix/BugFile/minimum/testsuite/test_minimum.py"
-minimum_test_input = "/Users/daniel/BachelorarbeitDZ/PySketchFix/BugFile/minimum/tests_for_ochiai/input_tests.txt"
+minimum_test_input = "/Users/daniel/BachelorarbeitDZ/PySketchFix/BugFile/minimum/tests_for_fault_localization/input_tests.txt"
 # buggy_lines = minimum_buggy_lines
 # bug_file = minimum_bug_file
 # bug_file_test = minimum_bug_file_test
@@ -41,7 +41,7 @@ minimum_test_input = "/Users/daniel/BachelorarbeitDZ/PySketchFix/BugFile/minimum
 is_prime_buggy_lines = "6,5,3"
 is_prime_bug_file = "/Users/daniel/BachelorarbeitDZ/PySketchFix/BugFile/is_prime/is_prime.py"
 is_prime_bug_file_test = "/Users/daniel/BachelorarbeitDZ/PySketchFix/BugFile/is_prime/testsuite/test_is_prime.py"
-is_prime_test_input = "/Users/daniel/BachelorarbeitDZ/PySketchFix/BugFile/is_prime/tests_for_ochiai/input_tests.txt"
+is_prime_test_input = "/Users/daniel/BachelorarbeitDZ/PySketchFix/BugFile/is_prime/tests_for_fault_localization/input_tests.txt"
 buggy_lines = is_prime_buggy_lines
 bug_file = is_prime_bug_file
 bug_file_test = is_prime_bug_file_test
@@ -53,7 +53,7 @@ positive_indicator_bug_file = "/Users/daniel/BachelorarbeitDZ/PySketchFix/BugFil
                               "positive_indicator.py"
 positive_indicator_bug_file_test = "/Users/daniel/BachelorarbeitDZ/PySketchFix/BugFile/positive_indicator/testsuite/" \
                                    "test_positive_indictator.py"
-positive_indicator_test_input = "/Users/daniel/BachelorarbeitDZ/PySketchFix/BugFile/positive_indicator/tests_for_" \
+positive_indicator_test_input = "/Users/daniel/BachelorarbeitDZ/PySketchFix/BugFile/tests_for_fault_localization/tests_for_" \
                                 "ochiai/input_tests.txt"
 # buggy_lines = positive_indicator_buggy_lines
 # bug_file = positive_indicator_bug_file
