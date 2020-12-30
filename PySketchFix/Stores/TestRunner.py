@@ -33,9 +33,9 @@ def run(test_directory, test_basename, sketch_name):
     runner = unittest.TextTestRunner(sys.stderr, verbosity=VERBOSITY).run(suite)
     # Get the failures of the unit test and write the content of each hole in the current patch of the PatchStore
     # in the output file.
-    failures = runner.failures
+    failures = len(runner.failures) + len(runner.errors)
     content = "Sketch:" + sketch_name + "\n"
-    content += "Failures:" + str(len(failures)) + "\n"
+    content += "Failures:" + str(failures) + "\n"
     if PatchStore.current_patch is not None:
         if len(PatchStore.current_patch.holes) != 0:
             for hole in PatchStore.current_patch.holes:
