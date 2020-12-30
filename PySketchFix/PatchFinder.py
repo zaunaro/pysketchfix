@@ -180,7 +180,7 @@ def run_sketch(current_sketch_basename, number_of_original_failing_tests):
         if STRICT_PATCH_TREATMENT:
             successful_test_execution = failing_tests == 0
         else:
-            successful_test_execution = number_of_original_failing_tests >= failing_tests
+            successful_test_execution = number_of_original_failing_tests > failing_tests
 
         # In the patch store, a current patch is stored where all hole transformations done in the execution are
         # stored. If this patch is none, then no holes are reached, but the testsuite is still successful.
