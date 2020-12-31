@@ -1,13 +1,14 @@
 # At first you have to make sure the package ast tokens is installed in your python directory
-# Therefore: pip install asttokens from https://pypi.org/project/asttokens/, you need numphy and unittest as well.
+# Therefore: pip install asttokens from https://pypi.org/project/asttokens/.
 # AT FIRST PLEASE SET UP THE CONFIGURATIONS FILE!
 
 import PatchFinder
 import SketchMaker
 
 # Here you have to configure your Python Interpreter with which you want to run the process.
-python_interpreter = "/Users/daniel/BachelorarbeitDZ/PySketchFix/venv/bin/python"
-project_folder_location = "/Users/daniel/BachelorarbeitDZ/PySketchFix/"
+python_interpreter = "/Users/daniel/Bachelorarbeit/Python/bin/python"
+# And also here you have to insert the directory to this project.
+project_folder_location = "/Users/daniel/Bachelorarbeit/pysketchfix/PySketchFix/"
 
 # The location where the sketch generator, ochiai and the patch finder are located.
 sketch_generator = project_folder_location + "SketchMaker.py"
