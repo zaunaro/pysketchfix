@@ -1,0 +1,1619 @@
+/Users/daniel/BA_SketchFix_Evaluation/Evaluation/venv/bin/python /Users/daniel/BA_SketchFix_Evaluation/Evaluation/SetupBug/replace_bug.py
+
+
+
+#######################################################################################################
+                             PROJECT: thefuck
+#######################################################################################################
+CLONING PROJECT:
+✓ SUCCESSFUL! This project is already cloned: https://github.com/nvbn/thefuck
+The file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/BugsInPy/projects/thefuck/bugs/11/bug_patch.txt in the project thefuck does not exists. Next bug is taken
+.......................................................................................................
+BUGGY LINES:
+15,17
+121
+108,110
+23,24,25
+9
+10,17
+6
+18,19,20,21,29
+27
+23,32
+NF
+3,9
+9,10
+10,11,12,13,14
+8,9,15,17
+9,10,11,10,12
+12,27,29,30,31
+
+15
+16,31
+8,9
+84,85,86
+183
+57,58,64,68,70
+13
+10,13
+26
+23,26,28,64,66
+26,27,28
+53
+13
+2
+.......................................................................................................
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 1
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/pip_unknown_command.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_pip_unknown_command.py
+GIT RESET TO: 2ced7a7f33ae0bec3ffc7a43ce95330bdf6cfcb9
+HEAD is now at 2ced7a7 Allow multiple returns from git_checkout (#1022)
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/pip_unknown_command.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [15, 17]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 15
+test_pip_unknown_command (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_pip_unknown_command (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_pip_unknown_command
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_pip_unknown_command.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+x Fail! Line: 15 could not be transformed: 'broken_cmd = re.findall(r'ERROR unknown command \"([a-z]+)\"','
+Start transforming line: 17
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 2 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[15]
+✓ Number of created sketches:2
+Time needed: 0.02 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 2
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/utils.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/test_utils.py
+GIT RESET TO: 40ab4eb62db57627bff10cf029d29c94704086a2
+HEAD is now at 40ab4eb #899: Support `-y/--yeah` command line args in Fish Shell (#900)
+TEST EXECUTION:
+test_utils (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_utils (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_utils
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/test_utils.py", line 3, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/utils.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [121]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 121
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[]
+✓ Number of created sketches:0
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 3
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/shells/fish.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/shells/test_fish.py
+GIT RESET TO: ac343fb1bd7dadbb9e1a9fd7e3071f5778e338a4
+HEAD is now at ac343fb #868: Point out you can use linuxbrew in README
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/shells/fish.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [108, 110]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 108
+test_fish (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_fish (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_fish
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/shells/test_fish.py", line 3, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+x Fail! Line: 108 could not be transformed: 'proc = Popen(['fish', '-c', 'echo $FISH_VERSION'],'
+Start transforming line: 110
+x Fail! Line: 110 could not be transformed: 'version = proc.stdout.read().decode('utf-8').strip()'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[108, 110]
+✓ Number of created sketches:0
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 4
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/shells/fish.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/shells/test_fish.py
+GIT RESET TO: 68949a592248913b52bfd50036893553153fcddb
+HEAD is now at 68949a5 Fix spelling (#814)
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/shells/fish.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [23, 24, 25]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 23
+test_fish (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_fish (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_fish
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/shells/test_fish.py", line 3, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+x Fail! Line: 23 could not be transformed: 'alias_out = proc.stdout.read().decode('utf-8').strip().split('\n')'
+Start transforming line: 24
+✓
+Start transforming line: 25
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 54 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[23]
+✓ Number of created sketches:54
+Time needed: 0.02 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 5
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/git_push.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_git_push.py
+GIT RESET TO: 7c858fadb3458be829d3d43666ccb46c3ed5b8a0
+HEAD is now at 7c858fa #762: handle single quotes in git_branch_exists
+TEST EXECUTION:
+test_git_push (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_git_push (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_git_push
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_git_push.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/git_push.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [9]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 9
+x Fail! Line: 9 could not be transformed: 'and 'set-upstream' in command.output)'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[9]
+✓ Number of created sketches:0
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 6
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/git_branch_exists.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_git_branch_exists.py
+GIT RESET TO: 797ca1c5647c565f62e21a8e29515c8b0fbe275f
+HEAD is now at 797ca1c Offer git commit --amend after previous git commit (#764)
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/git_branch_exists.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [10, 17]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 10
+test_git_branch_exists (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_git_branch_exists (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_git_branch_exists
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_git_branch_exists.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
+x Fail! Line: 10 could not be transformed: 'and " already exists." in command.output)'
+Start transforming line: 17
+x Fail! Line: 17 could not be transformed: 'r"fatal A branch named '([^']*)' already exists.", command.output)[0]'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[10, 17]
+✓ Number of created sketches:0
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 7
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/php_s.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_php_s.py
+GIT RESET TO: 64d6835e15a22cf8803d398cbb593f748c550e8a
+HEAD is now at 64d6835 #652: Add new git_push_different_branch_names rule
+TEST EXECUTION:
+test_php_s (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_php_s (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_php_s
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_php_s.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/php_s.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [6]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 6
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 3 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[]
+✓ Number of created sketches:3
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 8
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/dnf_no_such_command.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_dnf_no_such_command.py
+GIT RESET TO: 449cb9a00693c8b4d97d5fda8d732cf0978e117e
+HEAD is now at 449cb9a Added README line
+TEST EXECUTION:
+...........................
+✓ SUCCESSFUL! TEST PASSES
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/dnf_no_such_command.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [18, 19, 20, 21, 29]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 18
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+OK
+x Fail! Line: 18 could not be transformed: '   '
+Start transforming line: 19
+x Fail! Line: 19 could not be transformed: '   '
+Start transforming line: 20
+x Fail! Line: 20 could not be transformed: '   '
+Start transforming line: 21
+✓
+Start transforming line: 29
+x Fail! Line: 29 could not be transformed: 'lines = proc.stdout.read()'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 3 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[18, 19, 20, 29]
+✓ Number of created sketches:3
+Time needed: 0.04 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 9
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/git_push.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_git_push.py
+GIT RESET TO: ce6b82c92d78ae283cb3db001766b76f6647bc47
+HEAD is now at ce6b82c #560: Fix code style
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/git_push.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [27]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 27
+test_git_push (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_git_push (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_git_push
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_git_push.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 2 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[]
+✓ Number of created sketches:2
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 10
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/man.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_man.py
+GIT RESET TO: 8bd6c5da67e55c64257345efa4e3cc454c42475c
+HEAD is now at 8bd6c5d For `man foo`, try `foo --help` before `man 3 foo`
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/man.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [23, 32]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 23
+test_man (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_man (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_man
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_man.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+x Fail! Line: 23 could not be transformed: 'return ['
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[23]
+✓ Number of created sketches:0
+Time needed: 0.0 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 12
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/no_command.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_no_command.py
+GIT RESET TO: 4c2fc490f280ca3921785d8f58a37274ced35ce6
+HEAD is now at 4c2fc49 Merge branch 'master' of github.com:nvbn/thefuck
+TEST EXECUTION:
+test_no_command (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_no_command (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_no_command
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_no_command.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (errors=1)
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/no_command.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [3, 9]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 3
+✓
+Start transforming line: 9
+x Fail! Line: 9 could not be transformed: 'return (command.script_parts'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 1 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[9]
+✓ Number of created sketches:1
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 13
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/git_branch_exists.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_git_branch_exists.py
+GIT RESET TO: 2af65071d84a7d1d14a4126364d9b4c9b5241f3c
+HEAD is now at 2af6507 Merge branch 'yeahbert-git_push_contains_work'
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/git_branch_exists.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [9, 10]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 9
+test_git_branch_exists (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_git_branch_exists (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_git_branch_exists
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_git_branch_exists.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+x Fail! Line: 9 could not be transformed: 'return ('branch' in command.script'
+Start transforming line: 10
+x Fail! Line: 10 could not be transformed: 'and "fatal A branch named '" in command.stderr'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[9, 10]
+✓ Number of created sketches:0
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 14
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/shells/fish.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/shells/test_fish.py
+GIT RESET TO: 183b70c8b8885843efefd2bd4e74dc0a7d42d173
+HEAD is now at 183b70c Merge branch 'scorphus-git-branch-exists'
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/shells/fish.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [10, 11, 12, 13, 14]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 10
+test_fish (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_fish (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_fish
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/shells/test_fish.py", line 3, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+x Fail! Line: 10 could not be transformed: 'overridden_aliases = os.environ.get('TF_OVERRIDDEN_ALIASES', '').strip()'
+Start transforming line: 11
+✓
+Start transforming line: 12
+x Fail! Line: 12 could not be transformed: 'return [alias.strip() alias in overridden_aliases.split(',')]'
+Start transforming line: 13
+x Fail! Line: 13 could not be transformed: ''
+Start transforming line: 14
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 24 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[10, 12, 13]
+✓ Number of created sketches:24
+Time needed: 0.04 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 15
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/git_add.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_git_add.py
+GIT RESET TO: 3a39deb485995e67afb1919972cd1c9aaedf4c32
+HEAD is now at 3a39deb Merge pull request #478 from MattKotsenas/feature/powershell-shell
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/git_add.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [8, 9, 15, 17]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 8
+test_git_add (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_git_add (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_git_add
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_git_add.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+x Fail! Line: 8 could not be transformed: 'return ('did not match any file(s) known to git.' in command.stderr'
+Start transforming line: 9
+x Fail! Line: 9 could not be transformed: 'and "Did you forget to 'git add'?" in command.stderr)'
+Start transforming line: 15
+x Fail! Line: 15 could not be transformed: 'r"error pathspec '([^']*)' "'
+Start transforming line: 17
+x Fail! Line: 17 could not be transformed: ''
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[8, 9, 15, 17]
+✓ Number of created sketches:0
+Time needed: 0.02 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 16
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+x FAIL! The bug test file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/shells/test_bash.py;tests/shells/test_zsh.py to the project thefuck with bug: 16does not exists. Next bug is taken
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 17
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/shells/bash.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/shells/test_bash.py
+GIT RESET TO: f7f0660114a02fe49578ec5684dd02c81042d175
+HEAD is now at f7f0660 #402: Don't invoke zsh for getting aliases
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/shells/bash.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [12, 27, 29, 30, 31]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 12
+test_bash (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_bash (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_bash
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/shells/test_bash.py", line 3, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+✓
+Start transforming line: 27
+x Fail! Line: 27 could not be transformed: '@cache('.bashrc', '.bash_profile')'
+Start transforming line: 29
+✓
+Start transforming line: 30
+x Fail! Line: 30 could not be transformed: 'return dict('
+Start transforming line: 31
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 31 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[27, 30]
+✓ Number of created sketches:31
+Time needed: 0.03 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 18
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/sudo.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_sudo.py
+GIT RESET TO: b65a9a0a4fd9bef394b45a1d367d29aa1e1c403e
+HEAD is now at b65a9a0 #414: Initialize output before any colorama import
+TEST EXECUTION:
+...........................
+x TEST FAILS
+x FAIL! Suspicious lines are empty!
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 19
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/git_push_force.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_git_push_force.py
+GIT RESET TO: 959b96cf6ec8cedda05dc58efe0e0f3bd6ed2f4e
+test_sudo (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_sudo (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_sudo
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_sudo.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+HEAD is now at 959b96c #392: Show only debug message if script isn't splitable
+TEST EXECUTION:
+test_git_push_force (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_git_push_force (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_git_push_force
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_git_push_force.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/git_push_force.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [15]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 15
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 3 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[]
+✓ Number of created sketches:3
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 20
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/dirty_unzip.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_dirty_unzip.py
+GIT RESET TO: 0a6a3db65d2fc480c5b2f1135137f34c9f06b742
+HEAD is now at 0a6a3db Fix the untar rules and filenames with spaces
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/dirty_unzip.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [16, 31]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 16
+test_dirty_unzip (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_dirty_unzip (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_dirty_unzip
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_dirty_unzip.py", line 2, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+✓
+Start transforming line: 31
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[]
+✓ Number of created sketches:0
+Time needed: 0.02 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 21
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/git_fix_stash.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_git_fix_stash.py
+GIT RESET TO: 71dc2666ccf62e653291d9a7a08e2c6c3320425b
+HEAD is now at 71dc266 Bump to 3.0
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/git_fix_stash.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [8, 9]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 8
+test_git_fix_stash (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_git_fix_stash (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_git_fix_stash
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_git_fix_stash.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+x Fail! Line: 8 could not be transformed: 'return (command.script.split()[1] == 'stash''
+Start transforming line: 9
+x Fail! Line: 9 could not be transformed: 'and 'usage' in command.stderr)'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[8, 9]
+✓ Number of created sketches:0
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 22
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/types.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/test_types.py
+GIT RESET TO: faa7ee603057fa98c25507d30180c055d10d13d4
+HEAD is now at faa7ee6 Bump to 2.9
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/types.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [84, 85, 86]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 84
+test_types (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_types (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_types
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/test_types.py", line 1, in <module>
+    from thefuck.types import RulesNamesList, Settings, \
+ModuleNotFoundError: No module named 'thefuck'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+✓
+Start transforming line: 85
+x Fail! Line: 85 could not be transformed: 'self._cached = [self._cached[0]] + sorted('
+Start transforming line: 86
+x Fail! Line: 86 could not be transformed: 'commands, key=lambda corrected_command corrected_command.priority)'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 3 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[85, 86]
+✓ Number of created sketches:3
+Time needed: 0.02 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 23
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/utils.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/test_utils.py
+GIT RESET TO: 4129ff2717cc6e6fa51d70cc4e6c31d56ef8e2c9
+HEAD is now at 4129ff2 #353 Cache aliases in a temporary file
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/utils.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [183]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 183
+test_utils (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_utils (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_utils
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/test_utils.py", line 2, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+x Fail! Line: 183 could not be transformed: 'with shelve.open(cache_path) as db'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[183]
+✓ Number of created sketches:0
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 24
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/types.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/test_types.py
+GIT RESET TO: 12394ca8423a438915fed996383b44471fc1139d
+HEAD is now at 12394ca #334: Don't wait for all rules before showing result
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/types.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [57, 58, 64, 68, 70]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 57
+test_types (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_types (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_types
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/test_types.py", line 1, in <module>
+    from thefuck.types import RulesNamesList, Settings, \
+ModuleNotFoundError: No module named 'thefuck'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
+x Fail! Line: 57 could not be transformed: 'command.script != first.script or \'
+Start transforming line: 58
+✓
+Start transforming line: 64
+x Fail! Line: 64 could not be transformed: 'commands = {(command.script, command.side_effect) command'
+Start transforming line: 68
+x Fail! Line: 68 could not be transformed: 'or command.side_effect != self._cached[0].side_effect}'
+Start transforming line: 70
+x Fail! Line: 70 could not be transformed: ''
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 12 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[57, 64, 68, 70]
+✓ Number of created sketches:12
+Time needed: 0.02 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 25
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/mkdir_p.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_mkdir_p.py
+GIT RESET TO: 42a8b4f639269886e468762e6d100b6f01aad8ab
+HEAD is now at 42a8b4f Support for hdfs dfs -rm /directory
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/mkdir_p.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [13]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 13
+test_mkdir_p (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_mkdir_p (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_mkdir_p
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_mkdir_p.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 3 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[]
+✓ Number of created sketches:3
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 26
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+x FAIL! The bug test file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_vagrant_up.py to the project thefuck with bug: 26does not exists. Next bug is taken
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 27
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/open.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_open.py
+GIT RESET TO: bc6b107066d3f1e60b4cfcaa8cf6399e98cf1b1c
+HEAD is now at bc6b107 Fix README and add a test so it won't happen again
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/open.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [26]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 26
+test_open (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_open (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_open
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_open.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[]
+✓ Number of created sketches:0
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 28
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/fix_file.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_fix_file.py
+GIT RESET TO: 88831c424f569e6a55fc98883d3eeecc7d425b18
+HEAD is now at 88831c4 Fix the @wrap_settings annotation
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/fix_file.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [23, 26, 28, 64, 66]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 23
+test_fix_file (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_fix_file (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_fix_file
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_fix_file.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+x Fail! Line: 23 could not be transformed: ''^{file} \(line {line}\)','
+Start transforming line: 26
+x Fail! Line: 26 could not be transformed: '   '
+Start transforming line: 28
+x Fail! Line: 28 could not be transformed: '   '
+Start transforming line: 64
+x Fail! Line: 64 could not be transformed: 'editor_call = '{} {} +{}'.format(os.environ['EDITOR'],'
+Start transforming line: 66
+x Fail! Line: 66 could not be transformed: ' m.group('line'))'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[23, 26, 28, 64, 66]
+✓ Number of created sketches:0
+Time needed: 0.03 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 29
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+x FAIL! The bug test file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/test_types.py;tests/test_utils.py to the project thefuck with bug: 29does not exists. Next bug is taken
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 30
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/fix_file.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_fix_file.py
+GIT RESET TO: de513cacb150049e3f95434f8d6d30b7ed1e0ea7
+HEAD is now at de513ca Show user's $EDITOR in output
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/fix_file.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [53]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 53
+test_fix_file (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_fix_file (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_fix_file
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_fix_file.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 6 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[]
+✓ Number of created sketches:6
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 31
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/git_diff_staged.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_git_diff_staged.py
+GIT RESET TO: 66e2ec7e3f0d3f848c01d87bb3503b0ff90fc78a
+HEAD is now at 66e2ec7 Merge branch 'mcarton-fix-readme'
+TEST EXECUTION:
+test_git_diff_staged (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_git_diff_staged (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_git_diff_staged
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_git_diff_staged.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/git_diff_staged.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [13]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 13
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 3 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[]
+✓ Number of created sketches:3
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 32
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/ls_lah.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_ls_lah.py
+GIT RESET TO: cb33c912e5f2f4c2da6b70d708ff0437bfcd3b94
+HEAD is now at cb33c91 Merge pull request #264 from mcarton/cleanup
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/thefuck/rules/ls_lah.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [2]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 2
+test_ls_lah (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_ls_lah (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_ls_lah
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/thefuck/tests/rules/test_ls_lah.py", line 1, in <module>
+    from mock import patch, Mock
+ModuleNotFoundError: No module named 'mock'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 5 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[]
+✓ Number of created sketches:5
+Time needed: 0.01 minutes.
+#######################################################################################################
+Results with bug numbers:
+Project:thefuck
+Failing:[1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 13, 14, 15, 17, 19, 20, 21, 22, 23, 24, 25, 27, 28, 30, 31, 32]
+Empty Sus Lines: [18]
+Passing[8]
+
+Process finished with exit code 0

@@ -1,0 +1,248 @@
+/Users/daniel/BA_SketchFix_Evaluation/Evaluation/venv/bin/python /Users/daniel/BA_SketchFix_Evaluation/Evaluation/SetupBug/replace_bug.py
+
+
+
+#######################################################################################################
+                             PROJECT: cookiecutter
+#######################################################################################################
+CLONING PROJECT:
+✓ SUCCESSFUL! This project is already cloned: https://github.com/cookiecutter/cookiecutter
+.......................................................................................................
+BUGGY LINES:
+85
+59,62,122,123,127
+91
+260,72,94,108,109
+.......................................................................................................
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 1
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/cookiecutter/cookiecutter/generate.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/cookiecutter/tests/test_generate_context.py
+GIT RESET TO: c15633745df6abdb24e02746b82aadb20b8cdf8c
+HEAD is now at c156337 Added: _output_dir to cookiecutter context (#1034)
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/cookiecutter/cookiecutter/generate.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [85]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 85
+test_generate_context (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_generate_context (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_generate_context
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/cookiecutter/tests/test_generate_context.py", line 6, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+x Fail! Line: 85 could not be transformed: 'with open(context_file) as file_handle'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[85]
+✓ Number of created sketches:0
+Time needed: 0.02 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 2
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/cookiecutter/cookiecutter/hooks.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/cookiecutter/tests/test_hooks.py
+GIT RESET TO: d7e7b28811e474e14d1bed747115e47dcdd15ba3
+HEAD is now at d7e7b28 Render path templates in copy_wihtout_render (fix #456) (#839)
+TEST EXECUTION:
+test_hooks (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_hooks (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_hooks
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/cookiecutter/tests/test_hooks.py", line 7, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/cookiecutter/cookiecutter/hooks.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [59, 62, 122, 123, 127]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 59
+✓
+Start transforming line: 62
+x Fail! Line: 62 could not be transformed: ''
+Start transforming line: 122
+✓
+Start transforming line: 123
+✓
+Start transforming line: 127
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 575 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[62]
+✓ Number of created sketches:575
+Time needed: 0.07 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 3
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/cookiecutter/cookiecutter/prompt.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/cookiecutter/tests/test_read_user_choice.py
+GIT RESET TO: 5c282f020a8db7e5e7c4e7b51b010556ca31fb7f
+HEAD is now at 5c282f0 Fix typos (#1197)
+TEST EXECUTION:
+test_read_user_choice (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_read_user_choice (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_read_user_choice
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/cookiecutter/tests/test_read_user_choice.py", line 3, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/cookiecutter/cookiecutter/prompt.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [91]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 91
+x Fail! Line: 91 could not be transformed: 'prompt, type=click.Choice(choices), default=default'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[91]
+✓ Number of created sketches:0
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 4
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/cookiecutter/cookiecutter/exceptions.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/cookiecutter/tests/test_hooks.py
+GIT RESET TO: 9568ab6ecd2d6836646006c59473c4a4ac0dee04
+HEAD is now at 9568ab6 stop project generation if pre hook script fails
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/cookiecutter/cookiecutter/exceptions.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [72, 94, 108, 109, 260]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 72
+test_hooks (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_hooks (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_hooks
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/cookiecutter/tests/test_hooks.py", line 15, in <module>
+    from cookiecutter import hooks, utils
+ModuleNotFoundError: No module named 'cookiecutter'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+x Fail! Line: 72 could not be transformed: ''
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[72]
+✓ Number of created sketches:0
+Time needed: 0.02 minutes.
+#######################################################################################################
+Results with bug numbers:
+Project:cookiecutter
+Failing:[1, 2, 3, 4]
+Empty Sus Lines: []
+Passing[]
+
+Process finished with exit code 0

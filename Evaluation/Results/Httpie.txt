@@ -1,0 +1,236 @@
+/Users/daniel/BA_SketchFix_Evaluation/Evaluation/venv/bin/python /Users/daniel/BA_SketchFix_Evaluation/Evaluation/SetupBug/replace_bug.py
+
+
+
+#######################################################################################################
+                             PROJECT: httpie
+#######################################################################################################
+CLONING PROJECT:
+✓ SUCCESSFUL! This project is already cloned: https://github.com/jakubroztocil/httpie/
+.......................................................................................................
+BUGGY LINES:
+151,172
+195
+
+106
+43,48,49,50
+.......................................................................................................
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 1
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 001bda19450ad85c91345eea3cfa3991e1d492ba
+HEAD is now at 001bda1 README
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/httpie/httpie/downloads.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/httpie/tests/test_downloads.py
+TEST EXECUTION:
+test_downloads (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_downloads (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_downloads
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/httpie/tests/test_downloads.py", line 4, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/httpie/httpie/downloads.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [151, 172]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 151
+x Fail! Line: 151 could not be transformed: '"""'
+Start transforming line: 172
+x Fail! Line: 172 could not be transformed: ''
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[151, 172]
+✓ Number of created sketches:0
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 2
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 356e0436510fee70b4071fac58be81c0a0a7db59
+HEAD is now at 356e043 Added --show-redirects and --max-redirects
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/httpie/httpie/client.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/httpie/tests/test_redirects.py
+TEST EXECUTION:
+test_redirects (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_redirects (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_redirects
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/httpie/tests/test_redirects.py", line 2, in <module>
+    from httpie import ExitStatus
+ModuleNotFoundError: No module named 'httpie'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/httpie/httpie/client.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [195]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[]
+✓ Number of created sketches:0
+Time needed: 0.0 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 3
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 8c33e5e3d31d3cd6476c4d9bc963a4c529f883d2
+HEAD is now at 8c33e5e Parser => HTTPieArgumentParser
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/httpie/httpie/sessions.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/httpie/tests/test_sessions.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+x FAIL! Suspicious lines are empty!
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 4
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 8c892edd4fe700a7ca5cc733dcb4817831d253e2
+test_sessions (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_sessions (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_sessions
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/httpie/tests/test_sessions.py", line 6, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+HEAD is now at 8c892ed PEP8
+x FAIL! The bug test file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/httpie/tests/test_regressions.py to the project httpie with bug: 4does not exists. Next bug is taken
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 5
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 16df8848e81eefac830f407e4b985f42b52970da
+HEAD is now at 16df884 Removed accidentally included old funky code.
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/httpie/httpie/cli.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/httpie/tests/tests.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/httpie/httpie/cli.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [43, 48, 49, 50]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 43
+tests (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: tests (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: tests
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/httpie/tests/tests.py", line 6, in <module>
+    from requests.compat import StringIO, is_py26, str
+ModuleNotFoundError: No module named 'requests'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+✓
+Start transforming line: 48
+✓
+Start transforming line: 49
+x Fail! Line: 49 could not be transformed: '   '
+Start transforming line: 50
+x Fail! Line: 50 could not be transformed: 'raise argparse.ArgumentTypeError('
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 23 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[49, 50]
+✓ Number of created sketches:23
+Time needed: 0.02 minutes.
+#######################################################################################################
+Results with bug numbers:
+Project:httpie
+Failing:[1, 2, 5]
+Empty Sus Lines: [3]
+Passing[]
+
+Process finished with exit code 0

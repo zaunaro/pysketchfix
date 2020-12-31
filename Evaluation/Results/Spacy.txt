@@ -1,0 +1,377 @@
+/Users/daniel/BA_SketchFix_Evaluation/Evaluation/venv/bin/python /Users/daniel/BA_SketchFix_Evaluation/Evaluation/SetupBug/replace_bug.py
+
+
+
+#######################################################################################################
+                             PROJECT: spacy
+#######################################################################################################
+CLONING PROJECT:
+✓ SUCCESSFUL! This project is cloned: https://github.com/explosion/spaCy
+Cloning into '/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy'...
+.......................................................................................................
+BUGGY LINES:
+10,11
+
+288
+73
+681
+407
+41,48,669
+
+
+
+.......................................................................................................
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 1
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/errors.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/tests/test_errors.py
+GIT RESET TO: 9ce059dd067ecc3f097d04023e3cfa0d70d35bb8
+HEAD is now at 9ce059dd0 Limiting noun_chunks for specific languages (#5396)
+TEST EXECUTION:
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+OK
+...........................
+✓ SUCCESSFUL! TEST PASSES
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/errors.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [10, 11]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 10
+✓
+Start transforming line: 11
+x Fail! Line: 11 could not be transformed: 'return "[{code}] {msg}".format(code=code, msg=msg)'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 2 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[11]
+✓ Number of created sketches:2
+Time needed: 0.03 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 2
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/util.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/tests/regression/test_issue5137.py
+GIT RESET TO: efec28ce70a0ff69471cc379867deebe7eb881e0
+HEAD is now at efec28ce7 Merge pull request #5367 from adrianeboyd/feature/simplify-warnings-v2
+TEST EXECUTION:
+...........................
+✓ SUCCESSFUL! TEST PASSES
+x FAIL! Suspicious lines are empty!
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 3
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+x FAIL! The bug test file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/tests/regression/test_issue5314.py to the project spacy with bug: 3does not exists. Next bug is taken
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 4
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/cli/converters/conllu2json.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/tests/regression/test_issue4665.py
+GIT RESET TO: abd5c06374eab5db0cf897b73543b1f3eb007e12
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+OK
+HEAD is now at abd5c0637 Adjust formatting [ci skip]
+TEST EXECUTION:
+...........................
+✓ SUCCESSFUL! TEST PASSES
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/cli/converters/conllu2json.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [73]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 73
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+OK
+x Fail! Line: 73 could not be transformed: 'head = (int(head) - 1) head != "0" id_'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[73]
+✓ Number of created sketches:0
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 5
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/language.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/tests/test_language.py
+GIT RESET TO: bdfb696677a7591ced018e7597c00929e97c6837
+HEAD is now at bdfb69667 Fix conllu2json converter to output all sentences (#4656)
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/language.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [681]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+test_language (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_language (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_language
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/tests/test_language.py", line 6, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+Start transforming line: 681
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 4 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[]
+✓ Number of created sketches:4
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 6
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/language.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/tests/pipeline/test_analysis.py
+GIT RESET TO: 6b874ef09611ac32ad038203423d44087cbeb3ae
+HEAD is now at 6b874ef09 Set version to v2.2.2.dev4
+TEST EXECUTION:
+test_analysis (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_analysis (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_analysis
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/tests/pipeline/test_analysis.py", line 4, in <module>
+    import spacy.language
+ModuleNotFoundError: No module named 'spacy'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/language.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [407]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 407
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 3 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[]
+✓ Number of created sketches:3
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 7
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/examples/information_extraction/entity_relations.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/tests/doc/test_span.py
+GIT RESET TO: da6e0de34f4947fdebc839df3969c641014cfa97
+HEAD is now at da6e0de34 fix attrs field in the matcher (#4423)
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/examples/information_extraction/entity_relations.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [41, 48, 669]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 41
+test_span (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_span (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_span
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/tests/doc/test_span.py", line 4, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+x Fail! Line: 41 could not be transformed: 'get_sort_key = lambda span (span.end - span.start, span.start)'
+Start transforming line: 48
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 6 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[41]
+✓ Number of created sketches:6
+Time needed: 0.02 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 8
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/errors.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/tests/matcher/test_matcher_logic.py
+GIT RESET TO: fa95c030a511337935d1a2e930cb954c7a4cd376
+HEAD is now at fa95c030a Unify matcher get_ent_id and get_pattern_key (#4415)
+TEST EXECUTION:
+...........................
+x TEST FAILS
+x FAIL! Suspicious lines are empty!
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 9
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+x FAIL! The bug test file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/tests/pipeline/test_tagger.py to the project spacy with bug: 9does not exists. Next bug is taken
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 10
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/errors.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/tests/matcher/test_matcher_api.py
+GIT RESET TO: 38de08c7a99d5d8c490223126071afe7dd4f4b67
+test_matcher_logic (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_matcher_logic (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_matcher_logic
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/tests/matcher/test_matcher_logic.py", line 4, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+Updating files: 100% (227/227), done.
+test_matcher_api (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_matcher_api (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_matcher_api
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/spacy/spacy/tests/matcher/test_matcher_api.py", line 4, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+HEAD is now at 38de08c7a Update README.md [ci skip]
+TEST EXECUTION:
+...........................
+x TEST FAILS
+x FAIL! Suspicious lines are empty!
+#######################################################################################################
+Results with bug numbers:
+Project:spacy
+Failing:[5, 6, 7]
+Empty Sus Lines: [2, 8, 10]
+Passing[1, 4]
+
+Process finished with exit code 0

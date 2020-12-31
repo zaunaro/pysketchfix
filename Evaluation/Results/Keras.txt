@@ -1,0 +1,2501 @@
+/Users/daniel/BA_SketchFix_Evaluation/Evaluation/venv/bin/python /Users/daniel/BA_SketchFix_Evaluation/Evaluation/SetupBug/replace_bug.py
+
+
+
+#######################################################################################################
+                             PROJECT: keras
+#######################################################################################################
+CLONING PROJECT:
+✓ SUCCESSFUL! This project is already cloned: https://github.com/keras-team/keras
+.......................................................................................................
+BUGGY LINES:
+1206,1220,1234,2902,2903
+
+140,141,142,153,154
+706
+173
+413
+323
+980,983,1029,1031
+120,121
+435,481,482,483,498
+43,44,51,64,66
+
+127
+48
+1125,1133,1135,1161
+222,223,274,276,281
+37
+2548,2646
+1442,61,74,75,76
+2189,2211,3452,3589,3613
+488
+
+152,153
+789,790
+
+2874
+
+332,344,348
+1177,1178,1179,1366,1367
+2215,2402
+3945,3946
+901,909,918,939,942
+41,42,44,56
+2165,2197,2369,2493
+583,584,1230
+3419,3422
+521,523,527,324,325
+109
+330
+398,400,408
+556,634,639,642,655
+1903,1944,2014,2030,2031
+
+
+1806,1807,1808,1809
+.......................................................................................................
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 1
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 331d5b0102ab0cc79cece1f03cc551d8105db3c9
+HEAD is now at 331d5b01 Fix PEP8.
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/backend/tensorflow_backend.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/initializers_test.py
+TEST EXECUTION:
+initializers_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: initializers_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: initializers_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/initializers_test.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/backend/tensorflow_backend.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [1206, 1220, 1234, 2902, 2903]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 1206
+✓
+Start transforming line: 1220
+✓
+Start transforming line: 1234
+✓
+Start transforming line: 2902
+x Fail! Line: 2902 could not be transformed: '   '
+Start transforming line: 2903
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 80 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[2902]
+✓ Number of created sketches:80
+Time needed: 0.06 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 2
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 2f55055a9f053b35fa721d3eb75dd07ea5a5f1e3
+HEAD is now at 2f55055a remove sentence about usage of rmsprop for RNN  (#12469)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/backend/numpy_backend.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/backend/backend_test.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+x FAIL! Suspicious lines are empty!
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 3
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: c0d1709cbae3d05efc6dd224230012bc120be8e5
+backend_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: backend_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: backend_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/backend/backend_test.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+HEAD is now at c0d1709c Added MarkDown formatting to examples/image_ocr.py (#12281)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/models.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/test_sequential_model.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/models.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [140, 141, 142, 153, 154]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 140
+test_sequential_model (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_sequential_model (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_sequential_model
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/test_sequential_model.py", line 3, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+x Fail! Line: 140 could not be transformed: 'output_masks = to_list('
+Start transforming line: 141
+x Fail! Line: 141 could not be transformed: 'layer.compute_mask(computed_tensor,'
+Start transforming line: 142
+x Fail! Line: 142 could not be transformed: '   computed_mask))'
+Start transforming line: 153
+x Fail! Line: 153 could not be transformed: 'output_masks = to_list('
+Start transforming line: 154
+x Fail! Line: 154 could not be transformed: 'layer.compute_mask(computed_tensors,'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[140, 141, 142, 153, 154]
+✓ Number of created sketches:0
+Time needed: 0.02 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 4
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: b0bfd5201da2bfced84028bcc5bda05bdfd75af7
+HEAD is now at b0bfd520 Print the model name as part of layer_utils.print_summary (aka model.summary) (#12107)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/optimizers.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/optimizers_test.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/optimizers.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [706]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 706
+optimizers_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: optimizers_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: optimizers_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/optimizers_test.py", line 2, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 3 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[]
+✓ Number of created sketches:3
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 5
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: b847b4601d608050bab6eccd049fce28b7bf1b1f
+HEAD is now at b847b460 Update Dockefile to fix PackageNotFoundError of conda (#11958)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/utils/data_utils.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/utils/data_utils_test.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/utils/data_utils.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [173]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 173
+data_utils_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: data_utils_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: data_utils_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/utils/data_utils_test.py", line 12, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+x Fail! Line: 173 could not be transformed: 'cache_dir = os.path.join(os.path.expanduser('~'), '.keras')'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[173]
+✓ Number of created sketches:0
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 6
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 88af7d0c97497b5c3a198ee9416b2accfbc72c36
+HEAD is now at 88af7d0c [RELNOTES] [P] Add ResNet, ResNetV2, and ResNeXt variants (#11203)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/engine/training_utils.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/test_loss_masking.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/engine/training_utils.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [413]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 413
+test_loss_masking (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_loss_masking (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_loss_masking
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/test_loss_masking.py", line 2, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 2 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[]
+✓ Number of created sketches:2
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 7
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 26b620fb37c885d60183f83abc744f43775ce75a
+HEAD is now at 26b620fb Update breadcrumbs.html to fix the 404 error of "Edit on github" (#11825)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/wrappers/scikit_learn.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/wrappers/scikit_learn_test.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/wrappers/scikit_learn.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [323]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 323
+scikit_learn_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: scikit_learn_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: scikit_learn_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/wrappers/scikit_learn_test.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 4 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[]
+✓ Number of created sketches:4
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 8
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 87540a2a2f42e00c4a2ca7ca35d19f96e62e6cb0
+HEAD is now at 87540a2a Clarify expected label formats for crossentropy losses (#12095)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/engine/network.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/engine/test_topology.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/engine/network.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [980, 983, 1029, 1031]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 980
+test_topology (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_topology (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_topology
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/engine/test_topology.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+✓
+Start transforming line: 983
+x Fail! Line: 983 could not be transformed: 'input_tensors.append('
+Start transforming line: 1029
+✓
+Start transforming line: 1031
+x Fail! Line: 1031 could not be transformed: 'name = config.get('name')'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 23 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[983, 1031]
+✓ Number of created sketches:23
+Time needed: 0.02 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 9
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 0cd3b07eb5de1aaaad84d1ff7f7c2ed7dab4b23c
+HEAD is now at 0cd3b07e Remove legacy environment variables (#11998)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/docs/autogen.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/test_doc_auto_generation.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/docs/autogen.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+test_doc_auto_generation (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_doc_auto_generation (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_doc_auto_generation
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/test_doc_auto_generation.py", line 1, in <module>
+    from markdown import markdown
+ModuleNotFoundError: No module named 'markdown'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+The suspicious lines which are taken are: [120, 121]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 120
+x Fail! Line: 120 could not be transformed: 'block = docstring[starting_point(None ending_point == -1 '
+Start transforming line: 121
+x Fail! Line: 121 could not be transformed: '  ending_point - 1)]'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[120, 121]
+✓ Number of created sketches:0
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 10
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 8f41e41eda6e8ea96403cae5798a5a89c8bb5605
+HEAD is now at 8f41e41e Split Generators tests from Sequence tests (#11901)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/engine/training_utils.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/engine/test_training.py
+TEST EXECUTION:
+test_training (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_training (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_training
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/engine/test_training.py", line 3, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/engine/training_utils.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [435, 481, 482, 483, 498]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 435
+x Fail! Line: 435 could not be transformed: 'weight array.'
+Start transforming line: 481
+✓
+Start transforming line: 482
+x Fail! Line: 482 could not be transformed: 'warnings.warn('Found both `sample_weight` and `class_weight` ''
+Start transforming line: 483
+x Fail! Line: 483 could not be transformed: '  '`class_weight` argument will be ignored.')'
+Start transforming line: 498
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 35 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[435, 482, 483]
+✓ Number of created sketches:35
+Time needed: 0.02 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 11
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 36b9e4c055f32718a036cabaf767325b010c7485
+HEAD is now at 36b9e4c0 ### Summary (#11456)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/engine/training_generator.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/integration_tests/test_image_data_tasks.py
+TEST EXECUTION:
+test_image_data_tasks (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_image_data_tasks (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_image_data_tasks
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/integration_tests/test_image_data_tasks.py", line 3, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/engine/training_generator.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [43, 44, 51, 64, 66]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 43
+✓
+Start transforming line: 44
+x Fail! Line: 44 could not be transformed: 'not is_sequence and use_multiprocessing and workers > 1'
+Start transforming line: 51
+✓
+Start transforming line: 64
+x Fail! Line: 64 could not be transformed: '   isinstance(validation_data, Sequence))'
+Start transforming line: 66
+x Fail! Line: 66 could not be transformed: 'not validation_steps)'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 14 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[44, 64, 66]
+✓ Number of created sketches:14
+Time needed: 0.03 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 12
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 6dff721a3a8755356b2e89d02ef63ad8ab38ec95
+HEAD is now at 6dff721a  Fix bug in sparse_categorical_accuracy  (#11373)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/metrics_test.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+x FAIL! Suspicious lines are empty!
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 13
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 2bfd1f2c950df5fc3f40b903c1966f1b0a48bee4
+metrics_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: metrics_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: metrics_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/metrics_test.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+HEAD is now at 2bfd1f2c Add `conv_transpose` into reference operations (#11258)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/engine/training_generator.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/engine/test_training.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/engine/training_generator.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [127]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 127
+test_training (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_training (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_training
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/engine/test_training.py", line 3, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 5 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[]
+✓ Number of created sketches:5
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 14
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 98465b85d020f1326bcef7632f1261a9a7a84e92
+HEAD is now at 98465b85 Style fixes for enabling PEP8 501 (#11199)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/metrics.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/metrics_test.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/metrics.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [48]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 48
+metrics_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: metrics_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: metrics_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/metrics_test.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+x Fail! Line: 48 could not be transformed: 'return K.mean(K.in_top_k(y_pred, K.cast(K.max(y_true, axis=-1), 'int32'), k),'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[48]
+✓ Number of created sketches:0
+Time needed: 0.0 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 15
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 5b6243485acc20cc36f2db4f258512c332d691ec
+HEAD is now at 5b624348 Breaking down the attention API PR: part 2 (#11140)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/callbacks.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/test_callbacks.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/callbacks.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [1125, 1133, 1135, 1161]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 1125
+test_callbacks (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_callbacks (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_callbacks
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/test_callbacks.py", line 5, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+x Fail! Line: 1125 could not be transformed: 'self.file_flags = 'b' six.PY2 and os.name == 'nt' '''
+Start transforming line: 1133
+✓
+Start transforming line: 1135
+✓
+Start transforming line: 1161
+x Fail! Line: 1161 could not be transformed: ' fieldnames=['epoch'] + self.keys, dialect=CustomDialect)'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 79 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[1125, 1161]
+✓ Number of created sketches:79
+Time needed: 0.02 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 16
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 514aca20c6f076a86819d7180f36c3b2e8bcc33b
+HEAD is now at 514aca20 Add integration test checking compatibility of Keras models with TF optimizers.
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/engine/sequential.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/test_sequential_model.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/engine/sequential.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [222, 223, 274, 276, 281]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 222
+test_sequential_model (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_sequential_model (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_sequential_model
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/test_sequential_model.py", line 3, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+✓
+Start transforming line: 223
+✓
+Start transforming line: 274
+✓
+Start transforming line: 276
+x Fail! Line: 276 could not be transformed: 'config.append({'
+Start transforming line: 281
+x Fail! Line: 281 could not be transformed: ''
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 111 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[276, 281]
+✓ Number of created sketches:111
+Time needed: 0.02 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 17
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: c913b6da92f6ab9a3f4c897caa4085e782a14680
+HEAD is now at c913b6da Support multiple axes for some operations (tests and docs) (#11114)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/metrics.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/metrics_test.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/metrics.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+metrics_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: metrics_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: metrics_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/metrics_test.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+The suspicious lines which are taken are: [37]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 37
+x Fail! Line: 37 could not be transformed: 'return K.cast(K.equal(K.max(y_true, axis=-1),'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[37]
+✓ Number of created sketches:0
+Time needed: 0.0 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 18
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 9400be98783135a1d42dd238f4e6c3aa048eceea
+HEAD is now at 9400be98 Add missing raise for ValueError at Embedding compute_output_shape (#11091)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/backend/tensorflow_backend.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/backend/backend_test.py
+TEST EXECUTION:
+backend_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: backend_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: backend_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/backend/backend_test.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/backend/tensorflow_backend.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [2548, 2646]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 2548
+✓
+Start transforming line: 2646
+x Fail! Line: 2646 could not be transformed: 'fetched = self._callable_fn(*array_vals)'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 2 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[2646]
+✓ Number of created sketches:2
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 19
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: f9210387088fe91b5bc8999cf0cb41a0fe9eacf6
+HEAD is now at f9210387 Made the backend tests faster by using the numpy backend in the (#11062)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/backend/cntk_backend.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/layers/recurrent_test.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/backend/cntk_backend.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+recurrent_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: recurrent_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: recurrent_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/layers/recurrent_test.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+The suspicious lines which are taken are: [61, 74, 75, 76, 1442]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 61
+x Fail! Line: 61 could not be transformed: 'return _LEARNING_PHASE _LEARNING_PHASE in {0, 1} _LEARNING_PHASE_PLACEHOLDER'
+Start transforming line: 74
+x Fail! Line: 74 could not be transformed: '"""Reset learning phase flag cntk backend.'
+Start transforming line: 75
+x Fail! Line: 75 could not be transformed: '"""'
+Start transforming line: 76
+x Fail! Line: 76 could not be transformed: 'global _LEARNING_PHASE'
+Start transforming line: 1442
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 4 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[61, 74, 75, 76]
+✓ Number of created sketches:4
+Time needed: 0.02 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 20
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 76da5f0a21ca98e4bf6706e182fb825243e76204
+HEAD is now at 76da5f0a Doc Change: Change in shape for CIFAR Datasets (#11043)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/backend/cntk_backend.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/layers/convolutional_test.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/backend/cntk_backend.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [2189, 2211, 3452, 3589, 3613]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 2189
+convolutional_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: convolutional_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: convolutional_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/layers/convolutional_test.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+x Fail! Line: 2189 could not be transformed: ' padding='valid', data_format=None)'
+Start transforming line: 2211
+x Fail! Line: 2211 could not be transformed: 'output_shape=output_shape)'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[2189, 2211]
+✓ Number of created sketches:0
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 21
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: c7b7328cc99fd5d7c298e57c6020043451d89a61
+HEAD is now at c7b7328c Add static shape inference for theano concatenate and all (#10873)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/callbacks.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/test_callbacks.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/callbacks.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+test_callbacks (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_callbacks (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_callbacks
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/test_callbacks.py", line 5, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+The suspicious lines which are taken are: [488]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 488
+x Fail! Line: 488 could not be transformed: ' baseline=None)'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[488]
+✓ Number of created sketches:0
+Time needed: 0.0 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 22
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 54386efa549f850dff13f79fc3af67799a4e5d4f
+HEAD is now at 54386efa Prepare new release.
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/engine/input_layer.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/layers/core_test.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+x FAIL! Suspicious lines are empty!
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 23
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 3dcd9c767ce6875fc8b69c74971ac8a552e23131
+core_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: core_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: core_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/layers/core_test.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+HEAD is now at 3dcd9c76 Remove duplicate calls to InputSpec (#10654)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/engine/sequential.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/test_sequential_model.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/engine/sequential.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [152, 153]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 152
+test_sequential_model (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_sequential_model (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_sequential_model
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/test_sequential_model.py", line 3, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+✓
+Start transforming line: 153
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 41 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[]
+✓ Number of created sketches:41
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 24
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: d7884570b10951d156aa086ee29a4df9eab79cf3
+HEAD is now at d7884570 Allow dynamic backends in _need_convert_kernel (#10111)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/callbacks.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/test_callbacks.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/callbacks.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+test_callbacks (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_callbacks (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_callbacks
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/test_callbacks.py", line 5, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+The suspicious lines which are taken are: [789, 790]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 789
+x Fail! Line: 789 could not be transformed: 'tf.summary.histogram('{}_out'.format(layer.name),'
+Start transforming line: 790
+x Fail! Line: 790 could not be transformed: ' layer.output)'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[789, 790]
+✓ Number of created sketches:0
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 25
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: b470a595f7278acf5e7e47521edf25d3c4f479f1
+HEAD is now at b470a595 Add `separable_conv1d` (#10125)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/applications/imagenet_utils.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/applications/imagenet_utils_test.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+x FAIL! Suspicious lines are empty!
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 26
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 87417470c8168772559be0531e297120c569a422
+imagenet_utils_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: imagenet_utils_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: imagenet_utils_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/applications/imagenet_utils_test.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+HEAD is now at 87417470 [RELNOTES] Fix EarlyStopping API
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/backend/tensorflow_backend.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/backend/backend_test.py
+TEST EXECUTION:
+backend_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: backend_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: backend_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/backend/backend_test.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/backend/tensorflow_backend.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [2874]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 2874
+x Fail! Line: 2874 could not be transformed: 'new_states = [tf.where(tiled_mask_t, new_states[i], states[i]) i in range(len(states))]'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[2874]
+✓ Number of created sketches:0
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 27
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 49f5b931410bc2e56378f20a15e8ac919e0efb88
+HEAD is now at 49f5b931 Refactor topological part of `engine` module (#10023)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/layers/wrappers.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/layers/wrappers_test.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+x FAIL! Suspicious lines are empty!
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 28
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 6171b3656ebd9b6038f709ba83f7475de284ba4e
+wrappers_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: wrappers_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: wrappers_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/layers/wrappers_test.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+HEAD is now at 6171b365 Updated for TF 1.7 (#9937)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/preprocessing/sequence.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/preprocessing/sequence_test.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/preprocessing/sequence.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [332, 344, 348]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 332
+sequence_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: sequence_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: sequence_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/preprocessing/sequence_test.py", line 4, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+x Fail! Line: 332 could not be transformed: '(self.batch_size * self.stride)))'
+Start transforming line: 344
+x Fail! Line: 344 could not be transformed: 'self.start_index, self.end_index, size=self.batch_size)'
+Start transforming line: 348
+x Fail! Line: 348 could not be transformed: 'self.stride, self.end_index), self.stride)'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[332, 344, 348]
+✓ Number of created sketches:0
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 29
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: a341c014412cbfc86a9dd9816ae228e398dff3a2
+HEAD is now at a341c014 Fix `batch_dot` of TensorFlow when `axes=None` (#9922)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/engine/training.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/metrics_test.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/engine/training.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+metrics_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: metrics_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: metrics_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/metrics_test.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+The suspicious lines which are taken are: [1177, 1178, 1179, 1366, 1367]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 1177
+✓
+Start transforming line: 1178
+✓
+Start transforming line: 1179
+x Fail! Line: 1179 could not be transformed: 'm.reset_states()'
+Start transforming line: 1366
+✓
+Start transforming line: 1367
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 54809 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[1179]
+✓ Number of created sketches:54809
+Time needed: 29.41 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 30
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: c08ef613af27da896cee168daeee5c6fad1980b6
+HEAD is now at c08ef613 #9642 Add kwarg and documentation for dilation_rate to SeparableConvs (#9844)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/engine/training.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/engine/test_training.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+test_training (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_training (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_training
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/engine/test_training.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/engine/training.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [2215, 2402]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 2215
+✓
+Start transforming line: 2402
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 19 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[]
+✓ Number of created sketches:19
+Time needed: 0.38 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 31
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: ced81968b0e9d8b1389e6580721ac60d9cf3ca60
+HEAD is now at ced81968 Fix #9802 (#9803)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/backend/tensorflow_backend.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/backend/backend_test.py
+TEST EXECUTION:
+backend_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: backend_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: backend_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/backend/backend_test.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/backend/tensorflow_backend.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [3945, 3946]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 3945
+✓
+Start transforming line: 3946
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 19 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[]
+✓ Number of created sketches:19
+Time needed: 0.02 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 32
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: a3d160b9467c99cbb27f9aa0382c759f45c8ee66
+HEAD is now at a3d160b9 Fix doc issue.
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/callbacks.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/test_callbacks.py
+TEST EXECUTION:
+test_callbacks (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_callbacks (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_callbacks
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/test_callbacks.py", line 5, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/callbacks.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [901, 909, 918, 939, 942]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 901
+x Fail! Line: 901 could not be transformed: 'epsilon threshold measuring the new optimum,'
+Start transforming line: 909
+x Fail! Line: 909 could not be transformed: ' verbose=0, mode='auto', epsilon=1e-4, cooldown=0, min_lr=0)'
+Start transforming line: 918
+✓
+Start transforming line: 939
+x Fail! Line: 939 could not be transformed: 'self.monitor_op = lambda a, b np.less(a, b - self.epsilon)'
+Start transforming line: 942
+x Fail! Line: 942 could not be transformed: 'self.monitor_op = lambda a, b np.greater(a, b + self.epsilon)'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 10 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[901, 909, 939, 942]
+✓ Number of created sketches:10
+Time needed: 0.02 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 33
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 1c9a49781da2101507db23e2014e4e5d16bd2e52
+HEAD is now at 1c9a4978 Fix `pool3d` padding of Theano (#9578)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/preprocessing/text.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/preprocessing/text_test.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/preprocessing/text.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [41, 42, 44, 56]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 41
+text_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: text_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: text_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/preprocessing/text_test.py", line 4, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+✓
+Start transforming line: 42
+x Fail! Line: 42 could not be transformed: 'translate_map = dict((ord(c), unicode(split)) c in filters)'
+Start transforming line: 44
+✓
+Start transforming line: 56
+x Fail! Line: 56 could not be transformed: ''
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 209 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[42, 56]
+✓ Number of created sketches:209
+Time needed: 0.03 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 34
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 7ef5244a2f1f7f7b76e3c804b82cbb20cdf4d139
+HEAD is now at 7ef5244a Update Dockerfile by fixing conda dep (#9357)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/engine/training.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/test_multiprocessing.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/engine/training.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+test_multiprocessing (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_multiprocessing (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_multiprocessing
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/test_multiprocessing.py", line 4, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+The suspicious lines which are taken are: [2165, 2197, 2369, 2493]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 2165
+✓
+Start transforming line: 2197
+✓
+Start transforming line: 2369
+✓
+Start transforming line: 2493
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 399 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[]
+✓ Number of created sketches:399
+Time needed: 0.04 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 35
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 06eaeebecfb73c23bfd531013ca172ee3bf5069c
+HEAD is now at 06eaeebe Add separable conv2d for CNTK (#9442)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/preprocessing/image.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/preprocessing/image_test.py
+TEST EXECUTION:
+image_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: image_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: image_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/preprocessing/image_test.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/preprocessing/image.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [583, 584, 1230]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 583
+✓
+Start transforming line: 584
+✓
+Start transforming line: 1230
+x Fail! Line: 1230 could not be transformed: '   target_size=self.target_size,'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 8 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[1230]
+✓ Number of created sketches:8
+Time needed: 0.02 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 36
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 85f011df5a5c0fcf1f01b39eca338eb6b7e58401
+HEAD is now at 85f011df Add oov_token argument to Tokenizer doc arguments list (#9257)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/backend/tensorflow_backend.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/layers/convolutional_test.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/backend/tensorflow_backend.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+convolutional_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: convolutional_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: convolutional_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/layers/convolutional_test.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+The suspicious lines which are taken are: [3419, 3422]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 3419
+✓
+Start transforming line: 3422
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 155 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[]
+✓ Number of created sketches:155
+Time needed: 0.03 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 37
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 81f6b3aa5b2b6215a533180e848a3b4dff851d03
+HEAD is now at 81f6b3aa keras.backend.arange doc default start is 0 (#9250)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/layers/recurrent.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/layers/wrappers_test.py
+TEST EXECUTION:
+wrappers_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: wrappers_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: wrappers_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/layers/wrappers_test.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/layers/recurrent.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [324, 325, 521, 523, 527]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 324
+x Fail! Line: 324 could not be transformed: 'class MinimalRNNCell(keras.layers.Layer)'
+Start transforming line: 325
+x Fail! Line: 325 could not be transformed: ''
+Start transforming line: 521
+✓
+Start transforming line: 523
+✓
+Start transforming line: 527
+x Fail! Line: 527 could not be transformed: ''
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 114 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[324, 325, 527]
+✓ Number of created sketches:114
+Time needed: 0.04 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 38
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 53ec990d54130dd0a457dd235c93d39de32d571d
+HEAD is now at 53ec990d Speed up application tests (#9047)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/layers/recurrent.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/layers/recurrent_test.py
+TEST EXECUTION:
+recurrent_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: recurrent_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: recurrent_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/layers/recurrent_test.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/layers/recurrent.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [109]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 109
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 7 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[]
+✓ Number of created sketches:7
+Time needed: 0.01 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 39
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 3a431ea52d090fb3ef8a1e0e5d7f796d9a42e097
+HEAD is now at 3a431ea5 Refactor workarounds in application tests (#9032)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/utils/generic_utils.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/utils/generic_utils_test.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/utils/generic_utils.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [330]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 330
+generic_utils_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: generic_utils_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: generic_utils_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/utils/generic_utils_test.py", line 2, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+x Fail! Line: 330 could not be transformed: 'current < self.target)'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 0 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[330]
+✓ Number of created sketches:0
+Time needed: 0.0 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 40
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 871007dbb0e6211459b9d16244cc3c9683459df7
+HEAD is now at 871007db fix https://github.com/keras-team/keras/pull/8274 (#8854)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/layers/recurrent.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/layers/recurrent_test.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/layers/recurrent.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+recurrent_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: recurrent_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: recurrent_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/layers/recurrent_test.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+The suspicious lines which are taken are: [398, 400, 408]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 398
+✓
+Start transforming line: 400
+x Fail! Line: 400 could not be transformed: 'output_dim = self.cell.state_size'
+Start transforming line: 408
+x Fail! Line: 408 could not be transformed: 'state_shape = [(input_shape[0], output_dim) _ in self.states]'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 3 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[400, 408]
+✓ Number of created sketches:3
+Time needed: 0.02 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 41
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: a27b4a51f4880ad3a7669531b667c1ef44b173ef
+HEAD is now at a27b4a51  Added missing space in multi-line warning strings  (#8654)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/utils/data_utils.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/utils/data_utils_test.py
+TEST EXECUTION:
+data_utils_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: data_utils_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: data_utils_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/utils/data_utils_test.py", line 11, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/utils/data_utils.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [556, 634, 639, 642, 655]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 556
+✓
+Start transforming line: 634
+✓
+Start transforming line: 639
+x Fail! Line: 639 could not be transformed: 'except Exception'
+Start transforming line: 642
+x Fail! Line: 642 could not be transformed: ''
+Start transforming line: 655
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 104 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[639, 642]
+✓ Number of created sketches:104
+Time needed: 0.03 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 42
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 67a432c273cbd65866b1d2cb1e2c62714b633b6e
+HEAD is now at 67a432c2 add missing test (#8507)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/engine/training.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/engine/test_training.py
+TEST EXECUTION:
+test_training (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_training (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_training
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/engine/test_training.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/engine/training.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The suspicious lines which are taken are: [1903, 1944, 2014, 2030, 2031]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 1903
+x Fail! Line: 1903 could not be transformed: '  steps_per_epoch,'
+Start transforming line: 1944
+x Fail! Line: 1944 could not be transformed: 'divided by the batch size. Not used using `Sequence`.'
+Start transforming line: 2014
+x Fail! Line: 2014 could not be transformed: 'raise ValueError('When using a generator validation data, ''
+Start transforming line: 2030
+✓
+Start transforming line: 2031
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 77 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[1903, 1944, 2014]
+✓ Number of created sketches:77
+Time needed: 0.02 minutes.
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 43
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: e3e97c401aa8251e957b73fba8ed4d108c106f12
+HEAD is now at e3e97c40 Prepare new PyPI release.
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/utils/np_utils.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/utils/np_utils_test.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+x FAIL! Suspicious lines are empty!
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 44
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: cc08f0f01fe97a9659e3da8fa9b290a54992c74a
+np_utils_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: np_utils_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: np_utils_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/utils/np_utils_test.py", line 4, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+HEAD is now at cc08f0f0 Merge branch 'master' of github.com:fchollet/keras
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/layers/recurrent.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/layers/recurrent_test.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+x FAIL! Suspicious lines are empty!
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+                                          BUG: 45
+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: d368dc870bfd8fdd4ca0ff82bd5b61aa549291c5
+recurrent_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: recurrent_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: recurrent_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/layers/recurrent_test.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+HEAD is now at d368dc87 Use last (incomplete) minibatch (#8310)
+bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/layers/recurrent.py
+bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/layers/recurrent_test.py
+TEST EXECUTION:
+...........................
+x TEST FAILS
+✓ PyFix is started...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	                              PySketchFix®: Sketches are created.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PySketchFix will run with:
+bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/keras/layers/recurrent.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+recurrent_test (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: recurrent_test (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: recurrent_test
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/keras/tests/keras/layers/recurrent_test.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+The suspicious lines which are taken are: [1806, 1807, 1808, 1809]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start transforming line: 1806
+✓
+Start transforming line: 1807
+✓
+Start transforming line: 1808
+✓
+Start transforming line: 1809
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start creating 20448 sketches.
+✓
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x Lines where no transformation is found:[]
+✓ Number of created sketches:20448
+Time needed: 2.58 minutes.
+#######################################################################################################
+Results with bug numbers:
+Project:keras
+Failing:[1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 26, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 45]
+Empty Sus Lines: [2, 12, 22, 25, 27, 43, 44]
+Passing[]
+
+Process finished with exit code 0
