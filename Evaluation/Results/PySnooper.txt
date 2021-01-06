@@ -1,98 +1,45 @@
-/Users/daniel/BA_SketchFix_Evaluation/Evaluation/venv/bin/python /Users/daniel/BA_SketchFix_Evaluation/Evaluation/SetupBug/replace_bug.py
-
-
 
 #######################################################################################################
-                             PROJECT: PySnooper
+                             PROJECT: pysnooper
 #######################################################################################################
 CLONING PROJECT:
-✓ SUCCESSFUL! This project is cloned: https://github.com/cool-RR/PySnooper
-Cloning into '/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/PySnooper'...
+✓ SUCCESSFUL! This project is already cloned: https://github.com/cool-RR/PySnooper
 .......................................................................................................
 BUGGY LINES:
+Suspicious lines to bug1:
 87,133,257,276
+Suspicious lines to bug2:
 28,87,133,250,310
+Suspicious lines to bug3:
 26
 .......................................................................................................
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 1
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/PySnooper/pysnooper/pycompat.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/PySnooper/tests/test_chinese.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: e21a31162f4c54be693d8ca8260e42393b39abd3
-HEAD is now at e21a311 Formatting
-TEST EXECUTION:
-...........................
-✓ SUCCESSFUL! TEST PASSES
-✓ PyFix is started...
+x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/pysnooper/tests/test_chinese.py to the project pysnooper with bug: 1does not exists. Next bug is taken
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-	                              PySketchFix®: Sketches are created.
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/PySnooper/pysnooper/pycompat.py
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The suspicious lines which are taken are: [87, 133, 257, 276]
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Start creating 0 sketches.
-✓
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-x Lines where no transformation is found:[]
-✓ Number of created sketches:0
-Time needed: 0.0 minutes.
-
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 2
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/PySnooper/pysnooper/tracer.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/PySnooper/tests/test_pysnooper.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: e21a31162f4c54be693d8ca8260e42393b39abd3
-
-----------------------------------------------------------------------
-Ran 0 tests in 0.000s
-
-OK
-HEAD is now at e21a311 Formatting
+bug_file = /Users/daniel/Bachelorarbeit/Projects/pysnooper/pysnooper/tracer.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/pysnooper/tests/test_pysnooper.py
 TEST EXECUTION:
-test_pysnooper (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_pysnooper (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_pysnooper
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/PySnooper/tests/test_pysnooper.py", line 10, in <module>
-    from pysnooper.utils import truncate
-ModuleNotFoundError: No module named 'pysnooper'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+x FAIL! Test fails or has errors.
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/PySnooper/pysnooper/tracer.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/pysnooper/pysnooper/tracer.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [28, 87, 133, 250, 310]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -112,53 +59,30 @@ Start creating 24 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[87, 133, 310]
 ✓ Number of created sketches:24
-Time needed: 0.03 minutes.
+Time needed: 0.02 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 3
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/PySnooper/pysnooper/pysnooper.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/PySnooper/tests/test_pysnooper.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 6e3d797be3fa0a746fb5b1b7c7fea78eb926c208
-HEAD is now at 6e3d797 Remove tests package, add docstsring
+bug_file = /Users/daniel/Bachelorarbeit/Projects/pysnooper/pysnooper/pysnooper.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/pysnooper/tests/test_pysnooper.py
 TEST EXECUTION:
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+x FAIL! Test fails or has errors.
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/PySnooper/pysnooper/pysnooper.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/pysnooper/pysnooper/pysnooper.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [26]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start transforming line: 26
-test_pysnooper (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_pysnooper (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_pysnooper
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/PySnooper/tests/test_pysnooper.py", line 8, in <module>
-    from python_toolbox import caching
-ModuleNotFoundError: No module named 'python_toolbox'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
 x Fail! Line: 26 could not be transformed: 'with open(output_path, 'a') as output_file'
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start creating 0 sketches.
@@ -169,9 +93,8 @@ x Lines where no transformation is found:[26]
 Time needed: 0.0 minutes.
 #######################################################################################################
 Results with bug numbers:
-Project:PySnooper
+Project:pysnooper
 Failing:[2, 3]
-Empty Sus Lines: []
-Passing[1]
-
-Process finished with exit code 0
+Passing:[]
+Empty Suspicious Lines:[]
+No bug information is found:[1]

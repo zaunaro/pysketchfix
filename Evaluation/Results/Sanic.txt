@@ -1,63 +1,41 @@
-/Users/daniel/BA_SketchFix_Evaluation/Evaluation/venv/bin/python /Users/daniel/BA_SketchFix_Evaluation/Evaluation/SetupBug/replace_bug.py
-
-
 
 #######################################################################################################
                              PROJECT: sanic
 #######################################################################################################
 CLONING PROJECT:
-✓ SUCCESSFUL! This project is cloned: https://github.com/huge-success/sanic
-Cloning into '/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/sanic'...
+✓ SUCCESSFUL! This project is already cloned: https://github.com/huge-success/sanic
 .......................................................................................................
 BUGGY LINES:
+Suspicious lines to bug1:
 656
+Suspicious lines to bug2:
 
+Suspicious lines to bug3:
 865
+Suspicious lines to bug4:
 522,523
+Suspicious lines to bug5:
 9
 .......................................................................................................
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 1
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/sanic/sanic/app.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/sanic/tests/test_blueprints.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: e7001b00747b659f7042b0534802b936ee8a53e0
-HEAD is now at e7001b0 release 20.3.0 (#1844)
+bug_file = /Users/daniel/Bachelorarbeit/Projects/sanic/sanic/app.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/sanic/tests/test_blueprints.py
 TEST EXECUTION:
-test_blueprints (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_blueprints (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_blueprints
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/sanic/tests/test_blueprints.py", line 5, in <module>
-    import pytest
-ModuleNotFoundError: No module named 'pytest'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.001s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+x FAIL! Test fails or has errors.
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/sanic/sanic/app.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/sanic/sanic/app.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [656]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -69,94 +47,45 @@ Start creating 4 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:4
-Time needed: 0.01 minutes.
+Time needed: 0.0 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 2
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/sanic/sanic/server.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/sanic/tests/test_app.py
-GIT RESET TO: ba9b432993019b0af0c4827a5ed42aaa091bd17d
-HEAD is now at ba9b432 No tracebacks on normal errors and prettier error pages (#1768)
-TEST EXECUTION:
-...........................
-x TEST FAILS
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 x FAIL! Suspicious lines are empty!
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 3
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-x FAIL! The bug test file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/sanic/tests/test_url_for.py to the project sanic with bug: 3does not exists. Next bug is taken
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: 91f6abaa81248189fbcbdf685e8bdcbb7846609f
+x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/sanic/tests/test_url_for.py to the project sanic with bug: 3does not exists. Next bug is taken
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 4
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/sanic/sanic/request.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/sanic/tests/test_requests.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: e506c89304948bba593e8603ecace1c495b06fd5
-test_app (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_app (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_app
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/sanic/tests/test_app.py", line 7, in <module>
-    import pytest
-ModuleNotFoundError: No module named 'pytest'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-HEAD is now at e506c89 deprecate None value support for app name (#1705)
+bug_file = /Users/daniel/Bachelorarbeit/Projects/sanic/sanic/request.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/sanic/tests/test_requests.py
 TEST EXECUTION:
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+x FAIL! Test fails or has errors.
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/sanic/sanic/request.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/sanic/sanic/request.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [522, 523]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start transforming line: 522
-test_requests (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_requests (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_requests
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/sanic/tests/test_requests.py", line 9, in <module>
-    import pytest
-ModuleNotFoundError: No module named 'pytest'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
 ✓
 Start transforming line: 523
 ✓
@@ -166,53 +95,30 @@ Start creating 23 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:23
-Time needed: 0.02 minutes.
+Time needed: 0.01 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 5
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/sanic/sanic/log.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/sanic/tests/test_logging.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: e3a27c2cc485d57aa1ff87d9f69098e4ab12727e
-HEAD is now at e3a27c2 Merge pull request #1391 from AndresSan6/loop_exception
+bug_file = /Users/daniel/Bachelorarbeit/Projects/sanic/sanic/log.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/sanic/tests/test_logging.py
 TEST EXECUTION:
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/sanic/sanic/log.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/sanic/sanic/log.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [9]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start transforming line: 9
-test_logging (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_logging (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_logging
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/sanic/tests/test_logging.py", line 7, in <module>
-    import pytest
-ModuleNotFoundError: No module named 'pytest'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
 x Fail! Line: 9 could not be transformed: '"root" {"level" "INFO", "handlers" ["console"]},'
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start creating 0 sketches.
@@ -220,12 +126,11 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[9]
 ✓ Number of created sketches:0
-Time needed: 0.0 minutes.
+Time needed: 0.01 minutes.
 #######################################################################################################
 Results with bug numbers:
 Project:sanic
-Failing:[1, 4, 5]
-Empty Sus Lines: [2]
-Passing[]
-
-Process finished with exit code 0
+Failing:[1, 4]
+Passing:[5]
+Empty Suspicious Lines:[2]
+No bug information is found:[3]

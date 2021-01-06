@@ -1,77 +1,66 @@
-/Users/daniel/BA_SketchFix_Evaluation/Evaluation/venv/bin/python /Users/daniel/BA_SketchFix_Evaluation/Evaluation/SetupBug/replace_bug.py
-
-
 
 #######################################################################################################
                              PROJECT: tornado
 #######################################################################################################
 CLONING PROJECT:
-✓ SUCCESSFUL! This project is cloned: https://github.com/tornadoweb/tornado
-Cloning into '/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado'...
+✓ SUCCESSFUL! This project is already cloned: https://github.com/tornadoweb/tornado
 .......................................................................................................
 BUGGY LINES:
+Suspicious lines to bug1:
 561,562
+Suspicious lines to bug2:
 393
+Suspicious lines to bug3:
 236,238
+Suspicious lines to bug4:
 2603,2606,2619,2624
+Suspicious lines to bug5:
 1221
+Suspicious lines to bug6:
 188
+Suspicious lines to bug7:
 659
+Suspicious lines to bug8:
 
+Suspicious lines to bug9:
 
+Suspicious lines to bug10:
 
+Suspicious lines to bug11:
 568
+Suspicious lines to bug12:
 988,1065,1066
+Suspicious lines to bug13:
 484
+Suspicious lines to bug14:
 252
+Suspicious lines to bug15:
 2379,2380,2381
+Suspicious lines to bug16:
 
 .......................................................................................................
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 1
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/websocket.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/websocket_test.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 6a5a0bfa370b6c0d3dbbf9589a560a98202d2baa
-HEAD is now at 6a5a0bfa Merge pull request #2606 from ploxiln/travis_update_xenial
+bug_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/websocket.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/test/websocket_test.py
 TEST EXECUTION:
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/websocket.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/websocket.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [561, 562]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-websocket_test (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: websocket_test (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: websocket_test
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/websocket_test.py", line 6, in <module>
-    from tornado.concurrent import Future
-ModuleNotFoundError: No module named 'tornado'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
 Start transforming line: 561
 x Fail! Line: 561 could not be transformed: 'assert self.stream is not None'
 Start transforming line: 562
@@ -82,53 +71,30 @@ Start creating 2 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[561]
 ✓ Number of created sketches:2
-Time needed: 0.02 minutes.
+Time needed: 0.01 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 2
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/http1connection.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/httpclient_test.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 2ca8821d006f6693f920a4b183a3a7c985a5c8ad
-HEAD is now at 2ca8821d Revert "Revert "_HTTPConnection: check location on _should_follow_redirect() and retain safe request when following redirects (#2409)""
+bug_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/http1connection.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/test/httpclient_test.py
 TEST EXECUTION:
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/http1connection.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/http1connection.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [393]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start transforming line: 393
-httpclient_test (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: httpclient_test (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: httpclient_test
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/httpclient_test.py", line 16, in <module>
-    from tornado.escape import utf8, native_str, to_unicode
-ModuleNotFoundError: No module named 'tornado'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
 x Fail! Line: 393 could not be transformed: 'and "Transfer-Encoding" not in headers'
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start creating 0 sketches.
@@ -136,53 +102,39 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[393]
 ✓ Number of created sketches:0
-Time needed: 0.01 minutes.
+Time needed: 0.0 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 3
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/httpclient.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/httpclient_test.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 940fd87fe9145d1154c8457221f86d56ea063c65
-HEAD is now at 940fd87f Merge pull request #2524 from kinow/define-xsrf-expires-day
+bug_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/httpclient.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/test/httpclient_test.py
 TEST EXECUTION:
-...........................
-x TEST FAILS
-✓ PyFix is started...
+STDOUT:
+Exception ignored in: <function HTTPClient.__del__ at 0x1013365f0>
+Traceback (most recent call last):
+  File "/Users/daniel/Bachelorarbeit/Projects/tornado/tornado/httpclient.py", line 109, in __del__
+  File "/Users/daniel/Bachelorarbeit/Projects/tornado/tornado/httpclient.py", line 114, in close
+  File "/Users/daniel/Bachelorarbeit/Projects/tornado/tornado/simple_httpclient.py", line 160, in close
+  File "/Users/daniel/Bachelorarbeit/Projects/tornado/tornado/httpclient.py", line 237, in close
+RuntimeError: inconsistent AsyncHTTPClient cache
 
+x FAIL! Test fails or has errors.
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/httpclient.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/httpclient.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [236, 238]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start transforming line: 236
-httpclient_test (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: httpclient_test (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: httpclient_test
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/httpclient_test.py", line 14, in <module>
-    from tornado.escape import utf8, native_str
-ModuleNotFoundError: No module named 'tornado'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
 ✓
 Start transforming line: 238
 x Fail! Line: 238 could not be transformed: 'del self._instance_cache[self.io_loop]'
@@ -192,49 +144,26 @@ Start creating 24 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[238]
 ✓ Number of created sketches:24
-Time needed: 0.02 minutes.
+Time needed: 0.01 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 4
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/web.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/web_test.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: a8420fc681c5423d072978f00eab4d0645057d16
-HEAD is now at a8420fc6 Merge pull request #2530 from bdarnell/requirements
+bug_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/web.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/test/web_test.py
 TEST EXECUTION:
-web_test (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: web_test (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: web_test
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/web_test.py", line 1, in <module>
-    from tornado.concurrent import Future
-ModuleNotFoundError: No module named 'tornado'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/web.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/web.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [2603, 2606, 2619, 2624]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -252,50 +181,27 @@ Start creating 139 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[2606, 2619]
 ✓ Number of created sketches:139
-Time needed: 0.05 minutes.
+Time needed: 0.13 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 5
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/ioloop.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/ioloop_test.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 2d4053daa56c609d642b214399e046671d4a593e
-HEAD is now at 2d4053da ioloop: Factor out the math of PeriodicCallback for easier testing
+bug_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/ioloop.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/test/ioloop_test.py
 TEST EXECUTION:
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+x FAIL! Test fails or has errors.
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/ioloop.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/ioloop.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-ioloop_test (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: ioloop_test (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: ioloop_test
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/ioloop_test.py", line 14, in <module>
-    from tornado.escape import native_str
-ModuleNotFoundError: No module named 'tornado'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
 The suspicious lines which are taken are: [1221]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start transforming line: 1221
@@ -306,53 +212,30 @@ Start creating 5 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:5
-Time needed: 0.01 minutes.
+Time needed: 0.02 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 6
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/ioloop.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/asyncio_test.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: fb74e4816ccfa7fc6a7abd8c8aab1f415cfc1b13
-HEAD is now at fb74e481 Merge pull request #2319 from bdarnell/gen-deprecation
+bug_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/ioloop.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/test/asyncio_test.py
 TEST EXECUTION:
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+x FAIL! Test fails or has errors.
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/ioloop.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/ioloop.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [188]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start transforming line: 188
-asyncio_test (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: asyncio_test (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: asyncio_test
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/asyncio_test.py", line 16, in <module>
-    from tornado import gen
-ModuleNotFoundError: No module named 'tornado'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
 x Fail! Line: 188 could not be transformed: '_ioloop_for_asyncio = weakref.WeakKeyDictionary()'
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start creating 0 sketches.
@@ -360,49 +243,26 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[188]
 ✓ Number of created sketches:0
-Time needed: 0.01 minutes.
+Time needed: 0.02 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 7
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/ioloop.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/ioloop_test.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: fa3409179588536f2f743d16e537f6f9827fa92f
-HEAD is now at fa340917 Don't keep any reference to memoryviews (#2173)
+bug_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/ioloop.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/test/ioloop_test.py
 TEST EXECUTION:
-ioloop_test (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: ioloop_test (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: ioloop_test
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/ioloop_test.py", line 15, in <module>
-    from tornado.escape import native_str
-ModuleNotFoundError: No module named 'tornado'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.001s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+x FAIL! Test fails or has errors.
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/ioloop.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/ioloop.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [659]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -416,153 +276,49 @@ x Lines where no transformation is found:[]
 ✓ Number of created sketches:3
 Time needed: 0.01 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 8
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/websocket.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/websocket_test.py
-GIT RESET TO: 34c43f4775971ab9b2b8ed43356f218add6387b2
-HEAD is now at 34c43f47 Drop support for python 3.3, 3.5.[01] (#2116)
-TEST EXECUTION:
-websocket_test (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: websocket_test (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: websocket_test
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/websocket_test.py", line 7, in <module>
-    from tornado.concurrent import Future
-ModuleNotFoundError: No module named 'tornado'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 x FAIL! Suspicious lines are empty!
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 9
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/httputil.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/httputil_test.py
-GIT RESET TO: c9d2a3fa573987629ad576e991c2f3b65f4daab4
-HEAD is now at c9d2a3fa Set version to 4.5
-TEST EXECUTION:
-httputil_test (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: httputil_test (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: httputil_test
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/httputil_test.py", line 6, in <module>
-    from tornado.httputil import url_concat, parse_multipart_form_data, HTTPHeaders, format_timestamp, HTTPServerRequest, parse_request_start_line, parse_cookie
-ModuleNotFoundError: No module named 'tornado'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 x FAIL! Suspicious lines are empty!
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 10
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/web.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/websocket_test.py
-GIT RESET TO: ecd8968c5135b810cd607b5902dda2cd32122b39
-HEAD is now at ecd8968c Merge pull request #2009 from methane/travis
-TEST EXECUTION:
-websocket_test (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: websocket_test (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: websocket_test
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/websocket_test.py", line 7, in <module>
-    from tornado.concurrent import Future
-ModuleNotFoundError: No module named 'tornado'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 x FAIL! Suspicious lines are empty!
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 11
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/http1connection.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/httpserver_test.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 79ef301eb05cac82c075198e502d94dad296f6aa
-HEAD is now at 79ef301e Set version number to 4.4
+bug_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/http1connection.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/test/httpserver_test.py
 TEST EXECUTION:
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+x FAIL! Test fails or has errors.
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/http1connection.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/http1connection.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [568]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start transforming line: 568
-httpserver_test (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: httpserver_test (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: httpserver_test
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/httpserver_test.py", line 5, in <module>
-    from tornado import netutil
-ModuleNotFoundError: No module named 'tornado'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
 ✓
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start creating 2 sketches.
@@ -572,47 +328,24 @@ x Lines where no transformation is found:[]
 ✓ Number of created sketches:2
 Time needed: 0.01 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 12
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/auth.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/auth_test.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 4ee9ba94de11aaa4f932560fa2b3d8ceb8c61d2a
-HEAD is now at 4ee9ba94 Update next-release notes.
+bug_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/auth.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/test/auth_test.py
 TEST EXECUTION:
-auth_test (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: auth_test (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: auth_test
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/auth_test.py", line 8, in <module>
-    from tornado.auth import OpenIdMixin, OAuthMixin, OAuth2Mixin, TwitterMixin, AuthError, GoogleOAuth2Mixin
-ModuleNotFoundError: No module named 'tornado'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+x FAIL! Test fails or has errors.
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/auth.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/auth.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [988, 1065, 1066]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -630,58 +363,36 @@ x Lines where no transformation is found:[1065, 1066]
 ✓ Number of created sketches:3
 Time needed: 0.02 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 13
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-x FAIL! The bug test file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/http1connection_test.py to the project tornado with bug: 13does not exists. Next bug is taken
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+GIT RESET TO: d7d9c467cda38f4c9352172ba7411edc29a85196
+x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/test/http1connection_test.py to the project tornado with bug: 13does not exists. Next bug is taken
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 14
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/ioloop.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/ioloop_test.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 81ee310adcd905fbdf7c98d9fb6ef0c5a46026c2
-HEAD is now at 81ee310a Merge pull request #1471 from gitchs/master
+bug_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/ioloop.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/test/ioloop_test.py
 TEST EXECUTION:
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+x FAIL! Test fails or has errors.
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/ioloop.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/ioloop.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [252]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start transforming line: 252
-ioloop_test (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: ioloop_test (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: ioloop_test
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/ioloop_test.py", line 13, in <module>
-    from tornado import gen
-ModuleNotFoundError: No module named 'tornado'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
 ✓
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start creating 14 sketches.
@@ -691,47 +402,24 @@ x Lines where no transformation is found:[]
 ✓ Number of created sketches:14
 Time needed: 0.01 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 15
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/setup.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/web_test.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: fdfaf3dffa49479c7461050eacca07bc5ee8d207
-HEAD is now at fdfaf3df Set version number to 4.2.0
+bug_file = /Users/daniel/Bachelorarbeit/Projects/tornado/setup.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/test/web_test.py
 TEST EXECUTION:
-web_test (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: web_test (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: web_test
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/web_test.py", line 2, in <module>
-    from tornado.concurrent import Future
-ModuleNotFoundError: No module named 'tornado'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+x FAIL! Test fails or has errors.
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/setup.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/tornado/setup.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [2379, 2380, 2381]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -743,44 +431,16 @@ x Lines where no transformation is found:[]
 ✓ Number of created sketches:0
 Time needed: 0.0 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 16
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/gen.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/gen_test.py
-GIT RESET TO: b450ff270df0395ee80f4ee5896a92bfe7f9b6ae
-HEAD is now at b450ff27 Clean up and document run_on_executor kwargs change.
-TEST EXECUTION:
-gen_test (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: gen_test (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: gen_test
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tornado/tornado/test/gen_test.py", line 12, in <module>
-    from tornado.concurrent import return_future, Future
-ModuleNotFoundError: No module named 'tornado'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 x FAIL! Suspicious lines are empty!
 #######################################################################################################
 Results with bug numbers:
 Project:tornado
-Failing:[1, 2, 3, 4, 5, 6, 7, 11, 12, 14, 15]
-Empty Sus Lines: [8, 9, 10, 16]
-Passing[]
-
-Process finished with exit code 0
+Failing:[3, 5, 6, 7, 11, 12, 14, 15]
+Passing:[1, 2, 4]
+Empty Suspicious Lines:[8, 9, 10, 16]
+No bug information is found:[13]

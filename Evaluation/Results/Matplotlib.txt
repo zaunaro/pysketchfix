@@ -1,6 +1,3 @@
-/Users/daniel/BA_SketchFix_Evaluation/Evaluation/venv/bin/python /Users/daniel/BA_SketchFix_Evaluation/Evaluation/SetupBug/replace_bug.py
-
-
 
 #######################################################################################################
                              PROJECT: matplotlib
@@ -9,80 +6,86 @@ CLONING PROJECT:
 ✓ SUCCESSFUL! This project is already cloned: https://github.com/matplotlib/matplotlib
 .......................................................................................................
 BUGGY LINES:
+Suspicious lines to bug1:
 1511,1512,1513,1514,1532
+Suspicious lines to bug2:
 4396,4397,4479,4491,4492
+Suspicious lines to bug3:
 235
+Suspicious lines to bug4:
 1119,1133,1199,1215,2604
+Suspicious lines to bug5:
 4495
+Suspicious lines to bug6:
 4286
+Suspicious lines to bug7:
 1939
+Suspicious lines to bug8:
 
+Suspicious lines to bug9:
 
+Suspicious lines to bug10:
 827
+Suspicious lines to bug11:
 894,895,896,898,901
+Suspicious lines to bug12:
 1126,1129,1132,1135,1143
+Suspicious lines to bug13:
 
+Suspicious lines to bug14:
 177
+Suspicious lines to bug15:
 72,32,1205,1206,1216
+Suspicious lines to bug16:
 
+Suspicious lines to bug17:
 
+Suspicious lines to bug18:
 
+Suspicious lines to bug19:
 
+Suspicious lines to bug20:
 257,258,259,260,1856
+Suspicious lines to bug21:
 3913,3937,3939,3943,3948
+Suspicious lines to bug22:
 
+Suspicious lines to bug23:
 1510,1511
+Suspicious lines to bug24:
 1895
+Suspicious lines to bug25:
 1476,1482
+Suspicious lines to bug26:
 1909
+Suspicious lines to bug27:
 727
+Suspicious lines to bug28:
 3252
+Suspicious lines to bug29:
 1007,1008,1009,1010,1011
+Suspicious lines to bug30:
 380,381,382,384,385
 .......................................................................................................
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 1
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/backend_bases.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_bbox_tight.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: c404d1f716e8aaefd4d7371ff49673e9c1f7f07c
-Updating files: 100% (1352/1352), done.
-HEAD is now at c404d1f71 Merge pull request #17587 from QuLogic/fix-docs
+bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/backend_bases.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_bbox_tight.py
 TEST EXECUTION:
-test_bbox_tight (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_bbox_tight (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_bbox_tight
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_bbox_tight.py", line 5, in <module>
-    from matplotlib.testing.decorators import image_comparison
-ModuleNotFoundError: No module named 'matplotlib'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/backend_bases.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/backend_bases.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1511, 1512, 1513, 1514, 1532]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -102,49 +105,26 @@ Start creating 4 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[1511, 1512, 1513, 1514]
 ✓ Number of created sketches:4
-Time needed: 0.05 minutes.
+Time needed: 0.03 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 2
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axes/_axes.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 2a3707d9c3472b1a010492322b6946388d4989ae
-HEAD is now at 2a3707d9c Markers with fillstyle 'none' should return False for is_filled()
+bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_axes.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
-test_axes (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_axes (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_axes
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py", line 13, in <module>
-    import dateutil.tz
-ModuleNotFoundError: No module named 'dateutil'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axes/_axes.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_axes.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [4396, 4397, 4479, 4491, 4492]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -164,49 +144,26 @@ Start creating 3 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[4396, 4397, 4479]
 ✓ Number of created sketches:3
-Time needed: 0.05 minutes.
+Time needed: 0.04 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 3
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/markers.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_marker.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 5e046f72ae82788788c7e9b9354b87b131891cd8
-HEAD is now at 5e046f72a Merge pull request #17572 from sadielbartholomew/setp-and-getp-example-clarity
+bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/markers.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_marker.py
 TEST EXECUTION:
-test_marker (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_marker (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_marker
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_marker.py", line 2, in <module>
-    import matplotlib.pyplot as plt
-ModuleNotFoundError: No module named 'matplotlib'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/markers.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/markers.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [235]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -218,49 +175,26 @@ Start creating 4 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:4
-Time needed: 0.01 minutes.
+Time needed: 0.0 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 4
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axes/_axes.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 793c6b05381231371267b44b107726f3878e14f2
-HEAD is now at 793c6b053 Merge pull request #17532 from MaozGelbart/title_docfix
+bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_axes.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
-test_axes (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_axes (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_axes
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py", line 13, in <module>
-    import dateutil.tz
-ModuleNotFoundError: No module named 'dateutil'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axes/_axes.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_axes.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1119, 1133, 1199, 1215, 2604]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -280,50 +214,27 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[1119, 1133, 1199, 1215, 2604]
 ✓ Number of created sketches:0
-Time needed: 0.02 minutes.
+Time needed: 0.01 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 5
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axes/_axes.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 49593b73854e10ace8f3c05343220328def6a328
-HEAD is now at 49593b738 Merge pull request #16908 from greglucas/quadmesh_set_array
+bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_axes.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axes/_axes.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_axes.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-test_axes (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_axes (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_axes
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py", line 13, in <module>
-    import dateutil.tz
-ModuleNotFoundError: No module named 'dateutil'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
 The suspicious lines which are taken are: [4495]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start transforming line: 4495
@@ -336,47 +247,24 @@ x Lines where no transformation is found:[4495]
 ✓ Number of created sketches:0
 Time needed: 0.01 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 6
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axes/_axes.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: fb9e72309aeefb51d1a56ecbdb1e7399d105ff06
-HEAD is now at fb9e72309 Merge pull request #17462 from anntzer/gtk_render_figure
+bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_axes.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-test_axes (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_axes (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_axes
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py", line 13, in <module>
-    import dateutil.tz
-ModuleNotFoundError: No module named 'dateutil'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axes/_axes.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_axes.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [4286]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -390,47 +278,24 @@ x Lines where no transformation is found:[]
 ✓ Number of created sketches:18
 Time needed: 0.01 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 7
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/colors.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_colors.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 969513e2a5227331a2eb9e4bc4ba8448a0f9831d
-HEAD is now at 969513e2a Merge pull request #17469 from anntzer/qv
+bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/colors.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_colors.py
 TEST EXECUTION:
-test_colors (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_colors (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_colors
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_colors.py", line 5, in <module>
-    import pytest
-ModuleNotFoundError: No module named 'pytest'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/colors.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/colors.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1939]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -444,116 +309,39 @@ x Lines where no transformation is found:[]
 ✓ Number of created sketches:4
 Time needed: 0.01 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 8
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axes/_base.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
-GIT RESET TO: 54bd6f19b23dc940a4d572583c449613b6b1ae3c
-HEAD is now at 54bd6f19b Merge pull request #17400 from anntzer/wxex
-TEST EXECUTION:
-...........................
-x TEST FAILS
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 x FAIL! Suspicious lines are empty!
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 9
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/projections/polar.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_polar.py
-GIT RESET TO: 8673167d4c44dc2ede02fedd718dadf7f88e102d
-test_axes (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_axes (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_axes
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py", line 13, in <module>
-    import dateutil.tz
-ModuleNotFoundError: No module named 'dateutil'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-HEAD is now at 8673167d4 Merge pull request #17415 from Sonic-Amiga/p.fedin/5962
-TEST EXECUTION:
-test_polar (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_polar (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_polar
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_polar.py", line 3, in <module>
-    import pytest
-ModuleNotFoundError: No module named 'pytest'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 x FAIL! Suspicious lines are empty!
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 10
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axis.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: b31d64ce3910e8d297d8300690e459587f77181f
-HEAD is now at b31d64ce3 Merge pull request #16900 from timhoffm/doc-common-texification
+bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axis.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axis.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axis.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-test_axes (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_axes (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_axes
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py", line 13, in <module>
-    import dateutil.tz
-ModuleNotFoundError: No module named 'dateutil'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
 The suspicious lines which are taken are: [827]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start transforming line: 827
@@ -566,47 +354,24 @@ x Lines where no transformation is found:[827]
 ✓ Number of created sketches:0
 Time needed: 0.01 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 11
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/text.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_text.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: f8459a513c3f67447ceb1a07c29760d504517ff2
-HEAD is now at f8459a513 Use cbook._setattr_cm more.
+bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/text.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_text.py
 TEST EXECUTION:
-test_text (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_text (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_text
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_text.py", line 7, in <module>
-    import pytest
-ModuleNotFoundError: No module named 'pytest'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/text.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/text.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [894, 895, 896, 898, 901]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -626,49 +391,26 @@ Start creating 728 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[895, 898]
 ✓ Number of created sketches:728
-Time needed: 0.11 minutes.
+Time needed: 0.06 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 12
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axes/_axes.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: e92685a26442bfced06067934f34c104487583a8
-HEAD is now at e92685a26 Merge pull request #15254 from anntzer/propagate-decorators
+bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_axes.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
-test_axes (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_axes (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_axes
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py", line 12, in <module>
-    import dateutil.tz
-ModuleNotFoundError: No module named 'dateutil'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axes/_axes.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_axes.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1126, 1129, 1132, 1135, 1143]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -688,84 +430,34 @@ Start creating 27 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[1132, 1135, 1143]
 ✓ Number of created sketches:27
-Time needed: 0.13 minutes.
+Time needed: 0.03 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 13
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/path.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_path.py
-GIT RESET TO: 2c845db9d961ddea6e072c3e6dbb0bec823ac25e
-HEAD is now at 2c845db9d Merge pull request #16779 from pibion/improve-doc-contrib
-TEST EXECUTION:
-...........................
-x TEST FAILS
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 x FAIL! Suspicious lines are empty!
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 14
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/text.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_text.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: dbc35a9d625e162445f864b9f463c9961888e901
-test_path (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_path (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_path
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_path.py", line 6, in <module>
-    import pytest
-ModuleNotFoundError: No module named 'pytest'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-HEAD is now at dbc35a9d6 Merge pull request #16683 from anntzer/gluespec
+bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/text.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_text.py
 TEST EXECUTION:
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/text.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/text.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-test_text (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_text (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_text
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_text.py", line 7, in <module>
-    import pytest
-ModuleNotFoundError: No module named 'pytest'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
 The suspicious lines which are taken are: [177]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start transforming line: 177
@@ -776,49 +468,26 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[177]
 ✓ Number of created sketches:0
-Time needed: 0.02 minutes.
+Time needed: 0.01 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 15
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/examples/userdemo/colormap_normalizations.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_colors.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 6a8e39f4eba28e99d7b1dd454b001b987dd0bbca
-HEAD is now at 6a8e39f4e Merge pull request #16520 from anntzer/np115
+bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/examples/userdemo/colormap_normalizations.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_colors.py
 TEST EXECUTION:
-test_colors (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_colors (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_colors
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_colors.py", line 5, in <module>
-    import pytest
-ModuleNotFoundError: No module named 'pytest'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/examples/userdemo/colormap_normalizations.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/examples/userdemo/colormap_normalizations.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [32, 72, 1205, 1206, 1216]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -834,184 +503,52 @@ x Lines where no transformation is found:[32, 72]
 ✓ Number of created sketches:0
 Time needed: 0.01 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 16
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/transforms.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_colorbar.py
-GIT RESET TO: 89ff308306bafac22647c050a42141f040210216
-HEAD is now at 89ff30830 Merge pull request #16360 from meeseeksmachine/auto-backport-of-pr-16347-on-v3.2.x
-TEST EXECUTION:
-test_colorbar (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_colorbar (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_colorbar
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_colorbar.py", line 2, in <module>
-    import pytest
-ModuleNotFoundError: No module named 'pytest'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 x FAIL! Suspicious lines are empty!
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 17
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/transforms.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_colorbar.py
-GIT RESET TO: 58c66982d98851c56b045137ced803fd62c6c5e8
-Updating files: 100% (507/507), done.
-HEAD is now at 58c66982d Merge pull request #16265 from anntzer/lowerspy
-TEST EXECUTION:
-...........................
-x TEST FAILS
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 x FAIL! Suspicious lines are empty!
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 18
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/projections/polar.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
-GIT RESET TO: 7d958c63f4fbcd8a28df666d738400b251f89af7
-test_colorbar (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_colorbar (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_colorbar
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_colorbar.py", line 2, in <module>
-    import pytest
-ModuleNotFoundError: No module named 'pytest'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.001s
-
-FAILED (errors=1)
-HEAD is now at 7d958c63f Merge pull request #16260 from meeseeksmachine/auto-backport-of-pr-16259-on-v3.2.x
-TEST EXECUTION:
-test_axes (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_axes (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_axes
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py", line 9, in <module>
-    import dateutil.tz as dutz
-ModuleNotFoundError: No module named 'dateutil'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 x FAIL! Suspicious lines are empty!
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 19
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/projections/polar.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
-GIT RESET TO: 47cfa35fc01af26498f493affcd8cb42b8fb2fc8
-HEAD is now at 47cfa35fc Clean up and clarify Normalize docs (#16271)
-TEST EXECUTION:
-test_axes (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_axes (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_axes
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py", line 8, in <module>
-    import dateutil.tz as dutz
-ModuleNotFoundError: No module named 'dateutil'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.001s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 x FAIL! Suspicious lines are empty!
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 20
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/_constrained_layout.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 805f451b7122d1ef595c7a01592bb2f500aed41f
-HEAD is now at 805f451b7 Merge pull request #16168 from meeseeksmachine/auto-backport-of-pr-16166-on-v3.2.x
+bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/_constrained_layout.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
-test_axes (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_axes (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_axes
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py", line 9, in <module>
-    import dateutil.tz as dutz
-ModuleNotFoundError: No module named 'dateutil'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/_constrained_layout.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/_constrained_layout.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [257, 258, 259, 260, 1856]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1029,49 +566,26 @@ Start creating 719 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:719
-Time needed: 0.1 minutes.
+Time needed: 0.06 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 21
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axes/_axes.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: e240493a899ac05cb992cdb88f5487386586090e
-HEAD is now at e240493a8 Merge pull request #15848 from anntzer/envvar
+bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_axes.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
-test_axes (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_axes (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_axes
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py", line 8, in <module>
-    import dateutil.tz as dutz
-ModuleNotFoundError: No module named 'dateutil'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axes/_axes.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_axes.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [3913, 3937, 3939, 3943, 3948]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1091,84 +605,34 @@ Start creating 9 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[3939, 3943, 3948]
 ✓ Number of created sketches:9
-Time needed: 0.09 minutes.
+Time needed: 0.03 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 22
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axes/_axes.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
-GIT RESET TO: a87cd8a4c43688137155accdc57ed64fb95e2d40
-HEAD is now at a87cd8a4c Merge pull request #15389 from meeseeksmachine/auto-backport-of-pr-15379-on-v3.2.x
-TEST EXECUTION:
-test_axes (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_axes (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_axes
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py", line 9, in <module>
-    import dateutil.tz as dutz
-ModuleNotFoundError: No module named 'dateutil'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.001s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 x FAIL! Suspicious lines are empty!
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 23
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axes/_base.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: bb6a4af984778dbac55c8391ae29fa2b5b201361
-HEAD is now at bb6a4af98 Merge pull request #14702 from anntzer/qtnavbarhighdpi
+bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_base.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axes/_base.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_base.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-test_axes (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_axes (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_axes
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py", line 9, in <module>
-    import dateutil.tz as dutz
-ModuleNotFoundError: No module named 'dateutil'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
 The suspicious lines which are taken are: [1510, 1511]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start transforming line: 1510
@@ -1181,49 +645,26 @@ Start creating 41 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:41
-Time needed: 0.02 minutes.
+Time needed: 0.03 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 24
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axis.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 9a5473dbac05f3d6773b42c8e16d58a7dc3159b8
-HEAD is now at 9a5473dba Merge pull request #14777 from meeseeksmachine/auto-backport-of-pr-14775-on-v3.1.x
+bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axis.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
-test_axes (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_axes (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_axes
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py", line 9, in <module>
-    import dateutil.tz as dutz
-ModuleNotFoundError: No module named 'dateutil'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axis.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axis.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1895]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1235,49 +676,26 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[1895]
 ✓ Number of created sketches:0
-Time needed: 0.01 minutes.
+Time needed: 0.0 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 25
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/collections.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_collections.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 9a5473dbac05f3d6773b42c8e16d58a7dc3159b8
-HEAD is now at 9a5473dba Merge pull request #14777 from meeseeksmachine/auto-backport-of-pr-14775-on-v3.1.x
+bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/collections.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_collections.py
 TEST EXECUTION:
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-test_collections (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_collections (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_collections
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_collections.py", line 9, in <module>
-    import pytest
-ModuleNotFoundError: No module named 'pytest'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/collections.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/collections.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1476, 1482]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1291,50 +709,27 @@ Start creating 29 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[1482]
 ✓ Number of created sketches:29
-Time needed: 0.06 minutes.
+Time needed: 0.02 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 26
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axis.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 04d9d28b820af0b4df230a3c67314ed5b0af8fdd
-HEAD is now at 04d9d28b8 Merge pull request #14672 from bingyao/artist_tutorial_fixes
+bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axis.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axis.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axis.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-test_axes (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_axes (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_axes
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py", line 9, in <module>
-    import dateutil.tz as dutz
-ModuleNotFoundError: No module named 'dateutil'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
 The suspicious lines which are taken are: [1909]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start transforming line: 1909
@@ -1345,49 +740,26 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[1909]
 ✓ Number of created sketches:0
-Time needed: 0.02 minutes.
+Time needed: 0.0 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 27
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/colorbar.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_colorbar.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 11269123d516cda369764a081ddfb8c1a10ddc53
-HEAD is now at 11269123d Merge pull request #14604 from anntzer/histdoc
+bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/colorbar.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_colorbar.py
 TEST EXECUTION:
-test_colorbar (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_colorbar (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_colorbar
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_colorbar.py", line 2, in <module>
-    import pytest
-ModuleNotFoundError: No module named 'pytest'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/colorbar.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/colorbar.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [727]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1399,49 +771,26 @@ Start creating 3 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:3
-Time needed: 0.02 minutes.
+Time needed: 0.01 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 28
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axes/_base.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 896fb8140a600341ebb5eaa4191584f23df2d2a0
-HEAD is now at 896fb8140 Document and test _get_packed_offsets() (#14516)
+bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_base.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
-test_axes (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_axes (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_axes
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py", line 9, in <module>
-    import dateutil.tz as dutz
-ModuleNotFoundError: No module named 'dateutil'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axes/_base.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_base.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [3252]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1455,47 +804,24 @@ x Lines where no transformation is found:[]
 ✓ Number of created sketches:2
 Time needed: 0.01 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 29
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axis.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: cdf9e30e4f3fb7747b178ee9c3849dfdebee7bd0
-HEAD is now at cdf9e30e4 Merge pull request #14610 from meeseeksmachine/auto-backport-of-pr-14579-on-v3.1.x
+bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axis.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
-test_axes (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_axes (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_axes
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_axes.py", line 9, in <module>
-    import dateutil.tz as dutz
-ModuleNotFoundError: No module named 'dateutil'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.001s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/axis.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axis.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1007, 1008, 1009, 1010, 1011]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1515,50 +841,27 @@ Start creating 26 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[1007, 1010]
 ✓ Number of created sketches:26
-Time needed: 0.1 minutes.
+Time needed: 0.06 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 30
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/colors.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_colors.py
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 3b26ee6f6b31bc0cca4be0407dbb40f44756030d
-HEAD is now at 3b26ee6f6 Merge pull request #14238 from meeseeksmachine/auto-backport-of-pr-14164-on-v3.1.x
+bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/colors.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_colors.py
 TEST EXECUTION:
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/colors.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/colors.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-test_colors (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: test_colors (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: test_colors
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/matplotlib/lib/matplotlib/tests/test_colors.py", line 5, in <module>
-    import pytest
-ModuleNotFoundError: No module named 'pytest'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
 The suspicious lines which are taken are: [380, 381, 382, 384, 385]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start transforming line: 380
@@ -1577,12 +880,11 @@ Start creating 89 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[385]
 ✓ Number of created sketches:89
-Time needed: 0.07 minutes.
+Time needed: 0.05 minutes.
 #######################################################################################################
 Results with bug numbers:
 Project:matplotlib
-Failing:[1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 14, 15, 20, 21, 23, 24, 25, 26, 27, 28, 29, 30]
-Empty Sus Lines: [8, 9, 13, 16, 17, 18, 19, 22]
-Passing[]
-
-Process finished with exit code 0
+Failing:[]
+Passing:[1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 14, 15, 20, 21, 23, 24, 25, 26, 27, 28, 29, 30]
+Empty Suspicious Lines:[8, 9, 13, 16, 17, 18, 19, 22]
+No bug information is found:[]

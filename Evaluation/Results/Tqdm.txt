@@ -1,6 +1,3 @@
-/Users/daniel/BA_SketchFix_Evaluation/Evaluation/venv/bin/python /Users/daniel/BA_SketchFix_Evaluation/Evaluation/SetupBug/replace_bug.py
-
-
 
 #######################################################################################################
                              PROJECT: tqdm
@@ -9,62 +6,49 @@ CLONING PROJECT:
 ✓ SUCCESSFUL! This project is already cloned: https://github.com/tqdm/tqdm
 .......................................................................................................
 BUGGY LINES:
+Suspicious lines to bug1:
 41
+Suspicious lines to bug2:
 488,489,505,506,365
+Suspicious lines to bug3:
 
+Suspicious lines to bug4:
 323
+Suspicious lines to bug5:
 769,770,771,772,773
+Suspicious lines to bug6:
 856
+Suspicious lines to bug7:
 
+Suspicious lines to bug8:
 225
-41,42,43,274,301
+Suspicious lines to bug9:
+The file is empty or does not exist: /Users/daniel/Bachelorarbeit/bugsinpy/projects/tqdm/bugs/9/bug_patch.txt
+Not Found
 .......................................................................................................
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 1
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 8cc777fe8401a05d07f2c97e65d15e4460feab88
-HEAD is now at 8cc777f complete itertools tests
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/contrib/__init__.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/tests/tests_contrib.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/contrib/__init__.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/tests/tests_contrib.py
 TEST EXECUTION:
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/contrib/__init__.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/contrib/__init__.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [41]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start transforming line: 41
-tests_contrib (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: tests_contrib (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: tests_contrib
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/tests/tests_contrib.py", line 5, in <module>
-    from tqdm.contrib import tenumerate, tzip, tmap
-ModuleNotFoundError: No module named 'tqdm'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
 ✓
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start creating 3 sketches.
@@ -74,47 +58,24 @@ x Lines where no transformation is found:[]
 ✓ Number of created sketches:3
 Time needed: 0.02 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 2
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: bef86db56654d271838b145ad77f7040a73a7b4d
-HEAD is now at bef86db tidy wip
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/std.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/tests/tests_tqdm.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/std.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/tests/tests_tqdm.py
 TEST EXECUTION:
-tests_tqdm (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: tests_tqdm (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: tests_tqdm
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/tests/tests_tqdm.py", line 9, in <module>
-    from nose import with_setup
-ModuleNotFoundError: No module named 'nose'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/std.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/std.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [365, 488, 489, 505, 506]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -134,84 +95,34 @@ Start creating 191 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[365]
 ✓ Number of created sketches:191
-Time needed: 0.04 minutes.
+Time needed: 0.05 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 3
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-GIT RESET TO: c2599e3cd6087429f48bae34347ec5d2473c8392
-HEAD is now at c2599e3 move unnecessary root clutter
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/_tqdm.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/tests/tests_tqdm.py
-TEST EXECUTION:
-tests_tqdm (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: tests_tqdm (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: tests_tqdm
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/tests/tests_tqdm.py", line 8, in <module>
-    from nose import with_setup
-ModuleNotFoundError: No module named 'nose'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 x FAIL! Suspicious lines are empty!
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 4
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 03b347646492131d889871939b40457d29147216
-HEAD is now at 03b3476 minor flake8 linting
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/_tqdm.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/tests/tests_tqdm.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/_tqdm.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/tests/tests_tqdm.py
 TEST EXECUTION:
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/_tqdm.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/_tqdm.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-tests_tqdm (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: tests_tqdm (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: tests_tqdm
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/tests/tests_tqdm.py", line 10, in <module>
-    from nose import with_setup
-ModuleNotFoundError: No module named 'nose'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
 The suspicious lines which are taken are: [323]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start transforming line: 323
@@ -224,50 +135,27 @@ x Lines where no transformation is found:[]
 ✓ Number of created sketches:4
 Time needed: 0.01 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 5
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 19b08ab34fdbfa0275bc5cb2430436c724c7e759
-HEAD is now at 19b08ab autonotebook tests
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/_tqdm.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/tests/tests_tqdm.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/_tqdm.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/tests/tests_tqdm.py
 TEST EXECUTION:
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/_tqdm.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/_tqdm.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [769, 770, 771, 772, 773]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-tests_tqdm (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: tests_tqdm (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: tests_tqdm
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/tests/tests_tqdm.py", line 10, in <module>
-    from nose import with_setup
-ModuleNotFoundError: No module named 'nose'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
 Start transforming line: 769
 ✓
 Start transforming line: 770
@@ -284,50 +172,27 @@ Start creating 107 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[770, 772]
 ✓ Number of created sketches:107
-Time needed: 0.02 minutes.
+Time needed: 0.04 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 6
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: a4b9c86db548b2d0dbb5af7a6bbdc26ab47e1eec
-HEAD is now at a4b9c86 postfix force non-dict documentation
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/_tqdm.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/tests/tests_synchronisation.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/_tqdm.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/tests/tests_synchronisation.py
 TEST EXECUTION:
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/_tqdm.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/_tqdm.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-tests_synchronisation (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: tests_synchronisation (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: tests_synchronisation
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/tests/tests_synchronisation.py", line 2, in <module>
-    from tqdm import tqdm
-ModuleNotFoundError: No module named 'tqdm'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
 The suspicious lines which are taken are: [856]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start transforming line: 856
@@ -338,87 +203,37 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[856]
 ✓ Number of created sketches:0
-Time needed: 0.0 minutes.
+Time needed: 0.01 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 7
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-GIT RESET TO: caefe02fd6f3165e5634460ab20caf4c60400120
-HEAD is now at caefe02 Merge branch 'devel'
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/_main.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/tests/tests_main.py
-TEST EXECUTION:
-tests_main (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: tests_main (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: tests_main
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/tests/tests_main.py", line 3, in <module>
-    from tqdm import main, TqdmKeyError, TqdmTypeError
-ModuleNotFoundError: No module named 'tqdm'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-...........................
-x TEST FAILS
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 x FAIL! Suspicious lines are empty!
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 8
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 08b8ad1ff3bd003ef8309faaa0cc108ffa40317d
-HEAD is now at 08b8ad1 Fix bar_format breaking console display
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/_tqdm.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/tests/tests_tqdm.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/_tqdm.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/tests/tests_tqdm.py
 TEST EXECUTION:
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
+✓ SUCCESSFUL! TEST PASSES
+✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	                              PySketchFix®: Sketches are created.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/_tqdm.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/_tqdm.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [225]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start transforming line: 225
-tests_tqdm (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: tests_tqdm (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: tests_tqdm
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/tests/tests_tqdm.py", line 10, in <module>
-    from nose import with_setup
-ModuleNotFoundError: No module named 'nose'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
 ✓
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start creating 1 sketches.
@@ -426,60 +241,18 @@ Start creating 1 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:1
-Time needed: 0.01 minutes.
+Time needed: 0.04 minutes.
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
                                           BUG: 9
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-GIT RESET TO: 9da1d5d116aec7a23d8f6dc22d5e23ecb1c40a7c
-HEAD is now at 9da1d5d gui coverage suppression
-bug_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/_tqdm.py
-bug_test_file = /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/tests/tests_tqdm.py
-TEST EXECUTION:
-...........................
-x TEST FAILS
-✓ PyFix is started...
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-	                              PySketchFix®: Sketches are created.
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-PySketchFix will run with:
-bug file: /Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/_tqdm.py
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The suspicious lines which are taken are: [41, 42, 43, 274, 301]
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Start transforming line: 41
-tests_tqdm (unittest.loader._FailedTest) ... ERROR
-
-======================================================================
-ERROR: tests_tqdm (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: tests_tqdm
-Traceback (most recent call last):
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/daniel/BA_SketchFix_Evaluation/Evaluation/Projects/tqdm/tqdm/tests/tests_tqdm.py", line 10, in <module>
-    from tqdm import format_interval
-ModuleNotFoundError: No module named 'tqdm'
-
-
-----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-FAILED (errors=1)
-✓
-Start transforming line: 42
-✓
-Start transforming line: 43
-✓
-Start transforming line: 274
-✓
-Start transforming line: 301
-✓
-190439
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+x FAIL! Suspicious lines are empty!
+#######################################################################################################
+Results with bug numbers:
+Project:tqdm
+Failing:[]
+Passing:[1, 2, 4, 5, 6, 8]
+Empty Suspicious Lines:[3, 7, 9]
+No bug information is found:[]
