@@ -42,7 +42,7 @@ def generate_sketches(bug_file, buggy_lines):
     # directory is checked.
     SKETCH_DIRECTORY = str(ConfigReader.get_sketch_directory())
     for filename in os.listdir(SKETCH_DIRECTORY):
-        if not filename.__contains__("__pycache__") and not filename.__contains__("__init__"):
+        if not filename.__contains__("__pycache__") and not filename == "__init__.py":
             os.remove(os.path.join(SKETCH_DIRECTORY, filename))
 
     # Now the lines of the code are parsed with the File Parser and the length stored.
