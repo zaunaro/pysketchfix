@@ -1,6 +1,6 @@
 
 #######################################################################################################
-                             PROJECT: tornado
+                             PROJECT: Tornado
 #######################################################################################################
 CLONING PROJECT:
 ✓ SUCCESSFUL! This project is already cloned: https://github.com/tornadoweb/tornado
@@ -46,8 +46,8 @@ Suspicious lines to bug16:
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 6a5a0bfa370b6c0d3dbbf9589a560a98202d2baa
-bug_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/websocket.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/test/websocket_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/websocket.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/test/websocket_test.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -57,7 +57,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/websocket.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/websocket.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [561, 562]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -71,7 +71,7 @@ Start creating 2 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[561]
 ✓ Number of created sketches:2
-Time needed: 0.01 minutes.
+Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -79,8 +79,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 2ca8821d006f6693f920a4b183a3a7c985a5c8ad
-bug_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/http1connection.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/test/httpclient_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/http1connection.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/test/httpclient_test.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -90,7 +90,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/http1connection.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/http1connection.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [393]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -110,19 +110,10 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 940fd87fe9145d1154c8457221f86d56ea063c65
-bug_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/httpclient.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/test/httpclient_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/httpclient.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/test/httpclient_test.py
 TEST EXECUTION:
-STDOUT:
-Exception ignored in: <function HTTPClient.__del__ at 0x1013365f0>
-Traceback (most recent call last):
-  File "/Users/daniel/Bachelorarbeit/Projects/tornado/tornado/httpclient.py", line 109, in __del__
-  File "/Users/daniel/Bachelorarbeit/Projects/tornado/tornado/httpclient.py", line 114, in close
-  File "/Users/daniel/Bachelorarbeit/Projects/tornado/tornado/simple_httpclient.py", line 160, in close
-  File "/Users/daniel/Bachelorarbeit/Projects/tornado/tornado/httpclient.py", line 237, in close
-RuntimeError: inconsistent AsyncHTTPClient cache
-
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -130,7 +121,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/httpclient.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/httpclient.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [236, 238]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -144,7 +135,7 @@ Start creating 24 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[238]
 ✓ Number of created sketches:24
-Time needed: 0.01 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -152,8 +143,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: a8420fc681c5423d072978f00eab4d0645057d16
-bug_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/web.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/test/web_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/web.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/test/web_test.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -163,7 +154,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/web.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/web.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [2603, 2606, 2619, 2624]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -181,7 +172,7 @@ Start creating 139 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[2606, 2619]
 ✓ Number of created sketches:139
-Time needed: 0.13 minutes.
+Time needed: 0.04 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -189,10 +180,10 @@ Time needed: 0.13 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 2d4053daa56c609d642b214399e046671d4a593e
-bug_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/ioloop.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/test/ioloop_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/ioloop.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/test/ioloop_test.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -200,7 +191,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/ioloop.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/ioloop.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1221]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -212,7 +203,7 @@ Start creating 5 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:5
-Time needed: 0.02 minutes.
+Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -220,10 +211,10 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: fb74e4816ccfa7fc6a7abd8c8aab1f415cfc1b13
-bug_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/ioloop.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/test/asyncio_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/ioloop.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/test/asyncio_test.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -231,7 +222,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/ioloop.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/ioloop.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [188]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -243,7 +234,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[188]
 ✓ Number of created sketches:0
-Time needed: 0.02 minutes.
+Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -251,8 +242,8 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: fa3409179588536f2f743d16e537f6f9827fa92f
-bug_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/ioloop.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/test/ioloop_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/ioloop.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/test/ioloop_test.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -262,7 +253,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/ioloop.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/ioloop.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [659]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -303,8 +294,8 @@ x FAIL! Suspicious lines are empty!
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 79ef301eb05cac82c075198e502d94dad296f6aa
-bug_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/http1connection.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/test/httpserver_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/http1connection.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/test/httpserver_test.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -314,7 +305,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/http1connection.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/http1connection.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [568]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -326,7 +317,7 @@ Start creating 2 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:2
-Time needed: 0.01 minutes.
+Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -334,10 +325,10 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 4ee9ba94de11aaa4f932560fa2b3d8ceb8c61d2a
-bug_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/auth.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/test/auth_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/auth.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/test/auth_test.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -345,7 +336,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/auth.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/auth.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [988, 1065, 1066]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -369,7 +360,7 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: d7d9c467cda38f4c9352172ba7411edc29a85196
-x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/test/http1connection_test.py to the project tornado with bug: 13does not exists. Next bug is taken
+x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/test/http1connection_test.py to the project Tornado with bug: 13does not exists. Next bug is taken
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -377,10 +368,10 @@ x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/tes
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 81ee310adcd905fbdf7c98d9fb6ef0c5a46026c2
-bug_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/ioloop.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/test/ioloop_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/ioloop.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/test/ioloop_test.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -388,7 +379,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/ioloop.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/ioloop.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [252]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -408,8 +399,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: fdfaf3dffa49479c7461050eacca07bc5ee8d207
-bug_file = /Users/daniel/Bachelorarbeit/Projects/tornado/setup.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tornado/tornado/test/web_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Tornado/setup.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Tornado/tornado/test/web_test.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -419,7 +410,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/tornado/setup.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Tornado/setup.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [2379, 2380, 2381]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -439,8 +430,8 @@ Time needed: 0.0 minutes.
 x FAIL! Suspicious lines are empty!
 #######################################################################################################
 Results with bug numbers:
-Project:tornado
-Failing:[3, 5, 6, 7, 11, 12, 14, 15]
-Passing:[1, 2, 4]
+Project:Tornado
+Failing:[7, 11, 15]
+Passing:[1, 2, 3, 4, 5, 6, 12, 14]
 Empty Suspicious Lines:[8, 9, 10, 16]
 No bug information is found:[13]

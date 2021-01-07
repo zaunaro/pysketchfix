@@ -1,6 +1,6 @@
 
 #######################################################################################################
-                             PROJECT: youtube-dl
+                             PROJECT: Youtube-dl
 #######################################################################################################
 CLONING PROJECT:
 ✓ SUCCESSFUL! This project is already cloned: https://github.com/ytdl-org/youtube-dl
@@ -100,8 +100,8 @@ Suspicious lines to bug43:
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 99036a1298089068dcf80c0985bfcc3f8c24f281
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -111,7 +111,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [2577, 2578]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -133,13 +133,9 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 84f085d4bdb66ee025fb337bcd571eab7469da97
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/extractor/common.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_InfoExtractor.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/extractor/common.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_InfoExtractor.py
 TEST EXECUTION:
-[Test] Downloading JSON metadata
-[Test] Downloading JSON metadata
-[Test] Downloading JSON metadata
-[Test] Downloading JSON metadata
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -148,7 +144,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/extractor/common.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/extractor/common.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [2010, 2011, 2012, 2013, 2014]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -176,8 +172,8 @@ Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: f5469da9e6e259c1690c7ef54f1da1c19f65036f
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -187,7 +183,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [599]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -199,7 +195,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[599]
 ✓ Number of created sketches:0
-Time needed: 0.01 minutes.
+Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -207,9 +203,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: bc40b3a5ba44006c23daf7fe0ed872af5e33bdc5
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/jsinterp.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_jsinterp.pyDeleting original file post-processor-testfile.mp4 (pass -k to keep)
-
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/jsinterp.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_jsinterp.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -219,7 +214,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/jsinterp.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/jsinterp.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [201, 206]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -241,8 +236,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: b02b960c6bba834d9e7199ac53430c7933079dc8
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -252,7 +247,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1104, 1112, 1118]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -276,8 +271,8 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 4f29fa99069760dc47ef9ca5dbf607a567d2982f
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -287,7 +282,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1979, 2023, 2026]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -311,8 +306,8 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 63a64948342ebfe46db8c258765e698a04a61904
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -322,7 +317,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1704, 1705]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -344,11 +339,10 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: cf2ac6df6896dac4d23918867bb86fac1e1088d9
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/YoutubeDL.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_YoutubeDL.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/YoutubeDL.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_YoutubeDL.py
 TEST EXECUTION:
-Deleting original file post-processor-testfile.mp4 (pass -k to keep)
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -356,7 +350,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/YoutubeDL.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/YoutubeDL.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [961, 962]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -370,7 +364,7 @@ Start creating 54 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:54
-Time needed: 0.01 minutes.
+Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -378,11 +372,10 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 0130afb76e5cb6f470f39f127c8d09eea3e82d0d
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/YoutubeDL.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_YoutubeDL.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/YoutubeDL.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_YoutubeDL.py
 TEST EXECUTION:
-Deleting original file post-processor-testfile.mp4 (pass -k to keep)
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -390,7 +383,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/YoutubeDL.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/YoutubeDL.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [934, 944, 946, 951, 954]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -410,7 +403,7 @@ Start creating 17874 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:17874
-Time needed: 2.74 minutes.
+Time needed: 3.75 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -418,8 +411,8 @@ Time needed: 2.74 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 85d586617750d38d742a24f141b099f6b898d269
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -429,7 +422,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1563, 1564]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -443,7 +436,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[1563, 1564]
 ✓ Number of created sketches:0
-Time needed: 0.09 minutes.
+Time needed: 0.08 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -451,8 +444,8 @@ Time needed: 0.09 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: b568561eba6f4aceb87419e21aba11567c5de7da
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -462,7 +455,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [3522, 3523]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -484,10 +477,10 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 435e382423f860aca82a58d7c3db58cbfa242b40
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/YoutubeDL.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_YoutubeDL.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/YoutubeDL.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_YoutubeDL.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -495,7 +488,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/YoutubeDL.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/YoutubeDL.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1081]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -515,8 +508,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 6945b9e78f38284eb4e440b7badea2fc60b66c2f
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -526,7 +519,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1871]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -538,7 +531,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:0
-Time needed: 0.01 minutes.
+Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -546,8 +539,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 562de77f41d0c08df9dbb08cfa86ba6c7d239c5a
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/extractor/youtube.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_youtube_chapters.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/extractor/youtube.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_youtube_chapters.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -557,7 +550,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/extractor/youtube.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/extractor/youtube.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1658, 2327]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -579,8 +572,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: e7f3529f68ee7c8ca78366d37f851cb31fa00f31
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -590,7 +583,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [2270]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -610,8 +603,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 68d43a61b552007a718894967b869c0f1d8ff00f
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/postprocessor/ffmpeg.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/postprocessor/ffmpeg.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -621,7 +614,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/postprocessor/ffmpeg.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/postprocessor/ffmpeg.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [588, 2576, 2581, 2582, 2583]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -646,14 +639,12 @@ x FAIL! Suspicious lines are empty!
 
                                           BUG: 18
 
-+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+Deleting original file post-processor-testfile.mp4 (pass -k to keep)
-
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: dc6520aa3d1fe7afc52613e392f15dde90af4844
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/YoutubeDL.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_YoutubeDL.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/YoutubeDL.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_YoutubeDL.py
 TEST EXECUTION:
-Deleting original file post-processor-testfile.mp4 (pass -k to keep)
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -661,7 +652,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/YoutubeDL.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/YoutubeDL.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [863]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -673,7 +664,7 @@ Start creating 9 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:9
-Time needed: 0.01 minutes.
+Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -681,11 +672,10 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 9a0942ad55bba714d6eaeb9ee4f66a138ec85e17
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/YoutubeDL.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_YoutubeDL.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/YoutubeDL.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_YoutubeDL.py
 TEST EXECUTION:
-Deleting original file post-processor-testfile.mp4 (pass -k to keep)
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -693,7 +683,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/YoutubeDL.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/YoutubeDL.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [677]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -713,8 +703,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: b6c9fe416243373bcb59eb8aa5ef0baca8f3c97c
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -724,7 +714,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [368, 370]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -746,8 +736,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 96182695e4e37795a30ab143129c91dab18a9865
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -757,7 +747,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1755]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -777,11 +767,10 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 1bd05345ea4b91598ec04b8e0d33fd14f9e2eddc
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_YoutubeDL.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_YoutubeDL.py
 TEST EXECUTION:
-Deleting original file post-processor-testfile.mp4 (pass -k to keep)
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -789,7 +778,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [2394, 2404]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -811,8 +800,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: a22b2fd19bd8c08d50f884d1903486d4f00f76ec
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -822,7 +811,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [2110, 2137]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -844,10 +833,10 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 2c6da7df4a4d69ec933688e3c53795fd3436a1c6
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_YoutubeDL.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_YoutubeDL.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -855,7 +844,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [2348, 2352, 2364]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -879,8 +868,8 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 9e5751b9fe72f7425e4cb3f22a56b6a95b59e41d
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -890,7 +879,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [2041, 2042, 2048]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -906,7 +895,7 @@ Start creating 6 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[2041, 2042]
 ✓ Number of created sketches:6
-Time needed: 0.04 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -914,8 +903,8 @@ Time needed: 0.04 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 4c93ee8d14dc081d413304d2d2eb694cb62cc71a
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -925,7 +914,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1973]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -945,8 +934,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: d631d5f9f27f93767226192e4288990413fa9dbd
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -956,7 +945,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1985, 1987]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -970,7 +959,7 @@ Start creating 7 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:7
-Time needed: 0.04 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -978,8 +967,8 @@ Time needed: 0.04 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: bd1512d19649c280197729814766d590ea6c023b
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -989,7 +978,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [399]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1009,8 +998,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: c514b0ec655b23e7804eb18df04daa863d973f32
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -1020,7 +1009,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [914]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1032,7 +1021,7 @@ Start creating 4 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:4
-Time needed: 0.01 minutes.
+Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -1047,8 +1036,8 @@ x FAIL! Suspicious lines are empty!
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: ab07963b5cc79812c6fb7e4f9e363533d8123830
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/extractor/minhateca.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/extractor/minhateca.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -1058,7 +1047,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/extractor/minhateca.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/extractor/minhateca.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [55, 56, 1214, 1220, 1225]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1080,8 +1069,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: bf951c5e29548cfed80480389762edd29fcc8825
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/extractor/npo.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/extractor/npo.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -1091,7 +1080,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/extractor/npo.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/extractor/npo.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [66, 1334]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1111,10 +1100,10 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 50c8266ef0b2b6d011257a909f47fd623dda8eb2
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/extractor/drtv.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/extractor/drtv.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
-✓ SUCCESSFUL! TEST PASSES
+x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1122,7 +1111,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/extractor/drtv.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/extractor/drtv.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [28, 29, 38, 928, 941]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1138,7 +1127,7 @@ Start creating 4 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[29, 38]
 ✓ Number of created sketches:4
-Time needed: 0.04 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -1146,8 +1135,8 @@ Time needed: 0.04 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 07e764439a1cdd3a3b95fbf21acc6a517c6a889e
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -1157,7 +1146,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1601]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1177,8 +1166,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 89294b5f50462ede8ba83463ff262eb2c5219e1b
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/extractor/arte.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/extractor/arte.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -1188,7 +1177,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/extractor/arte.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/extractor/arte.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [94]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1200,7 +1189,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[94]
 ✓ Number of created sketches:0
-Time needed: 0.01 minutes.
+Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -1208,10 +1197,10 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 173a7026d59bacfbfe7a8eea92e10ef6e89d1798
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/extractor/facebook.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_all_urls.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/extractor/facebook.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_all_urls.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1219,7 +1208,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/extractor/facebook.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/extractor/facebook.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [23]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1231,7 +1220,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[23]
 ✓ Number of created sketches:0
-Time needed: 0.01 minutes.
+Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -1239,8 +1228,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 98b7cf1acefe398f792ca6ff4c5f84f1b7785fcb
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -1250,7 +1239,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1268]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1270,8 +1259,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 94eae04c94a43847e8ce7c9bf3d88dd029ef62f6
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/extractor/facebook.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/extractor/facebook.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -1281,7 +1270,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/extractor/facebook.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/extractor/facebook.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [54, 55, 73, 76, 83]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1301,7 +1290,7 @@ Start creating 4 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[54, 55, 76, 83]
 ✓ Number of created sketches:4
-Time needed: 0.03 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -1309,8 +1298,8 @@ Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: b04c8f735805ea2671429ac8d683c2887a6b4db8
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/extractor/facebook.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/extractor/facebook.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -1320,7 +1309,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/extractor/facebook.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/extractor/facebook.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [134, 135]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1342,8 +1331,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 6a7a38967976ea0d0b911c2965aaa74bed2976d7
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/downloader/f4m.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/downloader/f4m.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -1353,7 +1342,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/downloader/f4m.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/downloader/f4m.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [30, 33, 37, 199]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1371,7 +1360,7 @@ Start creating 8 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[37]
 ✓ Number of created sketches:8
-Time needed: 0.04 minutes.
+Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -1379,8 +1368,8 @@ Time needed: 0.04 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 81c2f20b5386d89a62dc27293654d75b77f47473
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -1390,7 +1379,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [759, 761]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1404,7 +1393,7 @@ Start creating 1 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:1
-Time needed: 0.02 minutes.
+Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -1412,8 +1401,8 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: b853d2e1555dbb4a09fe3d7857c6d2bc044646f4
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/extractor/clipsyndicate.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/extractor/clipsyndicate.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -1423,7 +1412,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/extractor/clipsyndicate.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/extractor/clipsyndicate.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [6, 7, 30, 36, 86]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1449,8 +1438,8 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: cecaaf3f58ad9f544dbb79af1e565d9353fa2b2d
-bug_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/youtube-dl/test/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/test/test_utils.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -1460,7 +1449,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/youtube-dl/youtube_dl/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Youtube-dl/youtube_dl/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1090]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1475,8 +1464,8 @@ x Lines where no transformation is found:[]
 Time needed: 0.01 minutes.
 #######################################################################################################
 Results with bug numbers:
-Project:youtube-dl
-Failing:[2, 8, 9, 12, 18, 19, 22, 24, 36]
-Passing:[1, 3, 4, 5, 6, 7, 10, 11, 13, 14, 15, 16, 20, 21, 23, 25, 26, 27, 28, 29, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43]
+Project:Youtube-dl
+Failing:[2, 33]
+Passing:[1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43]
 Empty Suspicious Lines:[17, 30]
 No bug information is found:[]

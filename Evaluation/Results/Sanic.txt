@@ -1,6 +1,6 @@
 
 #######################################################################################################
-                             PROJECT: sanic
+                             PROJECT: Sanic
 #######################################################################################################
 CLONING PROJECT:
 ✓ SUCCESSFUL! This project is already cloned: https://github.com/huge-success/sanic
@@ -24,8 +24,8 @@ Suspicious lines to bug5:
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: e7001b00747b659f7042b0534802b936ee8a53e0
-bug_file = /Users/daniel/Bachelorarbeit/Projects/sanic/sanic/app.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/sanic/tests/test_blueprints.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Sanic/sanic/app.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Sanic/tests/test_blueprints.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -35,7 +35,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/sanic/sanic/app.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Sanic/sanic/app.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [656]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -47,7 +47,7 @@ Start creating 4 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:4
-Time needed: 0.0 minutes.
+Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -62,7 +62,7 @@ x FAIL! Suspicious lines are empty!
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 91f6abaa81248189fbcbdf685e8bdcbb7846609f
-x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/sanic/tests/test_url_for.py to the project sanic with bug: 3does not exists. Next bug is taken
+x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/Sanic/tests/test_url_for.py to the project Sanic with bug: 3does not exists. Next bug is taken
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -70,8 +70,8 @@ x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/sanic/tests/test_ur
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: e506c89304948bba593e8603ecace1c495b06fd5
-bug_file = /Users/daniel/Bachelorarbeit/Projects/sanic/sanic/request.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/sanic/tests/test_requests.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Sanic/sanic/request.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Sanic/tests/test_requests.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -81,7 +81,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/sanic/sanic/request.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Sanic/sanic/request.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [522, 523]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -103,8 +103,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: e3a27c2cc485d57aa1ff87d9f69098e4ab12727e
-bug_file = /Users/daniel/Bachelorarbeit/Projects/sanic/sanic/log.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/sanic/tests/test_logging.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Sanic/sanic/log.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Sanic/tests/test_logging.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -114,7 +114,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/sanic/sanic/log.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Sanic/sanic/log.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [9]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -126,10 +126,10 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[9]
 ✓ Number of created sketches:0
-Time needed: 0.01 minutes.
+Time needed: 0.0 minutes.
 #######################################################################################################
 Results with bug numbers:
-Project:sanic
+Project:Sanic
 Failing:[1, 4]
 Passing:[5]
 Empty Suspicious Lines:[2]

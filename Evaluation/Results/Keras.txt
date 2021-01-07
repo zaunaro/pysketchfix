@@ -1,6 +1,6 @@
 
 #######################################################################################################
-                             PROJECT: keras
+                             PROJECT: Keras
 #######################################################################################################
 CLONING PROJECT:
 ✓ SUCCESSFUL! This project is already cloned: https://github.com/keras-team/keras
@@ -29,7 +29,7 @@ Suspicious lines to bug10:
 Suspicious lines to bug11:
 43,44,51,64,66
 Suspicious lines to bug12:
-The file is empty or does not exist: /Users/daniel/Bachelorarbeit/bugsinpy/projects/keras/bugs/12/bug_patch.txt
+The file is empty or does not exist: /Users/daniel/Bachelorarbeit/bugsinpy/projects/Keras/bugs/12/bug_patch.txt
 Not Found
 Suspicious lines to bug13:
 127
@@ -105,8 +105,8 @@ Suspicious lines to bug45:
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 331d5b0102ab0cc79cece1f03cc551d8105db3c9
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/backend/tensorflow_backend.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/initializers_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/backend/tensorflow_backend.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/initializers_test.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -116,7 +116,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/backend/tensorflow_backend.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/backend/tensorflow_backend.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1206, 1220, 1234, 2902, 2903]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -136,7 +136,7 @@ Start creating 80 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[2902]
 ✓ Number of created sketches:80
-Time needed: 0.04 minutes.
+Time needed: 0.07 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -151,8 +151,8 @@ x FAIL! Suspicious lines are empty!
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: c0d1709cbae3d05efc6dd224230012bc120be8e5
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/models.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/test_sequential_model.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/models.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/test_sequential_model.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -162,7 +162,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/models.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/models.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [140, 141, 142, 153, 154]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -182,7 +182,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[140, 141, 142, 153, 154]
 ✓ Number of created sketches:0
-Time needed: 0.01 minutes.
+Time needed: 0.05 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -190,8 +190,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: b0bfd5201da2bfced84028bcc5bda05bdfd75af7
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/optimizers.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/optimizers_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/optimizers.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/optimizers_test.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -201,7 +201,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/optimizers.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/optimizers.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [706]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -213,7 +213,7 @@ Start creating 3 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:3
-Time needed: 0.01 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -221,8 +221,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: b847b4601d608050bab6eccd049fce28b7bf1b1f
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/utils/data_utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/utils/data_utils_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/utils/data_utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/utils/data_utils_test.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -232,7 +232,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/utils/data_utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/utils/data_utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [173]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -244,7 +244,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[173]
 ✓ Number of created sketches:0
-Time needed: 0.01 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -252,8 +252,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 88af7d0c97497b5c3a198ee9416b2accfbc72c36
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/engine/training_utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/test_loss_masking.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/engine/training_utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/test_loss_masking.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -263,7 +263,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/engine/training_utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/engine/training_utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [413]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -275,7 +275,7 @@ Start creating 2 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:2
-Time needed: 0.0 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -283,8 +283,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 26b620fb37c885d60183f83abc744f43775ce75a
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/wrappers/scikit_learn.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/wrappers/scikit_learn_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/wrappers/scikit_learn.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/wrappers/scikit_learn_test.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -294,7 +294,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/wrappers/scikit_learn.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/wrappers/scikit_learn.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [323]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -314,8 +314,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 87540a2a2f42e00c4a2ca7ca35d19f96e62e6cb0
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/engine/network.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/engine/test_topology.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/engine/network.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/engine/test_topology.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -325,7 +325,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/engine/network.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/engine/network.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [980, 983, 1029, 1031]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -343,7 +343,7 @@ Start creating 23 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[983, 1031]
 ✓ Number of created sketches:23
-Time needed: 0.02 minutes.
+Time needed: 0.05 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -351,8 +351,8 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 0cd3b07eb5de1aaaad84d1ff7f7c2ed7dab4b23c
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/docs/autogen.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/test_doc_auto_generation.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/docs/autogen.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/test_doc_auto_generation.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -362,7 +362,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/docs/autogen.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/docs/autogen.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [120, 121]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -384,8 +384,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 8f41e41eda6e8ea96403cae5798a5a89c8bb5605
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/engine/training_utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/engine/test_training.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/engine/training_utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/engine/test_training.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -395,7 +395,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/engine/training_utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/engine/training_utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [435, 481, 482, 483, 498]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -415,7 +415,7 @@ Start creating 35 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[435, 482, 483]
 ✓ Number of created sketches:35
-Time needed: 0.01 minutes.
+Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -423,8 +423,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 36b9e4c055f32718a036cabaf767325b010c7485
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/engine/training_generator.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/integration_tests/test_image_data_tasks.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/engine/training_generator.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/integration_tests/test_image_data_tasks.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -434,7 +434,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/engine/training_generator.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/engine/training_generator.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [43, 44, 51, 64, 66]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -454,7 +454,7 @@ Start creating 14 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[44, 64, 66]
 ✓ Number of created sketches:14
-Time needed: 0.02 minutes.
+Time needed: 0.05 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -469,8 +469,8 @@ x FAIL! Suspicious lines are empty!
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 2bfd1f2c950df5fc3f40b903c1966f1b0a48bee4
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/engine/training_generator.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/engine/test_training.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/engine/training_generator.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/engine/test_training.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -480,7 +480,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/engine/training_generator.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/engine/training_generator.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [127]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -492,7 +492,7 @@ Start creating 5 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:5
-Time needed: 0.0 minutes.
+Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -500,8 +500,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 98465b85d020f1326bcef7632f1261a9a7a84e92
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/metrics.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/metrics_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/metrics.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/metrics_test.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -511,7 +511,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/metrics.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/metrics.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [48]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -523,7 +523,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[48]
 ✓ Number of created sketches:0
-Time needed: 0.0 minutes.
+Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -531,8 +531,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 5b6243485acc20cc36f2db4f258512c332d691ec
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/callbacks.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/test_callbacks.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/callbacks.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/test_callbacks.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -542,7 +542,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/callbacks.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/callbacks.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1125, 1133, 1135, 1161]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -560,7 +560,7 @@ Start creating 79 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[1125, 1161]
 ✓ Number of created sketches:79
-Time needed: 0.02 minutes.
+Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -568,8 +568,8 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 514aca20c6f076a86819d7180f36c3b2e8bcc33b
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/engine/sequential.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/test_sequential_model.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/engine/sequential.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/test_sequential_model.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -579,7 +579,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/engine/sequential.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/engine/sequential.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [222, 223, 274, 276, 281]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -599,7 +599,7 @@ Start creating 111 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[276, 281]
 ✓ Number of created sketches:111
-Time needed: 0.02 minutes.
+Time needed: 0.04 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -607,8 +607,8 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: c913b6da92f6ab9a3f4c897caa4085e782a14680
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/metrics.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/metrics_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/metrics.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/metrics_test.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -618,7 +618,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/metrics.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/metrics.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [37]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -638,8 +638,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 9400be98783135a1d42dd238f4e6c3aa048eceea
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/backend/tensorflow_backend.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/backend/backend_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/backend/tensorflow_backend.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/backend/backend_test.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -649,7 +649,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/backend/tensorflow_backend.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/backend/tensorflow_backend.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [2548, 2646]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -671,8 +671,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: f9210387088fe91b5bc8999cf0cb41a0fe9eacf6
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/backend/cntk_backend.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/layers/recurrent_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/backend/cntk_backend.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/layers/recurrent_test.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -682,7 +682,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/backend/cntk_backend.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/backend/cntk_backend.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [61, 74, 75, 76, 1442]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -702,7 +702,7 @@ Start creating 4 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[61, 74, 75, 76]
 ✓ Number of created sketches:4
-Time needed: 0.02 minutes.
+Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -710,8 +710,8 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 76da5f0a21ca98e4bf6706e182fb825243e76204
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/backend/cntk_backend.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/layers/convolutional_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/backend/cntk_backend.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/layers/convolutional_test.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -721,7 +721,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/backend/cntk_backend.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/backend/cntk_backend.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [2189, 2211, 3452, 3589, 3613]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -735,7 +735,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[2189, 2211]
 ✓ Number of created sketches:0
-Time needed: 0.01 minutes.
+Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -743,8 +743,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: c7b7328cc99fd5d7c298e57c6020043451d89a61
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/callbacks.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/test_callbacks.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/callbacks.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/test_callbacks.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -754,7 +754,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/callbacks.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/callbacks.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [488]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -781,8 +781,8 @@ x FAIL! Suspicious lines are empty!
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 3dcd9c767ce6875fc8b69c74971ac8a552e23131
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/engine/sequential.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/test_sequential_model.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/engine/sequential.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/test_sequential_model.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -792,7 +792,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/engine/sequential.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/engine/sequential.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [152, 153]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -814,10 +814,10 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: d7884570b10951d156aa086ee29a4df9eab79cf3
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/callbacks.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/test_callbacks.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/callbacks.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/test_callbacks.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -825,7 +825,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/callbacks.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/callbacks.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [789, 790]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -854,10 +854,10 @@ x FAIL! Suspicious lines are empty!
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 87417470c8168772559be0531e297120c569a422
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/backend/tensorflow_backend.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/backend/backend_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/backend/tensorflow_backend.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/backend/backend_test.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -865,7 +865,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/backend/tensorflow_backend.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/backend/tensorflow_backend.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [2874]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -892,10 +892,10 @@ x FAIL! Suspicious lines are empty!
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 6171b3656ebd9b6038f709ba83f7475de284ba4e
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/preprocessing/sequence.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/preprocessing/sequence_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/preprocessing/sequence.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/preprocessing/sequence_test.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -903,7 +903,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/preprocessing/sequence.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/preprocessing/sequence.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [332, 344, 348]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -927,10 +927,10 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: a341c014412cbfc86a9dd9816ae228e398dff3a2
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/engine/training.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/metrics_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/engine/training.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/metrics_test.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -938,7 +938,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/engine/training.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/engine/training.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1177, 1178, 1179, 1366, 1367]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -958,7 +958,7 @@ Start creating 54809 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[1179]
 ✓ Number of created sketches:54809
-Time needed: 28.85 minutes.
+Time needed: 34.34 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -966,8 +966,8 @@ Time needed: 28.85 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: c08ef613af27da896cee168daeee5c6fad1980b6
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/engine/training.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/engine/test_training.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/engine/training.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/engine/test_training.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -977,7 +977,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/engine/training.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/engine/training.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [2215, 2402]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -991,7 +991,7 @@ Start creating 19 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:19
-Time needed: 0.39 minutes.
+Time needed: 0.59 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -999,10 +999,10 @@ Time needed: 0.39 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: ced81968b0e9d8b1389e6580721ac60d9cf3ca60
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/backend/tensorflow_backend.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/backend/backend_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/backend/tensorflow_backend.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/backend/backend_test.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1010,7 +1010,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/backend/tensorflow_backend.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/backend/tensorflow_backend.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [3945, 3946]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1024,7 +1024,7 @@ Start creating 19 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:19
-Time needed: 0.02 minutes.
+Time needed: 0.06 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -1032,10 +1032,10 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: a3d160b9467c99cbb27f9aa0382c759f45c8ee66
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/callbacks.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/test_callbacks.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/callbacks.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/test_callbacks.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1043,7 +1043,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/callbacks.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/callbacks.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [901, 909, 918, 939, 942]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1071,10 +1071,10 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 1c9a49781da2101507db23e2014e4e5d16bd2e52
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/preprocessing/text.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/preprocessing/text_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/preprocessing/text.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/preprocessing/text_test.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1082,7 +1082,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/preprocessing/text.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/preprocessing/text.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [41, 42, 44, 56]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1100,7 +1100,7 @@ Start creating 209 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[42, 56]
 ✓ Number of created sketches:209
-Time needed: 0.04 minutes.
+Time needed: 0.06 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -1108,10 +1108,10 @@ Time needed: 0.04 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 7ef5244a2f1f7f7b76e3c804b82cbb20cdf4d139
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/engine/training.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/test_multiprocessing.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/engine/training.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/test_multiprocessing.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1119,7 +1119,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/engine/training.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/engine/training.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [2165, 2197, 2369, 2493]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1137,7 +1137,7 @@ Start creating 399 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:399
-Time needed: 0.05 minutes.
+Time needed: 0.1 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -1145,10 +1145,10 @@ Time needed: 0.05 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 06eaeebecfb73c23bfd531013ca172ee3bf5069c
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/preprocessing/image.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/preprocessing/image_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/preprocessing/image.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/preprocessing/image_test.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1156,7 +1156,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/preprocessing/image.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/preprocessing/image.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [583, 584, 1230]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1172,7 +1172,7 @@ Start creating 8 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[1230]
 ✓ Number of created sketches:8
-Time needed: 0.02 minutes.
+Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -1180,10 +1180,10 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 85f011df5a5c0fcf1f01b39eca338eb6b7e58401
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/backend/tensorflow_backend.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/layers/convolutional_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/backend/tensorflow_backend.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/layers/convolutional_test.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1191,7 +1191,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/backend/tensorflow_backend.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/backend/tensorflow_backend.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [3419, 3422]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1205,7 +1205,7 @@ Start creating 155 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:155
-Time needed: 0.03 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -1213,10 +1213,10 @@ Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 81f6b3aa5b2b6215a533180e848a3b4dff851d03
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/layers/recurrent.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/layers/wrappers_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/layers/recurrent.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/layers/wrappers_test.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1224,7 +1224,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/layers/recurrent.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/layers/recurrent.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [324, 325, 521, 523, 527]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1244,7 +1244,7 @@ Start creating 114 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[324, 325, 527]
 ✓ Number of created sketches:114
-Time needed: 0.05 minutes.
+Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -1252,8 +1252,8 @@ Time needed: 0.05 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 53ec990d54130dd0a457dd235c93d39de32d571d
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/layers/recurrent.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/layers/recurrent_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/layers/recurrent.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/layers/recurrent_test.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -1263,7 +1263,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/layers/recurrent.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/layers/recurrent.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [109]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1275,7 +1275,7 @@ Start creating 7 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:7
-Time needed: 0.02 minutes.
+Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -1283,10 +1283,10 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 3a431ea52d090fb3ef8a1e0e5d7f796d9a42e097
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/utils/generic_utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/utils/generic_utils_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/utils/generic_utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/utils/generic_utils_test.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1294,7 +1294,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/utils/generic_utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/utils/generic_utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [330]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1306,7 +1306,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[330]
 ✓ Number of created sketches:0
-Time needed: 0.01 minutes.
+Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -1314,8 +1314,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 871007dbb0e6211459b9d16244cc3c9683459df7
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/layers/recurrent.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/layers/recurrent_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/layers/recurrent.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/layers/recurrent_test.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -1325,7 +1325,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/layers/recurrent.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/layers/recurrent.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [398, 400, 408]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1341,7 +1341,7 @@ Start creating 3 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[400, 408]
 ✓ Number of created sketches:3
-Time needed: 0.02 minutes.
+Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -1349,10 +1349,10 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: a27b4a51f4880ad3a7669531b667c1ef44b173ef
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/utils/data_utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/utils/data_utils_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/utils/data_utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/utils/data_utils_test.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1360,7 +1360,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/utils/data_utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/utils/data_utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [556, 634, 639, 642, 655]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1380,7 +1380,7 @@ Start creating 104 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[639, 642]
 ✓ Number of created sketches:104
-Time needed: 0.03 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -1388,8 +1388,8 @@ Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 67a432c273cbd65866b1d2cb1e2c62714b633b6e
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/engine/training.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/engine/test_training.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/engine/training.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/engine/test_training.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -1399,7 +1399,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/engine/training.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/engine/training.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1903, 1944, 2014, 2030, 2031]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1419,7 +1419,7 @@ Start creating 77 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[1903, 1944, 2014]
 ✓ Number of created sketches:77
-Time needed: 0.05 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -1441,8 +1441,8 @@ x FAIL! Suspicious lines are empty!
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: d368dc870bfd8fdd4ca0ff82bd5b61aa549291c5
-bug_file = /Users/daniel/Bachelorarbeit/Projects/keras/keras/layers/recurrent.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/keras/tests/keras/layers/recurrent_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Keras/keras/layers/recurrent.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Keras/tests/keras/layers/recurrent_test.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -1452,7 +1452,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/keras/keras/layers/recurrent.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Keras/keras/layers/recurrent.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1806, 1807, 1808, 1809]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1470,11 +1470,11 @@ Start creating 20448 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:20448
-Time needed: 2.62 minutes.
+Time needed: 3.13 minutes.
 #######################################################################################################
 Results with bug numbers:
-Project:keras
-Failing:[1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 26, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 45]
-Passing:[]
+Project:Keras
+Failing:[1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 30, 38, 40, 42, 45]
+Passing:[24, 26, 28, 29, 31, 32, 33, 34, 35, 36, 37, 39, 41]
 Empty Suspicious Lines:[2, 12, 22, 25, 27, 43, 44]
 No bug information is found:[]

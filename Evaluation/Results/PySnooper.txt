@@ -1,6 +1,6 @@
 
 #######################################################################################################
-                             PROJECT: pysnooper
+                             PROJECT: Pysnooper
 #######################################################################################################
 CLONING PROJECT:
 ✓ SUCCESSFUL! This project is already cloned: https://github.com/cool-RR/PySnooper
@@ -20,7 +20,7 @@ Suspicious lines to bug3:
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: e21a31162f4c54be693d8ca8260e42393b39abd3
-x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/pysnooper/tests/test_chinese.py to the project pysnooper with bug: 1does not exists. Next bug is taken
+x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/Pysnooper/tests/test_chinese.py to the project Pysnooper with bug: 1does not exists. Next bug is taken
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -28,8 +28,8 @@ x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/pysnooper/tests/tes
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: e21a31162f4c54be693d8ca8260e42393b39abd3
-bug_file = /Users/daniel/Bachelorarbeit/Projects/pysnooper/pysnooper/tracer.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/pysnooper/tests/test_pysnooper.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Pysnooper/pysnooper/tracer.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Pysnooper/tests/test_pysnooper.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -39,7 +39,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/pysnooper/pysnooper/tracer.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Pysnooper/pysnooper/tracer.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [28, 87, 133, 250, 310]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -59,7 +59,7 @@ Start creating 24 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[87, 133, 310]
 ✓ Number of created sketches:24
-Time needed: 0.02 minutes.
+Time needed: 0.06 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -67,8 +67,8 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 6e3d797be3fa0a746fb5b1b7c7fea78eb926c208
-bug_file = /Users/daniel/Bachelorarbeit/Projects/pysnooper/pysnooper/pysnooper.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/pysnooper/tests/test_pysnooper.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Pysnooper/pysnooper/pysnooper.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Pysnooper/tests/test_pysnooper.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -78,7 +78,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/pysnooper/pysnooper/pysnooper.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Pysnooper/pysnooper/pysnooper.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [26]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -90,10 +90,10 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[26]
 ✓ Number of created sketches:0
-Time needed: 0.0 minutes.
+Time needed: 0.01 minutes.
 #######################################################################################################
 Results with bug numbers:
-Project:pysnooper
+Project:Pysnooper
 Failing:[2, 3]
 Passing:[]
 Empty Suspicious Lines:[]

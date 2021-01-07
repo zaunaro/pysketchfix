@@ -1,13 +1,14 @@
 
 #######################################################################################################
-                             PROJECT: luigi
+                             PROJECT: Luigi
 #######################################################################################################
 CLONING PROJECT:
 ✓ SUCCESSFUL! This project is already cloned: https://github.com/spotify/luigi
 .......................................................................................................
 BUGGY LINES:
 Suspicious lines to bug1:
-282,284
+The file is empty or does not exist: /Users/daniel/Bachelorarbeit/bugsinpy/projects/Luigi/bugs/1/bug_patch.txt
+Not Found
 Suspicious lines to bug2:
 477,483
 Suspicious lines to bug3:
@@ -79,33 +80,7 @@ Suspicious lines to bug33:
                                           BUG: 1
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
-GIT RESET TO: 1164eb6b85b8a70f596dbb99452bec513e72c12e
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/server.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/server_test.py
-TEST EXECUTION:
-x FAIL! Test fails or has errors.
-✓ PySketchFix is started...
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-	                              PySketchFix®: Sketches are created.
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/server.py
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The suspicious lines which are taken are: [282, 284]
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Start transforming line: 282
-x Fail! Line: 282 could not be transformed: 'metrics = self._scheduler._state._metrics_collector.generate_latest()'
-Start transforming line: 284
-✓
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Start creating 2 sketches.
-✓
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-x Lines where no transformation is found:[282]
-✓ Number of created sketches:2
-Time needed: 0.07 minutes.
+x FAIL! Suspicious lines are empty!
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -113,8 +88,8 @@ Time needed: 0.07 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: baa54c9f4f809692d62d4c3e4497161717c76550
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/contrib/beam_dataflow.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/contrib/beam_dataflow_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/contrib/beam_dataflow.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/contrib/beam_dataflow_test.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -124,7 +99,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/contrib/beam_dataflow.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/contrib/beam_dataflow.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [477, 483]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -136,7 +111,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:0
-Time needed: 0.01 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -144,64 +119,10 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: a0f1db01ddab5b4b2bda3fbe58bad09a6d94a7b4
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/parameter.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/parameter_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/parameter.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/parameter_test.py
 TEST EXECUTION:
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass2]
-p_not_global_no_default = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass2]
-p_not_global_no_default = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass2]
-p_not_global_no_default = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass2]
-p_not_global_no_default = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass2]
-p_not_global_no_default = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass2]
-p_not_global_no_default = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass]
-p_not_global = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass]
-p_not_global = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass]
-p_not_global = 123
-
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -209,7 +130,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/parameter.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/parameter.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1117, 1118]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -223,7 +144,7 @@ Start creating 2 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[1117]
 ✓ Number of created sketches:2
-Time needed: 0.0 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -231,10 +152,10 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: ffa51b50103a3adaf3c4d0569fdb037a7ba01e8e
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/contrib/redshift.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/contrib/redshift_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/contrib/redshift.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/contrib/redshift_test.py
 TEST EXECUTION:
-✓ SUCCESSFUL! TEST PASSES
+x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -242,7 +163,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/contrib/redshift.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/contrib/redshift.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [356]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -254,7 +175,7 @@ Start creating 24 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:24
-Time needed: 0.0 minutes.
+Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -262,8 +183,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 45b5711d1900184ccd66c65216d28c0d69d10d4a
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/util.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/util_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/util.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/util_test.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -273,7 +194,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/util.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/util.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [281, 285, 286, 288, 293]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -293,7 +214,7 @@ Start creating 23 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[281, 293]
 ✓ Number of created sketches:23
-Time needed: 0.03 minutes.
+Time needed: 0.04 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -301,64 +222,10 @@ Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: d9667b7c8ce75f17efa383e8f64e27e5852e6f89
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/parameter.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/parameter_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/parameter.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/parameter_test.py
 TEST EXECUTION:
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass2]
-p_not_global_no_default = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass2]
-p_not_global_no_default = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass2]
-p_not_global_no_default = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass2]
-p_not_global_no_default = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass2]
-p_not_global_no_default = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass2]
-p_not_global_no_default = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass]
-p_not_global = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass]
-p_not_global = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass]
-p_not_global = 123
-
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -366,7 +233,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/parameter.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/parameter.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [824, 862, 863, 864, 865]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -386,7 +253,7 @@ Start creating 2 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[862, 863, 864, 865]
 ✓ Number of created sketches:2
-Time needed: 0.01 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -394,8 +261,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: dd1f2ce0061e7787166522a3c75339ba4755dd2c
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/scheduler.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/scheduler_api_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/scheduler.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/scheduler_api_test.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -405,7 +272,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/scheduler.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/scheduler.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [826, 827]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -419,7 +286,7 @@ Start creating 40 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[827]
 ✓ Number of created sketches:40
-Time needed: 0.01 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -427,8 +294,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 61ee32e9968978c32be12a6af0affa3a5750e87e
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/contrib/redshift.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/contrib/redshift_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/contrib/redshift.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/contrib/redshift_test.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -438,7 +305,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/contrib/redshift.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/contrib/redshift.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [335, 339]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -452,7 +319,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[335, 339]
 ✓ Number of created sketches:0
-Time needed: 0.0 minutes.
+Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -460,10 +327,10 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: f7e0b7710fd8b12f27625b1efb62a8fde6e206c4
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/execution_summary.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/execution_summary_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/execution_summary.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/execution_summary_test.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -471,7 +338,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/execution_summary.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/execution_summary.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [46, 49, 53, 90, 380]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -491,7 +358,7 @@ Start creating 17 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[46, 49, 53, 380]
 ✓ Number of created sketches:17
-Time needed: 0.02 minutes.
+Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -499,8 +366,8 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: f538d1b3d473d542a19d508e5f7e0809b1dfe5ef
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/scheduler.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/scheduler_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/scheduler.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/scheduler_test.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -510,7 +377,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/scheduler.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/scheduler.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [305]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -530,8 +397,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: bf8b5cba573d5d6cd11f7f10a03b458aeaf955c1
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/scheduler.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/scheduler_api_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/scheduler.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/scheduler_api_test.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -541,7 +408,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/scheduler.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/scheduler.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [897]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -561,7 +428,7 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: c3119757c9ad4141fb446554109fa09cbd31173c
-x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/luigi/test/hdfs_client_test.py to the project luigi with bug: 12does not exists. Next bug is taken
+x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/Luigi/test/hdfs_client_test.py to the project Luigi with bug: 12does not exists. Next bug is taken
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -569,24 +436,9 @@ x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/luigi/test/hdfs_cli
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 3c90bcdac63d978dbdaeae408420e22b963c9863
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/file.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/file_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/file.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/file_test.py
 TEST EXECUTION:
-/tmp/test.txt-file_test.LocalTargetCreateDirectoriesTest.test_bzip2
-/tmp/test.txt-file_test.LocalTargetCreateDirectoriesTest.test_gzip_with_module
-Valid write mode: bw w wb 
-Valid read mode: r rb br 
-Invalid mode: a+b wb+ +x b+r x+ +r x+b r+ r+b ab +ab br+ bw+ ab+ w+ b+w +wb +br +bw b+a +w b+x +a a+ +xb ba+ x a w+b bx+ ba xb+ xb bx +ba rb+ +rb +bx 
-/tmp/test.txt-file_test.LocalTargetRelativeTest.test_bzip2
-/tmp/test.txt-file_test.LocalTargetRelativeTest.test_gzip_with_module
-Valid write mode: bw w wb 
-Valid read mode: r rb br 
-Invalid mode: a+b wb+ +x b+r x+ +r x+b r+ r+b ab +ab br+ bw+ ab+ w+ b+w +wb +br +bw b+a +w b+x +a a+ +xb ba+ x a w+b bx+ ba xb+ xb bx +ba rb+ +rb +bx 
-/tmp/test.txt-file_test.LocalTargetTest.test_bzip2
-/tmp/test.txt-file_test.LocalTargetTest.test_gzip_with_module
-Valid write mode: bw w wb 
-Valid read mode: r rb br 
-Invalid mode: a+b wb+ +x b+r x+ +r x+b r+ r+b ab +ab br+ bw+ ab+ w+ b+w +wb +br +bw b+a +w b+x +a a+ +xb ba+ x a w+b bx+ ba xb+ xb bx +ba rb+ +rb +bx 
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -595,7 +447,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/file.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/file.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [91]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -607,7 +459,7 @@ Start creating 3 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:3
-Time needed: 0.0 minutes.
+Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -615,10 +467,10 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: f7219c38121098d464011a094156d99b5b320362
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/scheduler.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/central_planner_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/scheduler.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/central_planner_test.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -626,7 +478,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/scheduler.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/scheduler.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [93, 95, 202, 203, 213]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -646,7 +498,7 @@ Start creating 3 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[93, 95, 202, 203]
 ✓ Number of created sketches:3
-Time needed: 0.01 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -654,10 +506,10 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: a822f55d4d7c5adf5b9e3b64f23189d8305e9bf9
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/scheduler.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/central_planner_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/scheduler.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/central_planner_test.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -665,7 +517,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/scheduler.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/scheduler.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [485, 486]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -687,10 +539,10 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: e38392a1381dd8daee0f180f0ac7f651edb88e0c
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/scheduler.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/central_planner_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/scheduler.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/central_planner_test.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -698,7 +550,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/scheduler.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/scheduler.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [570]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -718,10 +570,10 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: c39922350cba3a93c96c2ed223283bf8cf315a7d
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/interface.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/scheduler_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/interface.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/scheduler_test.py
 TEST EXECUTION:
-✓ SUCCESSFUL! TEST PASSES
+x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -729,7 +581,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/interface.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/interface.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [134]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -740,7 +592,7 @@ Start creating 0 sketches.
 ✓
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[134]
-✓ Number of created sketches:
+✓ Number of created sketches:0
 Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
@@ -749,10 +601,10 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 6cffbf438d023441f7f42c2019a51c62eecd9018
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/scheduler.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/central_planner_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/scheduler.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/central_planner_test.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -760,7 +612,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/scheduler.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/scheduler.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [405]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -780,10 +632,10 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 3d2f75224c7649402927a5ef57558d8c3717cd94
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/scheduler.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/central_planner_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/scheduler.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/central_planner_test.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -791,7 +643,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/scheduler.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/scheduler.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [408]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -803,7 +655,7 @@ Start creating 14 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:14
-Time needed: 0.01 minutes.
+Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -811,10 +663,10 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: b958140c2ec838e590a5be02dbac7414d5d0bf17
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/task.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/task_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/task.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/task_test.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -822,7 +674,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/task.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/task.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [309, 310]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -851,10 +703,10 @@ x FAIL! Suspicious lines are empty!
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 9c4c47ae449593c55fb67ce51115d0be1fecb163
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/scheduler.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/scheduler_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/scheduler.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/scheduler_test.py
 TEST EXECUTION:
-✓ SUCCESSFUL! TEST PASSES
+x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -862,7 +714,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/scheduler.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/scheduler.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [227]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -874,7 +726,7 @@ Start creating 3 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:3
-Time needed: 0.01 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -882,10 +734,10 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: c707253572deb795a900c3e07d21eee591a55fca
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/interface.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/worker_external_task_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/interface.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/worker_external_task_test.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -893,7 +745,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/interface.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/interface.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [112, 230]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -915,10 +767,10 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 572fce617a3b8133983cdee2b2cc336a65af5abe
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/contrib/spark.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/contrib/spark_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/contrib/spark.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/contrib/spark_test.py
 TEST EXECUTION:
-✓ SUCCESSFUL! TEST PASSES
+x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -926,7 +778,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/contrib/spark.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/contrib/spark.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [272]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -946,7 +798,7 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: d7ec31609c88503391d12d65b6037f397feff816
-x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/luigi/test/contrib/redshift_test.py to the project luigi with bug: 25does not exists. Next bug is taken
+x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/Luigi/test/contrib/redshift_test.py to the project Luigi with bug: 25does not exists. Next bug is taken
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -954,7 +806,7 @@ x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/luigi/test/contrib/
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: ed351ca3c3baf3657de584db08dfe0414fa000a3
-x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/luigi/test/contrib/hadoop_jar_test.py to the project luigi with bug: 26does not exists. Next bug is taken
+x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/Luigi/test/contrib/hadoop_jar_test.py to the project Luigi with bug: 26does not exists. Next bug is taken
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -962,64 +814,10 @@ x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/luigi/test/contrib/
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 69dfec33dc7c34d551ddc71742fa9c847295b01f
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/parameter.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/parameter_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/parameter.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/parameter_test.py
 TEST EXECUTION:
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass2]
-p_not_global_no_default = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass2]
-p_not_global_no_default = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass2]
-p_not_global_no_default = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass2]
-p_not_global_no_default = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass2]
-p_not_global_no_default = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass2]
-p_not_global_no_default = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass]
-p_not_global = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass]
-p_not_global = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass]
-p_not_global = 123
-
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1027,7 +825,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/parameter.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/parameter.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [282, 292, 293, 336, 337]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1047,7 +845,7 @@ Start creating 199 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:199
-Time needed: 0.02 minutes.
+Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -1055,10 +853,10 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: e37cb0ea1d97e6340840128a68c8d59bd05c28c3
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/contrib/hive.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/contrib/hive_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/contrib/hive.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/contrib/hive_test.py
 TEST EXECUTION:
-✓ SUCCESSFUL! TEST PASSES
+x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1066,7 +864,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/contrib/hive.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/contrib/hive.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [141]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1078,7 +876,7 @@ Start creating 9 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:9
-Time needed: 0.0 minutes.
+Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -1086,10 +884,10 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 07efdd9136966ffe143ea57e15b1a57b5698fd5a
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/task_register.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/task_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/task_register.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/task_test.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1097,7 +895,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/task_register.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/task_register.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [57, 62, 63, 138, 139]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1117,7 +915,7 @@ Start creating 503 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[57, 139]
 ✓ Number of created sketches:503
-Time needed: 0.03 minutes.
+Time needed: 0.04 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -1125,16 +923,10 @@ Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 97fa4afea3748f0d714482d2c97990bb467bc9d1
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/worker.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/test_event_callbacks.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/worker.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/test_event_callbacks.py
 TEST EXECUTION:
-Triggering event
-Saving task and exception...
-Saving task...
-Saving task and exception...
-Saving task...
-Saving task...
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1142,7 +934,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/worker.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/worker.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [188, 189, 190, 191, 192]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1170,10 +962,10 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 554850f32784537796383db5ee188d0455863ca9
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/scheduler.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/central_planner_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/scheduler.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/central_planner_test.py
 TEST EXECUTION:
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1181,7 +973,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/scheduler.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/scheduler.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [656]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1208,64 +1000,10 @@ x FAIL! Suspicious lines are empty!
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: a7c0662eab78fd226fd7ef6b4461d7199336cbb1
-bug_file = /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/task.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/luigi/test/parameter_test.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/task.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Luigi/test/parameter_test.py
 TEST EXECUTION:
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass2]
-p_not_global_no_default = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass2]
-p_not_global_no_default = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass2]
-p_not_global_no_default = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass2]
-p_not_global_no_default = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass2]
-p_not_global_no_default = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass2]
-p_not_global_no_default = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass]
-p_not_global = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass]
-p_not_global = 123
-
-[scheduler]
-state_path = /var/folders/m8/9r2kqwzd4990y6ydw660d2th0000gn/T/tmpk2_om104server_test.UNIXServerTest.test_save_state
-
-[MyClass]
-p_not_global = 123
-
-x FAIL! Test fails or has errors.
+✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1273,7 +1011,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/luigi/luigi/task.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Luigi/luigi/task.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [334]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1288,8 +1026,8 @@ x Lines where no transformation is found:[334]
 Time needed: 0.0 minutes.
 #######################################################################################################
 Results with bug numbers:
-Project:luigi
-Failing:[1, 3, 6, 9, 13, 14, 15, 16, 18, 19, 20, 23, 27, 29, 30, 31, 33]
-Passing:[2, 4, 5, 7, 8, 10, 11, 17, 22, 24, 28]
-Empty Suspicious Lines:[21, 32]
+Project:Luigi
+Failing:[4, 13, 17, 22, 24, 28]
+Passing:[2, 3, 5, 6, 7, 8, 9, 10, 11, 14, 15, 16, 18, 19, 20, 23, 27, 29, 30, 31, 33]
+Empty Suspicious Lines:[1, 21, 32]
 No bug information is found:[12, 25, 26]

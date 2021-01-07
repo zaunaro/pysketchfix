@@ -1,6 +1,6 @@
 
 #######################################################################################################
-                             PROJECT: httpie
+                             PROJECT: Httpie
 #######################################################################################################
 CLONING PROJECT:
 ✓ SUCCESSFUL! This project is already cloned: https://github.com/jakubroztocil/httpie/
@@ -24,8 +24,8 @@ Suspicious lines to bug5:
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 001bda19450ad85c91345eea3cfa3991e1d492ba
-bug_file = /Users/daniel/Bachelorarbeit/Projects/httpie/httpie/downloads.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/httpie/tests/test_downloads.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Httpie/httpie/downloads.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Httpie/tests/test_downloads.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -35,7 +35,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/httpie/httpie/downloads.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Httpie/httpie/downloads.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [151, 172]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -57,8 +57,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 356e0436510fee70b4071fac58be81c0a0a7db59
-bug_file = /Users/daniel/Bachelorarbeit/Projects/httpie/httpie/client.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/httpie/tests/test_redirects.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Httpie/httpie/client.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Httpie/tests/test_redirects.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -68,7 +68,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/httpie/httpie/client.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Httpie/httpie/client.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [195]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -93,7 +93,7 @@ x FAIL! Suspicious lines are empty!
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 8c892edd4fe700a7ca5cc733dcb4817831d253e2
-x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/httpie/tests/test_regressions.py to the project httpie with bug: 4does not exists. Next bug is taken
+x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/Httpie/tests/test_regressions.py to the project Httpie with bug: 4does not exists. Next bug is taken
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -101,8 +101,8 @@ x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/httpie/tests/test_r
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 16df8848e81eefac830f407e4b985f42b52970da
-bug_file = /Users/daniel/Bachelorarbeit/Projects/httpie/httpie/cli.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/httpie/tests/tests.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Httpie/httpie/cli.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Httpie/tests/tests.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -112,7 +112,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/httpie/httpie/cli.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Httpie/httpie/cli.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [43, 48, 49, 50]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -133,7 +133,7 @@ x Lines where no transformation is found:[49, 50]
 Time needed: 0.02 minutes.
 #######################################################################################################
 Results with bug numbers:
-Project:httpie
+Project:Httpie
 Failing:[5]
 Passing:[1, 2]
 Empty Suspicious Lines:[3]

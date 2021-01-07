@@ -1,6 +1,6 @@
 
 #######################################################################################################
-                             PROJECT: matplotlib
+                             PROJECT: Matplotlib
 #######################################################################################################
 CLONING PROJECT:
 ✓ SUCCESSFUL! This project is already cloned: https://github.com/matplotlib/matplotlib
@@ -74,8 +74,8 @@ Suspicious lines to bug30:
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: c404d1f716e8aaefd4d7371ff49673e9c1f7f07c
-bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/backend_bases.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_bbox_tight.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/backend_bases.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/tests/test_bbox_tight.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -85,7 +85,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/backend_bases.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/backend_bases.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1511, 1512, 1513, 1514, 1532]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -105,7 +105,7 @@ Start creating 4 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[1511, 1512, 1513, 1514]
 ✓ Number of created sketches:4
-Time needed: 0.03 minutes.
+Time needed: 0.1 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -113,8 +113,8 @@ Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 2a3707d9c3472b1a010492322b6946388d4989ae
-bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_axes.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/axes/_axes.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -124,7 +124,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_axes.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/axes/_axes.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [4396, 4397, 4479, 4491, 4492]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -144,7 +144,7 @@ Start creating 3 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[4396, 4397, 4479]
 ✓ Number of created sketches:3
-Time needed: 0.04 minutes.
+Time needed: 0.08 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -152,8 +152,8 @@ Time needed: 0.04 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 5e046f72ae82788788c7e9b9354b87b131891cd8
-bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/markers.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_marker.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/markers.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/tests/test_marker.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -163,7 +163,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/markers.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/markers.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [235]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -175,7 +175,7 @@ Start creating 4 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:4
-Time needed: 0.0 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -183,8 +183,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 793c6b05381231371267b44b107726f3878e14f2
-bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_axes.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/axes/_axes.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -194,7 +194,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_axes.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/axes/_axes.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1119, 1133, 1199, 1215, 2604]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -214,7 +214,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[1119, 1133, 1199, 1215, 2604]
 ✓ Number of created sketches:0
-Time needed: 0.01 minutes.
+Time needed: 0.04 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -222,8 +222,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 49593b73854e10ace8f3c05343220328def6a328
-bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_axes.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/axes/_axes.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -233,7 +233,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_axes.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/axes/_axes.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [4495]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -245,7 +245,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[4495]
 ✓ Number of created sketches:0
-Time needed: 0.01 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -253,8 +253,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: fb9e72309aeefb51d1a56ecbdb1e7399d105ff06
-bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_axes.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/axes/_axes.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -264,7 +264,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_axes.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/axes/_axes.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [4286]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -276,7 +276,7 @@ Start creating 18 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:18
-Time needed: 0.01 minutes.
+Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -284,8 +284,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 969513e2a5227331a2eb9e4bc4ba8448a0f9831d
-bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/colors.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_colors.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/colors.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/tests/test_colors.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -295,7 +295,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/colors.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/colors.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1939]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -307,7 +307,7 @@ Start creating 4 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:4
-Time needed: 0.01 minutes.
+Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -329,8 +329,8 @@ x FAIL! Suspicious lines are empty!
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: b31d64ce3910e8d297d8300690e459587f77181f
-bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axis.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/axis.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -340,7 +340,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axis.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/axis.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [827]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -352,7 +352,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[827]
 ✓ Number of created sketches:0
-Time needed: 0.01 minutes.
+Time needed: 0.04 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -360,8 +360,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: f8459a513c3f67447ceb1a07c29760d504517ff2
-bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/text.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_text.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/text.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/tests/test_text.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -371,7 +371,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/text.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/text.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [894, 895, 896, 898, 901]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -391,7 +391,7 @@ Start creating 728 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[895, 898]
 ✓ Number of created sketches:728
-Time needed: 0.06 minutes.
+Time needed: 0.19 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -399,8 +399,8 @@ Time needed: 0.06 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: e92685a26442bfced06067934f34c104487583a8
-bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_axes.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/axes/_axes.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -410,7 +410,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_axes.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/axes/_axes.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1126, 1129, 1132, 1135, 1143]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -430,7 +430,7 @@ Start creating 27 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[1132, 1135, 1143]
 ✓ Number of created sketches:27
-Time needed: 0.03 minutes.
+Time needed: 0.04 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -445,8 +445,8 @@ x FAIL! Suspicious lines are empty!
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: dbc35a9d625e162445f864b9f463c9961888e901
-bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/text.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_text.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/text.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/tests/test_text.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -456,7 +456,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/text.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/text.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [177]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -476,8 +476,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 6a8e39f4eba28e99d7b1dd454b001b987dd0bbca
-bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/examples/userdemo/colormap_normalizations.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_colors.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/examples/userdemo/colormap_normalizations.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/tests/test_colors.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -487,7 +487,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/examples/userdemo/colormap_normalizations.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Matplotlib/examples/userdemo/colormap_normalizations.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [32, 72, 1205, 1206, 1216]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -537,8 +537,8 @@ x FAIL! Suspicious lines are empty!
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 805f451b7122d1ef595c7a01592bb2f500aed41f
-bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/_constrained_layout.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/_constrained_layout.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -548,7 +548,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/_constrained_layout.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/_constrained_layout.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [257, 258, 259, 260, 1856]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -566,7 +566,7 @@ Start creating 719 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:719
-Time needed: 0.06 minutes.
+Time needed: 0.04 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -574,8 +574,8 @@ Time needed: 0.06 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: e240493a899ac05cb992cdb88f5487386586090e
-bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_axes.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/axes/_axes.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -585,7 +585,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_axes.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/axes/_axes.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [3913, 3937, 3939, 3943, 3948]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -605,7 +605,7 @@ Start creating 9 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[3939, 3943, 3948]
 ✓ Number of created sketches:9
-Time needed: 0.03 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -620,8 +620,8 @@ x FAIL! Suspicious lines are empty!
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: bb6a4af984778dbac55c8391ae29fa2b5b201361
-bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_base.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/axes/_base.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -631,7 +631,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_base.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/axes/_base.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1510, 1511]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -645,7 +645,7 @@ Start creating 41 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:41
-Time needed: 0.03 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -653,8 +653,8 @@ Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 9a5473dbac05f3d6773b42c8e16d58a7dc3159b8
-bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axis.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/axis.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -664,7 +664,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axis.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/axis.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1895]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -684,8 +684,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 9a5473dbac05f3d6773b42c8e16d58a7dc3159b8
-bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/collections.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_collections.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/collections.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/tests/test_collections.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -695,7 +695,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/collections.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/collections.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1476, 1482]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -709,7 +709,7 @@ Start creating 29 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[1482]
 ✓ Number of created sketches:29
-Time needed: 0.02 minutes.
+Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -717,8 +717,8 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 04d9d28b820af0b4df230a3c67314ed5b0af8fdd
-bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axis.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/axis.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -728,7 +728,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axis.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/axis.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1909]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -748,8 +748,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 11269123d516cda369764a081ddfb8c1a10ddc53
-bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/colorbar.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_colorbar.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/colorbar.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/tests/test_colorbar.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -759,7 +759,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/colorbar.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/colorbar.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [727]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -779,8 +779,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 896fb8140a600341ebb5eaa4191584f23df2d2a0
-bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_base.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/axes/_base.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -790,7 +790,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axes/_base.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/axes/_base.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [3252]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -802,7 +802,7 @@ Start creating 2 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:2
-Time needed: 0.01 minutes.
+Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -810,8 +810,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: cdf9e30e4f3fb7747b178ee9c3849dfdebee7bd0
-bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axis.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_axes.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/axis.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/tests/test_axes.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -821,7 +821,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/axis.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/axis.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [1007, 1008, 1009, 1010, 1011]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -841,7 +841,7 @@ Start creating 26 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[1007, 1010]
 ✓ Number of created sketches:26
-Time needed: 0.06 minutes.
+Time needed: 0.05 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -849,8 +849,8 @@ Time needed: 0.06 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 3b26ee6f6b31bc0cca4be0407dbb40f44756030d
-bug_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/colors.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/tests/test_colors.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/colors.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/tests/test_colors.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -860,7 +860,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/matplotlib/lib/matplotlib/colors.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Matplotlib/lib/matplotlib/colors.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [380, 381, 382, 384, 385]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -880,10 +880,10 @@ Start creating 89 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[385]
 ✓ Number of created sketches:89
-Time needed: 0.05 minutes.
+Time needed: 0.07 minutes.
 #######################################################################################################
 Results with bug numbers:
-Project:matplotlib
+Project:Matplotlib
 Failing:[]
 Passing:[1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 14, 15, 20, 21, 23, 24, 25, 26, 27, 28, 29, 30]
 Empty Suspicious Lines:[8, 9, 13, 16, 17, 18, 19, 22]

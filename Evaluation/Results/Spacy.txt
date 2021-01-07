@@ -1,6 +1,6 @@
 
 #######################################################################################################
-                             PROJECT: spacy
+                             PROJECT: Spacy
 #######################################################################################################
 CLONING PROJECT:
 ✓ SUCCESSFUL! This project is already cloned: https://github.com/explosion/spaCy
@@ -34,7 +34,7 @@ Suspicious lines to bug10:
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 9ce059dd067ecc3f097d04023e3cfa0d70d35bb8
-x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/spacy/spacy/tests/test_errors.py to the project spacy with bug: 1does not exists. Next bug is taken
+x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/Spacy/spacy/tests/test_errors.py to the project Spacy with bug: 1does not exists. Next bug is taken
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -49,7 +49,7 @@ x FAIL! Suspicious lines are empty!
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: dac70f29eb3b1f21ae9e2c6346666bf6a46307b6
-x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/spacy/spacy/tests/regression/test_issue5314.py to the project spacy with bug: 3does not exists. Next bug is taken
+x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/Spacy/spacy/tests/regression/test_issue5314.py to the project Spacy with bug: 3does not exists. Next bug is taken
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -57,7 +57,7 @@ x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/spacy/spacy/tests/r
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: abd5c06374eab5db0cf897b73543b1f3eb007e12
-x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/spacy/spacy/tests/regression/test_issue4665.py to the project spacy with bug: 4does not exists. Next bug is taken
+x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/Spacy/spacy/tests/regression/test_issue4665.py to the project Spacy with bug: 4does not exists. Next bug is taken
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -65,8 +65,8 @@ x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/spacy/spacy/tests/r
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: bdfb696677a7591ced018e7597c00929e97c6837
-bug_file = /Users/daniel/Bachelorarbeit/Projects/spacy/spacy/language.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/spacy/spacy/tests/test_language.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Spacy/spacy/language.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Spacy/spacy/tests/test_language.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -76,7 +76,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/spacy/spacy/language.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Spacy/spacy/language.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [681]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -96,8 +96,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 6b874ef09611ac32ad038203423d44087cbeb3ae
-bug_file = /Users/daniel/Bachelorarbeit/Projects/spacy/spacy/language.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/spacy/spacy/tests/pipeline/test_analysis.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Spacy/spacy/language.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Spacy/spacy/tests/pipeline/test_analysis.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -107,7 +107,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/spacy/spacy/language.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Spacy/spacy/language.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [407]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -127,8 +127,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: da6e0de34f4947fdebc839df3969c641014cfa97
-bug_file = /Users/daniel/Bachelorarbeit/Projects/spacy/examples/information_extraction/entity_relations.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/spacy/spacy/tests/doc/test_span.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Spacy/examples/information_extraction/entity_relations.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Spacy/spacy/tests/doc/test_span.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -138,7 +138,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/spacy/examples/information_extraction/entity_relations.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Spacy/examples/information_extraction/entity_relations.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [41, 48, 669]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -152,7 +152,7 @@ Start creating 6 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[41]
 ✓ Number of created sketches:6
-Time needed: 0.01 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -176,7 +176,7 @@ x FAIL! Suspicious lines are empty!
 x FAIL! Suspicious lines are empty!
 #######################################################################################################
 Results with bug numbers:
-Project:spacy
+Project:Spacy
 Failing:[5, 6, 7]
 Passing:[]
 Empty Suspicious Lines:[2, 8, 9, 10]

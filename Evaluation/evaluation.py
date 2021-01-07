@@ -1,76 +1,80 @@
 import os
 import sys
-import unittest
 
 import PatchFinder
 import SketchMaker
 
+"""
+Here PySketchFix is evaluated! To ensure Evaluating PySketchFix right, Ochiai and Tarantula are not tested. (
+where the bug is identified). The buggy lines (-) where given. This isn't even possible because there is only
+one test suite given.
+"""
+
+PROJECTS_FOLDER = "/Users/daniel/Bachelorarbeit/Projects"
+"""
+Define the folder where the github projects to evaluate were cloned to. If you don't have cloned the Projects
+don't worry the script does this by itself, if they aren't cloned yet.
+"""
+
+BUGS_IN_PY_FOLDER = '/Users/daniel/Bachelorarbeit/bugsinpy'
+"""
+Define the folder where the BugsInPy Folder is cloned to. Here it is important to clone the project by yourself:
+https://github.com/soarsmu/BugsInPy.
+"""
+
+START_PY_FIX_WITH_PASSING_TEST = True
+"""
+If this value is true, then also bugs which have a passing test suite are started to generate sketches. They are
+useless because SketchFix thinks that every sketch is a patch because all tests are passing. But for evaluation 
+reasons, to identify the number of possible created sketches I decided to add this function.
+"""
+
+GENERATE_RESULT = True
+"""
+If this value is true, then an output file is generated.
+"""
+
+GENERATE = True
+"""
+If this value is true, then only generations are started and no testing for the generated sketches. If the value is 
+false and also the generate and test value is false then only the test of the projects are run.
+"""
+
+GENERATE_AND_TEST = False
+"""
+If this value is true, then generations are started and also testing for the generated sketches. If the value is 
+false and also the generate value is false then only the test of the projects are run. Test only be run if it is a 
+unit test runner.
+"""
+
+FOLDER_FOR_RESULTS = "/Users/daniel/Bachelorarbeit/pysketchfix/Evaluation/Results"
+"""
+Define the folder, where the output of the test execution should be stored.
+"""
+
+PYTHON_INTERPRETER = "/Users/daniel/Bachelorarbeit/Python/bin/python"
+"""
+Define the folder, where the installed python interpreter is located.
+"""
+
+TESTRUNNER = "/Users/daniel/Bachelorarbeit/pysketchfix/Evaluation/evaluationtestrunner.py"
+"""
+Define the folder where the runner script for the evaluation is located.
+"""
+
+MAXIMUM_BUG_LINES = 5
+"""
+Defines the top suspicious lines which are taken to generate sketches. If you would like to add more suspicious 
+lines then feel free, but the runtime will be very slow.
+"""
+
+PROJECTS_TO_EVALUATE = ['Luigi']
+"""
+Define the names of the projects which should be evaluated with bugs in py.
+"""
+
 
 def main():
-    """
-    Here PySketchFix is evaluated! To ensure Evaluating PySketchFix right, Ochiai and Tarantula are not tested. (
-    where the bug is identified). The buggy lines (-) where given. This isn't even possible because there is only
-    one test suite given.
-    """
-
-    PROJECTS_FOLDER = "/Users/daniel/Bachelorarbeit/Projects"
-    """
-    Define the folder where the github projects to evaluate were cloned to. If you don't have cloned the Projects
-    don't worry the script does this by itself, if they aren't cloned yet.
-    """
-
-    BUGS_IN_PY_FOLDER = '/Users/daniel/Bachelorarbeit/bugsinpy'
-    """
-    Define the folder where the BugsInPy Folder is cloned to. Here it is important to clone the project by yourself:
-    https://github.com/soarsmu/BugsInPy.
-    """
-
-    START_PY_FIX_WITH_PASSING_TEST = True
-    """
-    If this value is true, then also bugs which have a passing test suite are started to generate sketches. They are
-    useless because SketchFix thinks that every sketch is a patch because all tests are passing. But for evaluation 
-    reasons, to identify the number of possible created sketches I decided to add this function.
-    """
-
-    GENERATE_RESULT = False
-    """
-    If this value is true, then an output file is generated.
-    """
-
-    GENERATE = False
-    """
-    If this value is true, then only generations are started and no testing for the generated sketches. If the value is 
-    false and also the generate and test value is false then only the test of the projects are run.
-    """
-
-    GENERATE_AND_TEST = True
-    """
-    If this value is true, then generations are started and also testing for the generated sketches. If the value is 
-    false and also the generate value is false then only the test of the projects are run. Test only be run if it is a 
-    unit test runner.
-    """
-
-    FOLDER_FOR_RESULTS = "/Users/daniel/Bachelorarbeit/pysketchfix/Evaluation/Results"
-    """
-    Define the folder, where the output of the test execution should be stored.
-    """
-
-    VERBOSITY = 2
-    """
-    Set the verbosity of the test execution
-    """
-
-    MAXIMUM_BUG_LINES = 5
-    """
-    Defines the top suspicious lines which are taken to generate sketches. If you would like to add more suspicious 
-    lines then feel free, but the runtime will be very slow.
-    """
-
-    PROJECTS_TO_EVALUATE = ['youtube-dl']
-    """
-    Define the names of the projects which should be evaluated with bugs in py.
-    """
-
     for project_to_evaluate in PROJECTS_TO_EVALUATE:
         # All bugs where the failing tests are stored. A failing test is a test which has a failure or an error.
         failing_tests_array = []
@@ -125,7 +129,7 @@ def main():
         # Then get the buggy lines to the bugs which are located in the bugs in py directory.
         print(".......................................................................................................")
         print("BUGGY LINES:")
-        buggy_lines = get_buggy_lines(folder_numbers, bugs_folder_in_bugs_in_py_folder, MAXIMUM_BUG_LINES)
+        buggy_lines = get_buggy_lines(folder_numbers, bugs_folder_in_bugs_in_py_folder)
         print(".......................................................................................................")
 
         for folder_number in folder_numbers:
@@ -203,14 +207,10 @@ def main():
 
             # Now the test file is run to get to know, if the test passes or not.
             print("TEST EXECUTION:")
-            loader = unittest.TestLoader()
-            UNIT_TEST_FILE_BASENAME = os.path.basename(bug_test_file)
-            UNIT_TEST_FILE_DIRECTORY = bug_test_file.replace(UNIT_TEST_FILE_BASENAME, "")
-            suite = loader.discover(UNIT_TEST_FILE_DIRECTORY, pattern=UNIT_TEST_FILE_BASENAME)
-            runner = unittest.TextTestRunner(sys.stderr, verbosity=VERBOSITY).run(suite)
+            failures = run_tests(bug_test_file)
 
             # If there are no errors then the bug is added to the array of passing test cases.
-            if len(runner.failures) + len(runner.errors) == 0:
+            if failures == 0:
                 print("✓ SUCCESSFUL! TEST PASSES")
                 passing_tests_array.append(bug_number_int)
                 if not START_PY_FIX_WITH_PASSING_TEST:
@@ -239,6 +239,42 @@ def main():
         print("No bug information is found:" + str(no_info_or_patch_file_array))
         if GENERATE_RESULT:
             sys.stdout.close()
+
+
+def run_tests(bug_file_test):
+    """
+    Run the tests and return the failures and errors.
+    :param bug_file_test: The test which is executed at the moment.
+
+    :return: the number of tests.
+    :raise RuntimeError: if no output file is generated.
+    """
+    test_name = os.path.basename(bug_file_test)
+    test_directory = bug_file_test.replace(test_name, "")
+    file_name = os.path.join(FOLDER_FOR_RESULTS, "result_TestRunner.txt")
+    # Run the Testrunner in a new enivioronment.
+    os.system(PYTHON_INTERPRETER + " " + TESTRUNNER + " " + test_directory + " " + test_name + " " + file_name)
+    # Open the output file which is generated and parse the output.
+    file = open(file_name, "r")
+    has_content = False
+    errors = 0
+    failures = 0
+    for line in file:
+        if line.__contains__("errors"):
+            line = line.replace("errors=", "")
+            errors = int(line)
+            has_content = True
+        if line.__contains__("failures"):
+            line = line.replace("failures=", "")
+            failures = int(line)
+            has_content = True
+    file.close()
+    # At the end remove the file.
+    os.remove(file_name)
+    if not has_content:
+        raise RuntimeError("FAIL! The bug has no test result.")
+    else:
+        return failures + errors
 
 
 def clone_git_repo(github_url, git_project_folder):
@@ -378,11 +414,10 @@ def bug_information_file_is_valid(bug_information):
     return is_not_empty and is_file
 
 
-def get_buggy_lines(folder_numbers, bugs_directory, MAXIMUM_BUG_LINES):
+def get_buggy_lines(folder_numbers, bugs_directory):
     """
     :param bugs_directory: The directory of the project bugs folder which is evaluated.
     :param folder_numbers: The numbers of folders which are set.
-    :param MAXIMUM_BUG_LINES: The number of suspicious lines which should be at least returned.
 
     :return: an array with all suspicious lines.
     """

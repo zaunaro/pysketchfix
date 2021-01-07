@@ -1,6 +1,6 @@
 
 #######################################################################################################
-                             PROJECT: thefuck
+                             PROJECT: Thefuck
 #######################################################################################################
 CLONING PROJECT:
 ✓ SUCCESSFUL! This project is already cloned: https://github.com/nvbn/thefuck
@@ -78,8 +78,8 @@ Suspicious lines to bug32:
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 2ced7a7f33ae0bec3ffc7a43ce95330bdf6cfcb9
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/pip_unknown_command.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/rules/test_pip_unknown_command.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/pip_unknown_command.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/rules/test_pip_unknown_command.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -89,7 +89,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/pip_unknown_command.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/pip_unknown_command.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [15, 17]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -103,7 +103,7 @@ Start creating 2 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[15]
 ✓ Number of created sketches:2
-Time needed: 0.01 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -111,8 +111,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 40ab4eb62db57627bff10cf029d29c94704086a2
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/test_utils.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -122,7 +122,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [121]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -134,7 +134,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:0
-Time needed: 0.0 minutes.
+Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -142,8 +142,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: ac343fb1bd7dadbb9e1a9fd7e3071f5778e338a4
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/shells/fish.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/shells/test_fish.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/shells/fish.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/shells/test_fish.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -153,7 +153,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/shells/fish.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/shells/fish.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [108, 110]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -167,7 +167,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[108, 110]
 ✓ Number of created sketches:0
-Time needed: 0.01 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -175,8 +175,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 68949a592248913b52bfd50036893553153fcddb
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/shells/fish.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/shells/test_fish.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/shells/fish.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/shells/test_fish.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -186,7 +186,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/shells/fish.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/shells/fish.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [23, 24, 25]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -210,8 +210,8 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 7c858fadb3458be829d3d43666ccb46c3ed5b8a0
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/git_push.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/rules/test_git_push.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/git_push.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/rules/test_git_push.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -221,7 +221,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/git_push.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/git_push.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [9]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -241,8 +241,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 797ca1c5647c565f62e21a8e29515c8b0fbe275f
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/git_branch_exists.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/rules/test_git_branch_exists.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/git_branch_exists.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/rules/test_git_branch_exists.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -252,7 +252,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/git_branch_exists.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/git_branch_exists.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [10, 17]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -266,7 +266,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[10, 17]
 ✓ Number of created sketches:0
-Time needed: 0.0 minutes.
+Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -274,8 +274,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 64d6835e15a22cf8803d398cbb593f748c550e8a
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/php_s.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/rules/test_php_s.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/php_s.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/rules/test_php_s.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -285,7 +285,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/php_s.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/php_s.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [6]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -305,7 +305,7 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 449cb9a00693c8b4d97d5fda8d732cf0978e117e
-x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/rules/test_dnf_no_such_command.py to the project thefuck with bug: 8does not exists. Next bug is taken
+x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/rules/test_dnf_no_such_command.py to the project Thefuck with bug: 8does not exists. Next bug is taken
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -313,8 +313,8 @@ x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/rules
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: ce6b82c92d78ae283cb3db001766b76f6647bc47
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/git_push.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/rules/test_git_push.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/git_push.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/rules/test_git_push.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -324,7 +324,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/git_push.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/git_push.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [27]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -344,8 +344,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 8bd6c5da67e55c64257345efa4e3cc454c42475c
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/man.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/rules/test_man.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/man.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/rules/test_man.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -355,7 +355,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/man.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/man.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [23, 32]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -375,8 +375,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 92f3c8fb52b32b79005b4864c31a5c2d8c45f4b1
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/git_push.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/rules/test_git_push.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/git_push.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/rules/test_git_push.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -386,7 +386,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/git_push.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/git_push.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [15]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -404,8 +404,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 4c2fc490f280ca3921785d8f58a37274ced35ce6
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/no_command.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/rules/test_no_command.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/no_command.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/rules/test_no_command.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -415,7 +415,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/no_command.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/no_command.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [3, 9]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -437,8 +437,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 2af65071d84a7d1d14a4126364d9b4c9b5241f3c
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/git_branch_exists.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/rules/test_git_branch_exists.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/git_branch_exists.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/rules/test_git_branch_exists.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -448,7 +448,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/git_branch_exists.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/git_branch_exists.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [9, 10]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -462,7 +462,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[9, 10]
 ✓ Number of created sketches:0
-Time needed: 0.0 minutes.
+Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -470,8 +470,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 183b70c8b8885843efefd2bd4e74dc0a7d42d173
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/shells/fish.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/shells/test_fish.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/shells/fish.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/shells/test_fish.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -481,7 +481,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/shells/fish.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/shells/fish.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [10, 11, 12, 13, 14]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -501,7 +501,7 @@ Start creating 24 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[10, 12, 13]
 ✓ Number of created sketches:24
-Time needed: 0.02 minutes.
+Time needed: 0.08 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -509,8 +509,8 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 3a39deb485995e67afb1919972cd1c9aaedf4c32
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/git_add.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/rules/test_git_add.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/git_add.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/rules/test_git_add.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -520,7 +520,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/git_add.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/git_add.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [8, 9, 15, 17]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -538,7 +538,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[8, 9, 15, 17]
 ✓ Number of created sketches:0
-Time needed: 0.01 minutes.
+Time needed: 0.05 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -546,8 +546,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: d92765d5df6607cb2f2fb67cee7b63f64ac7aa6b
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/shells/bash.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/shells/test_bash.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/shells/bash.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/shells/test_bash.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -557,7 +557,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/shells/bash.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/shells/bash.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [9, 10, 10, 11, 12]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -575,7 +575,7 @@ Start creating 39 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:39
-Time needed: 0.01 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -583,8 +583,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: f7f0660114a02fe49578ec5684dd02c81042d175
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/shells/bash.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/shells/test_bash.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/shells/bash.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/shells/test_bash.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -594,7 +594,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/shells/bash.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/shells/bash.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [12, 27, 29, 30, 31]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -614,7 +614,7 @@ Start creating 31 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[27, 30]
 ✓ Number of created sketches:31
-Time needed: 0.02 minutes.
+Time needed: 0.04 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -629,8 +629,8 @@ x FAIL! Suspicious lines are empty!
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 959b96cf6ec8cedda05dc58efe0e0f3bd6ed2f4e
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/git_push_force.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/rules/test_git_push_force.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/git_push_force.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/rules/test_git_push_force.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -640,7 +640,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/git_push_force.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/git_push_force.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [15]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -652,7 +652,7 @@ Start creating 3 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:3
-Time needed: 0.0 minutes.
+Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -660,8 +660,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 0a6a3db65d2fc480c5b2f1135137f34c9f06b742
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/dirty_unzip.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/rules/test_dirty_unzip.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/dirty_unzip.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/rules/test_dirty_unzip.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -671,7 +671,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/dirty_unzip.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/dirty_unzip.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [16, 31]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -693,8 +693,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 71dc2666ccf62e653291d9a7a08e2c6c3320425b
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/git_fix_stash.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/rules/test_git_fix_stash.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/git_fix_stash.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/rules/test_git_fix_stash.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -704,7 +704,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/git_fix_stash.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/git_fix_stash.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [8, 9]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -718,7 +718,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[8, 9]
 ✓ Number of created sketches:0
-Time needed: 0.0 minutes.
+Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -726,8 +726,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: faa7ee603057fa98c25507d30180c055d10d13d4
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/types.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/test_types.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/types.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/test_types.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -737,7 +737,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/types.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/types.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [84, 85, 86]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -753,7 +753,7 @@ Start creating 3 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[85, 86]
 ✓ Number of created sketches:3
-Time needed: 0.01 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -761,8 +761,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 4129ff2717cc6e6fa51d70cc4e6c31d56ef8e2c9
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/utils.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/test_utils.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/utils.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/test_utils.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -772,7 +772,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/utils.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/utils.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [183]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -792,8 +792,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 12394ca8423a438915fed996383b44471fc1139d
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/types.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/test_types.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/types.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/test_types.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -803,7 +803,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/types.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/types.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [57, 58, 64, 68, 70]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -823,7 +823,7 @@ Start creating 12 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[57, 64, 68, 70]
 ✓ Number of created sketches:12
-Time needed: 0.01 minutes.
+Time needed: 0.04 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -831,8 +831,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 42a8b4f639269886e468762e6d100b6f01aad8ab
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/mkdir_p.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/rules/test_mkdir_p.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/mkdir_p.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/rules/test_mkdir_p.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -842,7 +842,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/mkdir_p.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/mkdir_p.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [13]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -862,8 +862,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 7cb0388ed0845545e878b29783bbf8e901a02745
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/vagrant_up.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/rules/test_vagrant_up.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/vagrant_up.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/rules/test_vagrant_up.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -873,7 +873,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/vagrant_up.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/vagrant_up.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [10, 13]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -895,8 +895,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: bc6b107066d3f1e60b4cfcaa8cf6399e98cf1b1c
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/open.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/rules/test_open.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/open.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/rules/test_open.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -906,7 +906,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/open.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/open.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [26]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -918,7 +918,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:0
-Time needed: 0.0 minutes.
+Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -926,8 +926,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 88831c424f569e6a55fc98883d3eeecc7d425b18
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/fix_file.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/rules/test_fix_file.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/fix_file.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/rules/test_fix_file.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -937,7 +937,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/fix_file.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/fix_file.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [23, 26, 28, 64, 66]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -957,7 +957,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[23, 26, 28, 64, 66]
 ✓ Number of created sketches:0
-Time needed: 0.02 minutes.
+Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -965,8 +965,8 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 4a2f869c6d6ef03d8d7ada1121cc6631d7ef979e
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/types.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/test_types.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/types.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/test_types.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -976,7 +976,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/types.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/types.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [26, 27, 28]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -992,7 +992,7 @@ Start creating 11 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[26]
 ✓ Number of created sketches:11
-Time needed: 0.01 minutes.
+Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -1000,8 +1000,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: de513cacb150049e3f95434f8d6d30b7ed1e0ea7
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/fix_file.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/rules/test_fix_file.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/fix_file.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/rules/test_fix_file.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -1011,7 +1011,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/fix_file.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/fix_file.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [53]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1031,8 +1031,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 66e2ec7e3f0d3f848c01d87bb3503b0ff90fc78a
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/git_diff_staged.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/rules/test_git_diff_staged.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/git_diff_staged.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/rules/test_git_diff_staged.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -1042,7 +1042,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/git_diff_staged.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/git_diff_staged.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [13]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1054,7 +1054,7 @@ Start creating 3 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:3
-Time needed: 0.0 minutes.
+Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -1062,8 +1062,8 @@ Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: cb33c912e5f2f4c2da6b70d708ff0437bfcd3b94
-bug_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/ls_lah.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/thefuck/tests/rules/test_ls_lah.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/ls_lah.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Thefuck/tests/rules/test_ls_lah.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -1073,7 +1073,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/thefuck/thefuck/rules/ls_lah.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Thefuck/thefuck/rules/ls_lah.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [2]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1088,7 +1088,7 @@ x Lines where no transformation is found:[]
 Time needed: 0.01 minutes.
 #######################################################################################################
 Results with bug numbers:
-Project:thefuck
+Project:Thefuck
 Failing:[1, 2, 5, 6, 7, 9, 10, 11, 12, 13, 15, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
 Passing:[3, 4, 14, 16, 17, 32]
 Empty Suspicious Lines:[18]

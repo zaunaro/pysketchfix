@@ -1,6 +1,6 @@
 
 #######################################################################################################
-                             PROJECT: tqdm
+                             PROJECT: Tqdm
 #######################################################################################################
 CLONING PROJECT:
 ✓ SUCCESSFUL! This project is already cloned: https://github.com/tqdm/tqdm
@@ -23,7 +23,7 @@ Suspicious lines to bug7:
 Suspicious lines to bug8:
 225
 Suspicious lines to bug9:
-The file is empty or does not exist: /Users/daniel/Bachelorarbeit/bugsinpy/projects/tqdm/bugs/9/bug_patch.txt
+The file is empty or does not exist: /Users/daniel/Bachelorarbeit/bugsinpy/projects/Tqdm/bugs/9/bug_patch.txt
 Not Found
 .......................................................................................................
 
@@ -33,8 +33,8 @@ Not Found
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 8cc777fe8401a05d07f2c97e65d15e4460feab88
-bug_file = /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/contrib/__init__.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/tests/tests_contrib.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Tqdm/tqdm/contrib/__init__.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Tqdm/tqdm/tests/tests_contrib.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -44,7 +44,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/contrib/__init__.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Tqdm/tqdm/contrib/__init__.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [41]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -56,7 +56,7 @@ Start creating 3 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:3
-Time needed: 0.02 minutes.
+Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -64,8 +64,8 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: bef86db56654d271838b145ad77f7040a73a7b4d
-bug_file = /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/std.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/tests/tests_tqdm.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Tqdm/tqdm/std.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Tqdm/tqdm/tests/tests_tqdm.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -75,7 +75,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/std.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Tqdm/tqdm/std.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [365, 488, 489, 505, 506]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -95,7 +95,7 @@ Start creating 191 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[365]
 ✓ Number of created sketches:191
-Time needed: 0.05 minutes.
+Time needed: 0.06 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -110,8 +110,8 @@ x FAIL! Suspicious lines are empty!
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 03b347646492131d889871939b40457d29147216
-bug_file = /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/_tqdm.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/tests/tests_tqdm.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Tqdm/tqdm/_tqdm.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Tqdm/tqdm/tests/tests_tqdm.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -121,7 +121,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/_tqdm.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Tqdm/tqdm/_tqdm.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [323]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -141,8 +141,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 19b08ab34fdbfa0275bc5cb2430436c724c7e759
-bug_file = /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/_tqdm.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/tests/tests_tqdm.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Tqdm/tqdm/_tqdm.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Tqdm/tqdm/tests/tests_tqdm.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -152,7 +152,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/_tqdm.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Tqdm/tqdm/_tqdm.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [769, 770, 771, 772, 773]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -172,7 +172,7 @@ Start creating 107 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[770, 772]
 ✓ Number of created sketches:107
-Time needed: 0.04 minutes.
+Time needed: 0.07 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -180,8 +180,8 @@ Time needed: 0.04 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: a4b9c86db548b2d0dbb5af7a6bbdc26ab47e1eec
-bug_file = /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/_tqdm.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/tests/tests_synchronisation.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Tqdm/tqdm/_tqdm.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Tqdm/tqdm/tests/tests_synchronisation.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -191,7 +191,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/_tqdm.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Tqdm/tqdm/_tqdm.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [856]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -203,7 +203,7 @@ Start creating 0 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[856]
 ✓ Number of created sketches:0
-Time needed: 0.01 minutes.
+Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -218,8 +218,8 @@ x FAIL! Suspicious lines are empty!
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 08b8ad1ff3bd003ef8309faaa0cc108ffa40317d
-bug_file = /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/_tqdm.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/tests/tests_tqdm.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Tqdm/tqdm/_tqdm.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Tqdm/tqdm/tests/tests_tqdm.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -229,7 +229,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/tqdm/tqdm/_tqdm.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Tqdm/tqdm/_tqdm.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [225]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -241,7 +241,7 @@ Start creating 1 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:1
-Time needed: 0.04 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -251,7 +251,7 @@ Time needed: 0.04 minutes.
 x FAIL! Suspicious lines are empty!
 #######################################################################################################
 Results with bug numbers:
-Project:tqdm
+Project:Tqdm
 Failing:[]
 Passing:[1, 2, 4, 5, 6, 8]
 Empty Suspicious Lines:[3, 7, 9]
