@@ -1,6 +1,6 @@
 
 #######################################################################################################
-                             PROJECT: ansible
+                             PROJECT: Ansible
 #######################################################################################################
 CLONING PROJECT:
 ✓ SUCCESSFUL! This project is already cloned: https://github.com/ansible/ansible
@@ -57,7 +57,7 @@ x FAIL! Suspicious lines are empty!
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: de59b17c7f69d5cfb72479b71776cc8b97e29a6b
-x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/ansible/test/units/utils/test_version.py to the project ansible with bug: 2does not exists. Next bug is taken
+x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/Ansible/test/units/utils/test_version.py to the project Ansible with bug: 2does not exists. Next bug is taken
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -65,8 +65,8 @@ x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/ansible/test/units/
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 70219df9056ffb1e2766f572fbe71f7a1800c9f5
-bug_file = /Users/daniel/Bachelorarbeit/Projects/ansible/lib/ansible/module_utils/facts/system/distribution.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/ansible/test/units/module_utils/test_distribution_version.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Ansible/lib/ansible/module_utils/facts/system/distribution.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Ansible/test/units/module_utils/test_distribution_version.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -76,7 +76,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/ansible/lib/ansible/module_utils/facts/system/distribution.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Ansible/lib/ansible/module_utils/facts/system/distribution.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [323]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -88,7 +88,7 @@ Start creating 17 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:17
-Time needed: 0.01 minutes.
+Time needed: 0.0 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -96,7 +96,7 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: d91658ec0c8434c82c3ef98bfe9eb4e1027a43a3
-x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/ansible/test/units/playbook/test_collectionsearch.py to the project ansible with bug: 4does not exists. Next bug is taken
+x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/Ansible/test/units/playbook/test_collectionsearch.py to the project Ansible with bug: 4does not exists. Next bug is taken
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -104,7 +104,7 @@ x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/ansible/test/units/
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 2af76f16be8cf2239daaec4c2f31c3dcb4e3469e
-x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/ansible/test/units/module_utils/common/validation/test_check_required_arguments.py to the project ansible with bug: 5does not exists. Next bug is taken
+x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/Ansible/test/units/module_utils/common/validation/test_check_required_arguments.py to the project Ansible with bug: 5does not exists. Next bug is taken
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -112,8 +112,8 @@ x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/ansible/test/units/
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 90898132e456ee1993db99a1531379f1b98ee915
-bug_file = /Users/daniel/Bachelorarbeit/Projects/ansible/lib/ansible/galaxy/collection.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/ansible/test/units/galaxy/test_collection_install.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Ansible/lib/ansible/galaxy/collection.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Ansible/test/units/galaxy/test_collection_install.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -123,7 +123,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/ansible/lib/ansible/galaxy/collection.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Ansible/lib/ansible/galaxy/collection.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [222, 223, 224, 225, 226]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -151,7 +151,7 @@ Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: cd146b836e032df785ecd9eb711c6ef23c2228b8
-x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/ansible/test/units/modules/network/eos/test_eos_vlans.py to the project ansible with bug: 7does not exists. Next bug is taken
+x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/Ansible/test/units/modules/network/eos/test_eos_vlans.py to the project Ansible with bug: 7does not exists. Next bug is taken
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -159,8 +159,8 @@ x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/ansible/test/units/
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 81378b3e744cd0d13b33d18a4f8a38aeb8a6e97a
-bug_file = /Users/daniel/Bachelorarbeit/Projects/ansible/lib/ansible/plugins/shell/powershell.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/ansible/test/units/plugins/shell/test_powershell.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Ansible/lib/ansible/plugins/shell/powershell.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Ansible/test/units/plugins/shell/test_powershell.py
 TEST EXECUTION:
 ✓ SUCCESSFUL! TEST PASSES
 ✓ PySketchFix is started...
@@ -170,7 +170,7 @@ TEST EXECUTION:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/ansible/lib/ansible/plugins/shell/powershell.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Ansible/lib/ansible/plugins/shell/powershell.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [96, 97, 98, 99, 100]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -198,8 +198,8 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 9276dd2007a73172ed99ab5a56cded4298d3cd2b
-bug_file = /Users/daniel/Bachelorarbeit/Projects/ansible/lib/ansible/modules/packaging/os/redhat_subscription.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/ansible/test/units/modules/packaging/os/test_redhat_subscription.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Ansible/lib/ansible/modules/packaging/os/redhat_subscription.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Ansible/test/units/modules/packaging/os/test_redhat_subscription.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -209,7 +209,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/ansible/lib/ansible/modules/packaging/os/redhat_subscription.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Ansible/lib/ansible/modules/packaging/os/redhat_subscription.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [518, 842, 843]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -225,7 +225,7 @@ Start creating 461 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:461
-Time needed: 0.03 minutes.
+Time needed: 0.04 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -233,8 +233,8 @@ Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: e368f788f71c338cd3f049d5d6bdc643a51c0514
-bug_file = /Users/daniel/Bachelorarbeit/Projects/ansible/lib/ansible/modules/system/pamd.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/ansible/test/units/modules/system/test_pamd.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Ansible/lib/ansible/modules/system/pamd.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Ansible/test/units/modules/system/test_pamd.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -244,7 +244,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/ansible/lib/ansible/modules/system/pamd.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Ansible/lib/ansible/modules/system/pamd.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [481]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -264,8 +264,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: da07b98b7a433493728ddb7ac7efbd20b8988776
-bug_file = /Users/daniel/Bachelorarbeit/Projects/ansible/lib/ansible/modules/network/ios/ios_banner.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/ansible/test/units/modules/network/ios/test_ios_banner.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Ansible/lib/ansible/modules/network/ios/ios_banner.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Ansible/test/units/modules/network/ios/test_ios_banner.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -275,7 +275,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/ansible/lib/ansible/modules/network/ios/ios_banner.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Ansible/lib/ansible/modules/network/ios/ios_banner.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [110, 118, 119, 120, 121]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -303,7 +303,7 @@ Time needed: 0.03 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 05e2e1806162393d76542a75c2520c7d61c2d855
-x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/ansible/test/units/plugins/lookup/test_env.py to the project ansible with bug: 12does not exists. Next bug is taken
+x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/Ansible/test/units/plugins/lookup/test_env.py to the project Ansible with bug: 12does not exists. Next bug is taken
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -311,8 +311,8 @@ x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/ansible/test/units/
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 41472ee3878be215af8b933b2b04b4a72b9165ca
-bug_file = /Users/daniel/Bachelorarbeit/Projects/ansible/lib/ansible/cli/galaxy.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/ansible/test/units/cli/test_galaxy.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Ansible/lib/ansible/cli/galaxy.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Ansible/test/units/cli/test_galaxy.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -322,7 +322,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/ansible/lib/ansible/cli/galaxy.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Ansible/lib/ansible/cli/galaxy.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [808, 830, 832]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -338,7 +338,7 @@ Start creating 9 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[808, 830]
 ✓ Number of created sketches:9
-Time needed: 0.02 minutes.
+Time needed: 0.06 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -346,7 +346,7 @@ Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: a1ab093ddbd32f1002cbf6d6f184c7d0041d890d
-x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/ansible/test/units/galaxy/test_api.py to the project ansible with bug: 14does not exists. Next bug is taken
+x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/Ansible/test/units/galaxy/test_api.py to the project Ansible with bug: 14does not exists. Next bug is taken
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -354,8 +354,8 @@ x FAIL! The TEST file: /Users/daniel/Bachelorarbeit/Projects/ansible/test/units/
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: b1e8a6c1cbd2a668b462995487b819ef7dd8ba4b
-bug_file = /Users/daniel/Bachelorarbeit/Projects/ansible/lib/ansible/modules/network/eos/eos_eapi.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/ansible/test/units/modules/network/eos/test_eos_eapi.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Ansible/lib/ansible/modules/network/eos/eos_eapi.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Ansible/test/units/modules/network/eos/test_eos_eapi.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -365,7 +365,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/ansible/lib/ansible/modules/network/eos/eos_eapi.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Ansible/lib/ansible/modules/network/eos/eos_eapi.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [267]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -377,7 +377,7 @@ Start creating 2 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[]
 ✓ Number of created sketches:2
-Time needed: 0.01 minutes.
+Time needed: 0.02 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -385,8 +385,8 @@ Time needed: 0.01 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: 2a9964ede8b2b77a62a005f6f5abc964b2819b0e
-bug_file = /Users/daniel/Bachelorarbeit/Projects/ansible/lib/ansible/module_utils/facts/hardware/linux.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/ansible/test/units/module_utils/facts/hardware/test_linux_get_cpu_info.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Ansible/lib/ansible/module_utils/facts/hardware/linux.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Ansible/test/units/module_utils/facts/hardware/test_linux_get_cpu_info.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -396,7 +396,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/ansible/lib/ansible/module_utils/facts/hardware/linux.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Ansible/lib/ansible/module_utils/facts/hardware/linux.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [245, 246, 498, 500, 534]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -416,7 +416,7 @@ Start creating 5 sketches.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 x Lines where no transformation is found:[245, 246, 500, 534]
 ✓ Number of created sketches:5
-Time needed: 0.04 minutes.
+Time needed: 0.07 minutes.
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 
@@ -431,8 +431,8 @@ x FAIL! Suspicious lines are empty!
 
 +*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
 GIT RESET TO: bb1256ca9aa4c22225dbeef0ef23a20fa9388b2f
-bug_file = /Users/daniel/Bachelorarbeit/Projects/ansible/lib/ansible/cli/galaxy.py
-bug_test_file = /Users/daniel/Bachelorarbeit/Projects/ansible/test/units/cli/test_galaxy.py
+bug_file = /Users/daniel/Bachelorarbeit/Projects/Ansible/lib/ansible/cli/galaxy.py
+bug_test_file = /Users/daniel/Bachelorarbeit/Projects/Ansible/test/units/cli/test_galaxy.py
 TEST EXECUTION:
 x FAIL! Test fails or has errors.
 ✓ PySketchFix is started...
@@ -442,7 +442,7 @@ x FAIL! Test fails or has errors.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PySketchFix will run with:
-bug file: /Users/daniel/Bachelorarbeit/Projects/ansible/lib/ansible/cli/galaxy.py
+bug file: /Users/daniel/Bachelorarbeit/Projects/Ansible/lib/ansible/cli/galaxy.py
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The suspicious lines which are taken are: [58, 416, 528]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -461,7 +461,7 @@ x Lines where no transformation is found:[416]
 Time needed: 0.02 minutes.
 #######################################################################################################
 Results with bug numbers:
-Project:ansible
+Project:Ansible
 Failing:[6, 9, 10, 11, 13, 15, 16, 18]
 Passing:[3, 8]
 Empty Suspicious Lines:[1, 17]
